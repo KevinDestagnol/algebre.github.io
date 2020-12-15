@@ -107,10 +107,11 @@ a {
 }
 
 .page-header {
-  color: $header-heading-color;
+  color: black;
   text-align: center;
   background-color: $header-bg-color;
   background-image: url('https://www.superprof.fr/ressources/wp-content/uploads/2007/06/serie-fourier-entrainement-1200x673.jpg');
+  background-size: cover;
 
   @include large {
     padding: 5rem 6rem;
