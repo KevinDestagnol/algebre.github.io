@@ -1,0 +1,6 @@
+---
+---
+User-agent: *
+Disallow: /seed_red_laundry_rain
+Disallow: /seed_red_laundry_rain/
+Disallow: /seed_red_laundry_rain.html
