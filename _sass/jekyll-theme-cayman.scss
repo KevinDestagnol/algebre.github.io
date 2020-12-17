@@ -29,7 +29,7 @@ body {
   padding: 0;
   margin: 0;
   width: auto;
-  font-family: 'Brush Script MT', cursive;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: $body-text-color;
@@ -211,6 +211,7 @@ hprime {
     font-weight: bold;
     color: #8B0000;
     font-size: 3.9rem;
+	font-family: Copperplate, fantasy;
   }
 
   h1,
