@@ -204,8 +204,15 @@ a {
   img {
     max-width: 100%;
   }
+h1 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: $section-headings-color;
+    font-size: 3.9rem;
+  }
 
-  h1,
+  
   h2,
   h3,
   h4,
@@ -215,7 +222,6 @@ a {
     margin-bottom: 1rem;
     font-weight: bold;
     color: $section-headings-color;
-    font-size: 4.9rem;
   }
 
   h7 {
