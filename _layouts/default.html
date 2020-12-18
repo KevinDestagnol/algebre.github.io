@@ -33,6 +33,20 @@
       <hprime2 class="project-name">{{ page.description | default: site.description | default: site.github.project_tagline }}</hprime2>
       </center>
       <script>
+        var images = ['Geom5.png','Geomtrump.png','Geom5.png','Geomjoc1.png','Geom5.png','Geomjoc2.png','Geom5.png'];
+        var i = 0;
+        var renew = setInterval(function(){
+            if(images.length == i){
+                i = 0;
+            }
+            else {
+            document.getElementById("bannerImage2").src = images[i];
+            i++;
+
+        }
+        },10000);
+        </script>
+         <script>
         var images = ['Fourier1.png','Fourier2.png'];
         var i = 0;
         var renew = setInterval(function(){
@@ -55,7 +69,7 @@
   </div>
   <div class="column">
     <figure>
-    <img width="500"  src="Geom5.png" alt="Symétries">
+    <img id="bannerImage2" width="500"  src="Geom5.png" alt="Symétries">
   <figcaption font-size:12px>Des symétries et rotations du plan ou de l'espace à l'étude des molécules (ici l'ammoniac et son doublet d'éléctons ainsi que le fullerène) ou des virus (rassurez-vous pas de SARS-Cov2 ici mais le virus de l'herpès, bien plus agréable au niveau moléculaire que dans la réalité!).</figcaption>
   </figure>
   </div>
