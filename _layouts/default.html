@@ -33,15 +33,18 @@
       <hprime2 class="project-name">{{ page.description | default: site.description | default: site.github.project_tagline }}</hprime2>
       </center>
       <script>
-        var images = ['Fourier1.png','Fourier1.png','Fourier1.png','Fourier1.png','Fourier1.png','Fourier1.png','Fourier1.png','Fourier1.png','Fourier2.png','Fourier2.png','Fourier2.png','Fourier2.png','Fourier2.png','Fourier2.png','Fourier2.png','Fourier2.png'];
+       var images = ['Fourier1.png','Fourier1.png','Fourier1.png','Fourier1.png','Fourier1.png','Fourier1.png','Fourier1.png','Fourier1.png','Fourier2.png','Fourier2.png','Fourier2.png','Fourier2.png','Fourier2.png','Fourier2.png','Fourier2.png','Fourier2.png'];
+       var images2 = ['Geom5.png','Geom5.png','Geom5.png','Geom5.png','Geom5.png','Geom5.png','Geom5.png','Geomtrump.png','Geom5.png','Geom5.png','Geom5.png','Geom5.png','Geom5.png','Geom5.png','Geom5.png','Geomtrump.png'];
         var j = 0;
         var renew = setInterval(function(){
             if(images.length == j){
                 j = 0;
               document.getElementById("bannerImage").src = images[j];
+              document.getElementById("bannerImage2").src = images2[j];
             }
             else {
             document.getElementById("bannerImage").src = images[j];
+             document.getElementById("bannerImage2").src = images2[j];
             j++;
 
         }
