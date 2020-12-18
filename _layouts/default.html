@@ -32,8 +32,22 @@
       <hprime class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }} - </hprime> 
       <hprime2 class="project-name">{{ page.description | default: site.description | default: site.github.project_tagline }}</hprime2>
       </center>
+      <script>
+        var images = ['Fourier1.png','Fourier2.png'];
+        var i = 0;
+        var renew = setInterval(function(){
+            if(links.length == i){
+                i = 0;
+            }
+            else {
+            document.getElementById("bannerImage").src = images[i];
+            i++;
+
+        }
+        },10000);
+        </script>
   <figure text-align:"center">
-<img width="500"  src="Fourier2.png" alt="Fourier">
+<img id="bannerImage" width="500"  src="Fourier1.png" alt="Fourier">
   <figcaption font-size:12px>Des séries de Fourier aux phénomènes périodiques et vice-versa.</figcaption>
   </figure>
        {{ content }}
