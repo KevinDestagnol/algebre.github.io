@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 @import url('https://fonts.googleapis.com/css?family=Kalam');
 @import url('https://fonts.googleapis.com/css?family=Quantico');
+@import url('https://fonts.googleapis.com/css?family=KoHo');
 
 @mixin large {
   @media screen and (min-width: #{$large-breakpoint}) {
@@ -227,7 +228,7 @@ hprime {
     margin-bottom: 1rem;
     font-weight: normal;
     color: #8B0000;
-    font-family : Quantico,Helvetica, Arial, sans-serif;
+    font-family : KoHo,Helvetica, Arial, sans-serif;
   }
 
   h7 {
@@ -341,7 +342,7 @@ hprime {
     -webkit-overflow-scrolling: touch;
 
     th {
-      font-weight: bold;
+      font-weight: bolder;
     }
 
     th,
