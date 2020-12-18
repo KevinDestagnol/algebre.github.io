@@ -34,14 +34,14 @@
       </center>
       <script>
         var images2 = ['Geom5.png','Geomtrump.png','Geom5.png','Geomjoc1.png','Geom5.png','Geomjoc2.png','Geom5.png'];
-        var i = 0;
+        var j = 0;
         var renew = setInterval(function(){
-            if(images2.length == i){
-                i = 0;
+            if(images2.length == j){
+                j = 0;
             }
             else {
-            document.getElementById("bannerImage2").src = images2[i];
-            i++;
+            document.getElementById("bannerImage2").src = images2[j];
+            j++;
 
         }
         },10000);
