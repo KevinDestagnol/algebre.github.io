@@ -58,6 +58,19 @@ body {
   }
 }
 
+figure {
+  border-top: none;
+  padding-top: 0;
+  text-align:center;
+}
+figcaption {
+  padding: 0.5em;
+  border: thin silver solid;
+  border-bottom: none;
+  font-size: 12px;
+  font-weight:light;
+}
+
 a{
 	color: #808080;
 	text-decoration: none;
