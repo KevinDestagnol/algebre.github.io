@@ -34,19 +34,17 @@
       </center>
       <script>
         var images = ['Fourier1.png','Fourier2.png'];
-        var images2 = ['Geom5.png','Geomtrump.png'];
         var j = 0;
         var renew = setInterval(function(){
-            if(images2.length == j){
+            if(images.length == j){
                 j = 0;
             }
             else {
-            document.getElementById("bannerImage2").src = images2[j];
             document.getElementById("bannerImage").src = images[j];
             j++;
 
         }
-        },20000);
+        },1000);
         </script>
     <div class="row">
   <div class="column">
