@@ -62,11 +62,25 @@ figure {
   padding-top: 0;
   text-align:center;
 }
+
+.container img {
+	width : 45%;
+}
+
 figcaption {
-  padding: 0.5em 25% 0 25%;
+  width: 30%;
   border-bottom: none;
   font-size: 12px;
   font-weight:light;
+  float : left;
+  clear : right;
+  display : inline;
+}
+
+.clearfix::after{
+	content :"";
+	display : table;
+	clear: both;
 }
 
 a{
