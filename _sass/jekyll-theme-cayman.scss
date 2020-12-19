@@ -59,22 +59,21 @@ body {
 }
 
 figure {
-  padding-top: 0;
-  text-align:center;
+  margin: 0;
+  float:left;
+ width:45%;
 }
 
 .container img {
-	width : 45%;
+	max-width : 100%;
 }
 
 figcaption {
-  width: 30%;
   border-bottom: none;
   font-size: 12px;
   font-weight:light;
-  float : left;
   clear : right;
-  display : inline;
+  display : block;
 }
 
 .clearfix::after{
