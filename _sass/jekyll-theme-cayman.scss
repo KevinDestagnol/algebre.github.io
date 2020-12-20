@@ -123,15 +123,18 @@ a:hover{
 }
 
    .content p {
-        border-right: .15em solid orange;
-        font-family: "Courier";
-        font-size: 14px;
+        border-right: .15em solid $body-text-color;
+        font-family:  Quantico,Helvetica, Arial, sans-serif;
+        font-size: 2.5rem;
+	 @include small {
+	font-size: 2rem; 
+	   }
         white-space: nowrap;
         overflow: hidden;
       }
       .content p:nth-child(1) {
         width: 7.3em;
-        -webkit-animation: type 2s steps(40, end);
+        -webkit-animation: type 3.5s steps(40, end);
         animation: type 2s steps(40, end);
         -webkit-animation-fill-mode: forwards;
         animation-fill-mode: forwards;
