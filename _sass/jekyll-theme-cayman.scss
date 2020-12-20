@@ -88,9 +88,10 @@ figcaption {
 a{
 	color: #5A5E6B;
 	text-decoration: none;
-	font-weight: 800;
+	font-weight: 900;
  @include small {
-	 color:red;
+	 color:#5A5E6B;
+	 font-weight:1000;
 	}
 }
 a:hover{
