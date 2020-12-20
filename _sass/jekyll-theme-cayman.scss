@@ -86,9 +86,12 @@ figcaption {
 }
 
 a{
-	color: #303030;
+	color: #5A5E6B;
 	text-decoration: none;
 	font-weight: 1000;
+ @include small {
+	 color=red;
+	}
 }
 a:hover{
 	color: #800000;
