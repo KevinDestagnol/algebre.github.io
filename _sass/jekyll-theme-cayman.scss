@@ -86,7 +86,7 @@ figcaption {
 
 a{
 	color: #696969;
-	text-decoration: underline overline #696969;
+	text-decoration: none;
 	font-weight: 1000;
 }
 a:hover{
@@ -156,7 +156,7 @@ a:hover{
 
   @include small {
     padding: 2rem 1rem;
-    height:116px;
+    height:118px;
   }
 }
 
