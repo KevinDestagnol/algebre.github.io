@@ -88,6 +88,11 @@ a{
 	color: #696969;
 	text-decoration: none;
 	font-weight: 1000;
+ @include small {
+	 color: #696969;
+	text-decoration: none;
+	font-weight: 1000;
+	}
 }
 a:hover{
 	color: #800000;
@@ -156,7 +161,7 @@ a:hover{
 
   @include small {
     padding: 2rem 1rem;
-    height:118px;
+    height:122px;
   }
 }
 
