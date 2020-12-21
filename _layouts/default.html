@@ -122,7 +122,8 @@ function typewriter()
 
 
 typewriter();
- $(typedtext).html($(typedtext).text().replace(/.$/g, ''));
+var aux = $(typedtext).text();
+$(typedtext)[0].innerHTML = aux.substr(0, aux.length-1); 
     </script>
   </body>
 </html>
