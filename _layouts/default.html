@@ -104,17 +104,8 @@ function typewriter()
   sContents += aText[iRow++] + '<br />';
  }
  $(typedtext)[0].innerHTML = sContents + aText[iIndex].substring(0, iTextPos) + "_";
- /*<span style="color:#5A5E6B">_</span>*/
- if ( iTextPos++ == iArrLength ) {
-  iTextPos = 0;
-  iIndex++;
-  if ( iIndex != aText.length ) {
-   iArrLength = aText[iIndex].length;
-   setTimeout("typewriter()", 500);
-  }
- } else {
-  setTimeout("typewriter()", iSpeed);
- }
+ iTextPos++
+ setTimeout("typewriter()", iSpeed);
 }
 
 
