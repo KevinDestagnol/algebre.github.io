@@ -104,7 +104,12 @@ function typewriter()
   sContents += aText[iRow++] + '<br />';
  }
  if (iTextPos++<aText[iIndex].length-1){
+   if (iTextPos%2 == 0){
  $(typedtext)[0].innerHTML = sContents + aText[iIndex].substring(0, iTextPos)+"_";
+   }
+   else{
+     $(typedtext)[0].innerHTML = sContents + aText[iIndex].substring(0, iTextPos);
+   }
  iTextPos++
  setTimeout("typewriter()", iSpeed);
 }
