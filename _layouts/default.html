@@ -105,7 +105,7 @@ function typewriter()
  }
  if (iTextPos++<aText[iIndex].length-1){
  $(typedtext)[0].innerHTML = sContents + aText[iIndex].substring(0, iTextPos)+"_";
- $(typedtext)[0].innerHTML = $(typedtext)[0].innerHTML.replace('_', '<span style="color: #808080;">_</span>');
+ $(typedtext)[0].innerHTML = $(typedtext)[0].innerHTML.replace('_', '<span style="color: #5A5E6B;">_</span>');
      iTextPos++
  setTimeout("typewriter()", iSpeed);
 }
