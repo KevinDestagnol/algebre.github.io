@@ -107,7 +107,7 @@ function typewriter()
  if (iTextPos++ == iArrLength-1) {
  $(typedtext)[0].innerHTML = sContents + aText[iIndex].substring(0, iTextPos);
  }
- else {
+ if (iTextPos++ < iArrLength-1) {
  $(typedtext)[0].innerHTML = sContents + aText[iIndex].substring(0, iTextPos) + "_";
  }
  if ( iTextPos++ == iArrLength ) {
