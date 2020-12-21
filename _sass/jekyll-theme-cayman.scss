@@ -118,8 +118,8 @@ a:hover{
 }
 
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  100% { border-color: $body-text-color }
+  from, to { border-color: white }
+  50% { border-color: $body-text-color }
 }
 
    .content p {
