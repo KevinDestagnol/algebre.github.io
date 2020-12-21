@@ -87,7 +87,7 @@
  var aText = new Array(
 "Analyse de Fourier et Géométrie."
 );
-var iSpeed = 100; // time delay of print out
+var iSpeed = 150; // time delay of print out
 var iArrLength = aText[0].length; // the length of the text array
 var iScrollAt = 20; // start scrolling up at this many lines
 var iIndex = 0; // start printing array at this posision
@@ -104,7 +104,7 @@ function typewriter()
   sContents += aText[iRow++] + '<br />';
  }
  if (iTextPos++<aText[iIndex].length-1){
-   if (((iTextPos)%2)==0){
+   if (Math.mod(iTextPos,2)==0){
  $(typedtext)[0].innerHTML = sContents + aText[iIndex].substring(0, iTextPos)+"_";
      iTextPos++
  setTimeout("typewriter()", iSpeed);
