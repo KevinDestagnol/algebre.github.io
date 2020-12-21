@@ -103,9 +103,16 @@ function typewriter()
  while ( iRow < iIndex ) {
   sContents += aText[iRow++] + '<br />';
  }
- $(typedtext)[0].innerHTML = sContents + aText[iIndex].substring(0, iTextPos) + "_";
+ if (iTextPos++<aText[iIndex].length-1){
+ $(typedtext)[0].innerHTML = sContents + aText[iIndex].substring(0, iTextPos)+"_";
  iTextPos++
  setTimeout("typewriter()", iSpeed);
+}
+else {
+  $(typedtext)[0].innerHTML = sContents + aText[iIndex].substring(0, iTextPos);
+ iTextPos++
+ setTimeout("typewriter()", iSpeed);
+}
 }
 
 
