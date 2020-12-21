@@ -104,7 +104,12 @@ function typewriter()
  while ( iRow < iIndex ) {
   sContents += aText[iRow++] + '<br />';
  }
+ if (iTextPos++ == iArrLength-1) {
+ $(typedtext)[0].innerHTML = sContents + aText[iIndex].substring(0, iTextPos);
+ }
+ else {
  $(typedtext)[0].innerHTML = sContents + aText[iIndex].substring(0, iTextPos) + "_";
+ }
  if ( iTextPos++ == iArrLength ) {
   iTextPos = 0;
   iIndex++;
