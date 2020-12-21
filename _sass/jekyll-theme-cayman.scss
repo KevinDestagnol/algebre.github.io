@@ -136,10 +136,11 @@ a:hover{
 	   }
         white-space: nowrap;
         overflow: hidden;
+}
         .content p:nth-child(1) {
-        width: 7.3em;
-        -webkit-animation: type 2s steps(40, end);
-        animation: type 2s steps(40, end);
+        width: 16em;
+        -webkit-animation: type 3s steps(30, end), blink .4s step-end infinite alternate;
+        animation: type 3s steps(30, end), blink .4s step-end infinite alternate;
         -webkit-animation-fill-mode: forwards;
         animation-fill-mode: forwards;
       }
