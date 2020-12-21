@@ -118,12 +118,12 @@ a:hover{
 }
 
 @keyframes blink-caret {
-  from, to { border-color: white }
-  50% { border-color: $body-text-color }
+  from, to { border-color: transparent }
+  50% { border-color: #8B0000 }
 }
 
    .content p {
-        border-right: .15em solid $body-text-color;
+        border-right: .15em solid #8B0000;
 	margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: bold;
@@ -169,7 +169,7 @@ a:hover{
           width: 0;
         }
         99.9% {
-          border-right: .15em solid $body-text-color;
+          border-right: .15em solid #8B0000;
         }
         100% {
           border: none;
@@ -180,7 +180,7 @@ a:hover{
           width: 0;
         }
         99.9% {
-          border-right: .15em solid $body-text-color;
+          border-right: .15em solid #8B0000;
         }
         100% {
           border: none;
@@ -194,7 +194,7 @@ a:hover{
           opacity: 1;
         }
         99.9% {
-          border-right: .15em solid $body-text-color;
+          border-right: .15em solid #8B0000;
         }
         100% {
           opacity: 1;
@@ -209,7 +209,7 @@ a:hover{
           opacity: 1;
         }
         99.9% {
-          border-right: .15em solid $body-text-color;
+          border-right: .15em solid #8B0000;
         }
         100% {
           opacity: 1;
