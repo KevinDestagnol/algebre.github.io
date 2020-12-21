@@ -122,7 +122,7 @@ a:hover{
   50% { border-color: #8B0000 }
 }
 
-   .content hh {
+   .content c {
         border-right: .15em solid #5A5E6B;
 	margin-top: 2rem;
     margin-bottom: 1rem;
@@ -137,14 +137,14 @@ a:hover{
         white-space: nowrap;
         overflow: hidden;
       }
-      .content hh:nth-child(1) {
+      .content c:nth-child(1) {
         width: 16em;
         -webkit-animation: type 3.1s steps(30, end), blink .4s step-end infinite alternate;
         animation: type 3.1s steps(30, end), blink .4s step-end infinite alternate;
         -webkit-animation-fill-mode: forwards;
         animation-fill-mode: forwards;
       }
-      .content hh:nth-child(2) {
+      .content c:nth-child(2) {
         width: 11.5em;
         opacity: 0;
         -webkit-animation: type2 2s steps(40, end);
@@ -154,7 +154,7 @@ a:hover{
         -webkit-animation-fill-mode: forwards;
         animation-fill-mode: forwards;
       }
-      .content hh:nth-child(3) {
+      .content c:nth-child(3) {
         width: 7.3em;
         opacity: 0;
         -webkit-animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
