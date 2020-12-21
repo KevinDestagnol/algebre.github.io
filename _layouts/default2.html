@@ -29,8 +29,7 @@
     <main id="content" class="main-content" role="main">
      
    <center>
-     <div class="typedtext">
-      </div>
+     <div id="typedtext2"> </div>
        {{ content }}
 </center>
        <footer class="site-footer">
@@ -61,13 +60,13 @@ function typewriter()
   sContents += aText[iRow++] + '<br />';
  }
  if (iTextPos++<aText[iIndex].length-1){
- $(typedtext)[0].innerHTML = sContents + aText[iIndex].substring(0, iTextPos)+"_";
- $(typedtext)[0].innerHTML = $(typedtext)[0].innerHTML.replace('_', '<span style="color: black;">_</span>');
+ $(typedtext2)[0].innerHTML = sContents + aText[iIndex].substring(0, iTextPos)+"_";
+ $(typedtext2)[0].innerHTML = $(typedtext2)[0].innerHTML.replace('_', '<span style="color: black;">_</span>');
      iTextPos++
  setTimeout("typewriter()", iSpeed);
 }
 else {
-  $(typedtext)[0].innerHTML = sContents + aText[iIndex].substring(0, iTextPos);
+  $(typedtext2)[0].innerHTML = sContents + aText[iIndex].substring(0, iTextPos);
  iTextPos++
  setTimeout("typewriter()", iSpeed);
 }
@@ -75,7 +74,6 @@ else {
 
 
 typewriter();
-typedtext.txt = fullTxt.substring(0, typedtext.txt.length - 1); 
     </script>
   </body>
   
