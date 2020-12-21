@@ -284,12 +284,10 @@ a:hover{
 	   @include small {
    font-size: 2rem;
   }
-        font-family:  KoHo,Helvetica, Arial, sans-serif;
-        font-size: 2.5rem;
         overflow: hidden;
 }
         .content2 p:nth-child(1) {
-        width: 16em;
+        width: 22em;
         -webkit-animation: type 3s steps(30, end), blink .3s step-end infinite alternate;
         animation: type 3s steps(30, end), blink .3s step-end infinite alternate;
         -webkit-animation-fill-mode: forwards;
