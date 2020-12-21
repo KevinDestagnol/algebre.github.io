@@ -88,8 +88,7 @@
  // set up text to print, each item in array is new line
  /*$(typedtext)[0].innerHTML = "Test";*/
  var aText = new Array(
-"Analyse de Fourier", 
-"et Géométrie"
+"Analyse de Fourier et Géométrie."
 );
 var iSpeed = 100; // time delay of print out
 var iIndex = 0; // start printing array at this posision
@@ -123,6 +122,7 @@ function typewriter()
 
 
 typewriter();
+ $(typedtext).html($(typedtext).text().replace(/.$/g, ''));
     </script>
   </body>
 </html>
