@@ -104,7 +104,8 @@ function typewriter()
  while ( iRow < iIndex ) {
   sContents += aText[iRow++] + '<br />';
  }
- $(typedtext)[0].innerHTML = sContents + aText[iIndex].substring(0, iTextPos) + "<span style="color:#5A5E6B">_</span>";
+ $(typedtext)[0].innerHTML = sContents + aText[iIndex].substring(0, iTextPos) + "_";
+ /*<span style="color:#5A5E6B">_</span>*/
  if ( iTextPos++ == iArrLength ) {
   iTextPos = 0;
   iIndex++;
@@ -119,8 +120,7 @@ function typewriter()
 
 
 typewriter();
-var aux = $("typedtext").text();
-$(typedtext)[0].innerHTML = aux.substr(0, aux.length-1); 
+typedtext.txt = fullTxt.substring(0, typedtext.txt.length - 1); 
     </script>
   </body>
 </html>
