@@ -106,12 +106,14 @@ function typewriter()
  if (iTextPos++<aText[iIndex].length-1){
    if (((iTextPos)%2)==0){
  $(typedtext)[0].innerHTML = sContents + aText[iIndex].substring(0, iTextPos)+"_";
+     iTextPos++
+ setTimeout("typewriter()", iSpeed);
    }
    else{
      $(typedtext)[0].innerHTML = sContents + aText[iIndex].substring(0, iTextPos);
-   }
- iTextPos++
+     iTextPos++
  setTimeout("typewriter()", iSpeed);
+   }
 }
 else {
   $(typedtext)[0].innerHTML = sContents + aText[iIndex].substring(0, iTextPos);
