@@ -129,8 +129,7 @@ a:hover{
     font-weight: bold;
     color: #8B0000;
     font-size: 2.5rem;
-	 /*   white-space:nowrap;*/
-	   float:right;
+    white-space:nowrap;
 	   @include small {
    font-size: 2rem;
   }
