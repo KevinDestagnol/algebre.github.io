@@ -139,10 +139,8 @@ a:hover{
       }
       .content p:nth-child(1) {
         width: 16em;
-        -webkit-animation: type 3.1s steps(30, end), blink .5s steps(30, end) alternate;
-        animation: type 3.1s steps(30, end), blink .5s steps(30, end) alternate;
-	-webkit-animation-delay: 4s;
-        animation-delay: 4s;
+        -webkit-animation: type 3.1s steps(30, end), blink .5s step-end infinite alternate;
+        animation: type 3.1s steps(30, end), blink .5s step-end infinite alternate;
         -webkit-animation-fill-mode: forwards;
         animation-fill-mode: forwards;
       }
