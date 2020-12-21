@@ -270,8 +270,8 @@ a:hover{
       }
 
   .content2 p {
-        border-right: .15em solid black;
-	 padding: 0;
+     border-right: .15em solid black;
+	  padding: 0;
   margin: 0;
   width: auto;
   font-family: KoHo,Helvetica, Arial, sans-serif;
@@ -284,7 +284,7 @@ a:hover{
 	   @include small {
    font-size: 2rem;
   }
-        font-family:  Quantico,Helvetica, Arial, sans-serif;
+        font-family:  KoHo,Helvetica, Arial, sans-serif;
         font-size: 2.5rem;
         overflow: hidden;
 }
