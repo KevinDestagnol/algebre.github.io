@@ -984,12 +984,13 @@ hpr {
   /* The image used */
   background-image: url("https://www.imo.universite-paris-saclay.fr/~destagnol/bg2.png");
 
-  min-height:100%;
-    min-width:100%;
-    height:auto;
-    width:auto;
-    position:relative;
-    margin:auto;
+  min-height: 95%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 /* Add styles to the form container */
