@@ -1,3 +1,3 @@
 ---
-layout : default5;
+layout : default5
 ---
