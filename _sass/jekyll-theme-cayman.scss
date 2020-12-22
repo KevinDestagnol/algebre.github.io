@@ -1039,9 +1039,9 @@ hpr {
 .container2 {
 position:fixed;
 overflow: scroll;
-margin-left: auto;
- margin-right: auto;
+margin-left: 50%;
 margin-top:5%;
+transform: translate(-50%, -5%);
   max-width: 300px;
   padding: 16px;
   background-color: white;
