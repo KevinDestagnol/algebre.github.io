@@ -994,6 +994,30 @@ hpr {
   
 }
 
+.page-header5 {
+  color: black;
+  text-align: center;
+  background-color: $header-bg-color;
+  background-image: url("https://www.imo.universite-paris-saclay.fr/~destagnol/bg2.png");
+  background-size: cover;
+  background-opacity:0.6;
+  min-height: 730px;
+  position:relative;
+
+  @include large {
+    padding: 5rem 6rem;
+  }
+
+  @include medium {
+    padding: 3rem 4rem;
+  }
+
+  @include small {
+    padding: 2rem 1rem;
+    min-height: 300px;
+  }
+}
+
 /* Add styles to the form container */
 .container2 {
  position: absolute;
