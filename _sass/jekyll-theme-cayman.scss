@@ -1045,9 +1045,9 @@ transform: translate(-50%, -30%);
   max-width: 300px;
   padding: 16px;
   background-color: white;
+	border-radius: 5px;
 	 @include small {
    transform: translate(-50%, -30%);
-border-radius: 10px;
   }
 }
 
@@ -1058,7 +1058,7 @@ border-radius: 10px;
   margin: 5px 0 22px 0;
   border: none;
   background: #f1f1f1;
-	  border-radius: 10px;
+	  border-radius: 5px;
 }
 
 input[type=text]:focus, input[type=name]:focus {
