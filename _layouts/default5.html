@@ -20,7 +20,19 @@
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
-    
+     <div class="page-header5" role="banner">
+  <form action="/action_page.php" class="container2">
+    <h1>Login</h1>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" class="btn2">Login</button>
+  </form>
+</div> 
     <main id="content" class="main-content" role="main">
       <script>
        var images = ['Fourier1.png','Fourier1.png','Fourier1.png','Fourier1.png','Fourier1.png','Fourier1.png','Fourier1.png','Fourier1.png','Fourier2.png','Fourier2.png','Fourier2.png','Fourier2.png','Fourier2.png','Fourier2.png','Fourier2.png','Fourier2.png'];
@@ -51,19 +63,7 @@
         }
         },1000);
         </script>
-    <div class="page-header5" role="banner">
-  <form action="/action_page.php" class="container2">
-    <h1>Login</h1>
-
-    <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
-
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-
-    <button type="submit" class="btn2">Login</button>
-  </form>
-</div> 
+   
        {{ content }}
 
       <footer class="site-footer">
