@@ -635,7 +635,7 @@ a:hover{
   background-image: url('https://www.imo.universite-paris-saclay.fr/~destagnol/check.png');
   background-size: cover;
   background-opacity:0.6;
-  height:auto;
+  height:50px;
 
   @include large {
     padding: 5rem 6rem;
@@ -647,7 +647,7 @@ a:hover{
 
   @include small {
     padding: 2rem 1rem;
-    height:auto;
+    height:30px;
   }
 }
 
