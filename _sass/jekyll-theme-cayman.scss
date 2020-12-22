@@ -1039,14 +1039,14 @@ hpr {
 .container2 {
 position:fixed;
 overflow: scroll;
-left: 50%;
-top:5%;
-transform: translate(-50%, -5%);
+left: 0;
+top:0;
+transform: translate(-50%, 5%);
   max-width: 300px;
   padding: 16px;
   background-color: white;
 	 @include small {
-    margin-top:10%;
+   transform: translate(-50%, 10%);
   }
 }
 
