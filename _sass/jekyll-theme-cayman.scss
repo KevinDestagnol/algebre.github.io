@@ -1040,13 +1040,13 @@ hpr {
 position:fixed;
 overflow: scroll;
 left: 50%;
-top:10%;
-transform: translate(-50%, -10%);
+top:30%;
+transform: translate(-50%, -30%);
   max-width: 300px;
   padding: 16px;
   background-color: white;
 	 @include small {
-   transform: translate(-50%, -10%);
+   transform: translate(-50%, -30%);
   }
 }
 
