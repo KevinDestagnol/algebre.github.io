@@ -954,8 +954,8 @@ hpr {
 }
 
 .site-footer2 {
-  padding-top: 1rem;
-  margin-top: 1rem;
+  padding-top: 0;
+  margin-top: 0;
   border-top: solid 1px $hr-border-color;
 	text-align:center;
   font-family: KoHo,Helvetica, Arial, sans-serif;
@@ -1020,7 +1020,7 @@ hpr {
   background-image: url("https://www.imo.universite-paris-saclay.fr/~destagnol/bg2.png");
   background-size: cover;
   background-opacity:0.6;
-  height: 730px;
+  height: 800px;
 
   @include large {
     padding: 5rem 6rem;
@@ -1032,7 +1032,7 @@ hpr {
 
   @include small {
     padding: 2rem 1rem;
-    height: 300px;
+    height: 800px;
   }
 }
 
