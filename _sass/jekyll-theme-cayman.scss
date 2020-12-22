@@ -638,7 +638,6 @@ a:hover{
   background-opacity:0.6;
   height:auto;
   background-position: center;
-	background-origin: content-box;
 
   @include large {
     padding: 5rem 6rem;
@@ -653,7 +652,6 @@ a:hover{
     background-size: contain;
     background-repeat: no-repeat;
 height:auto;
-	 background-origin: content-box;
  background-position: center;
   }
 }
