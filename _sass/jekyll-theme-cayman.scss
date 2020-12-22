@@ -1037,10 +1037,8 @@ hpr {
 
 /* Add styles to the form container */
 .container2 {
-position: -webkit-sticky;
-position:sticky;
+position:fixed;
 overflow: scroll;
-  right: 0;
 margin-left: auto;
  margin-right: auto;
 margin-top:5%;
