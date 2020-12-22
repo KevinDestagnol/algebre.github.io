@@ -1047,6 +1047,7 @@ transform: translate(-50%, -30%);
   background-color: white;
 	 @include small {
    transform: translate(-50%, -30%);
+border-radius: 5px;
   }
 }
 
