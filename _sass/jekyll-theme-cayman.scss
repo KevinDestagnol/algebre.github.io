@@ -1020,7 +1020,7 @@ hpr {
   background-image: url("https://www.imo.universite-paris-saclay.fr/~destagnol/bg2.png");
   background-size: cover;
   background-opacity:0.6;
-  height: 800px;
+  height: 850px;
 
   @include large {
     padding: 5rem 6rem;
@@ -1032,7 +1032,7 @@ hpr {
 
   @include small {
     padding: 2rem 1rem;
-    height: 850px;
+    height: 800px;
   }
 }
 
