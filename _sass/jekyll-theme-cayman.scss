@@ -1045,6 +1045,9 @@ margin-top:5%;
   max-width: 300px;
   padding: 16px;
   background-color: white;
+	 @include small {
+    margin-top:10%;
+  }
 }
 
 /* Full-width input fields */
