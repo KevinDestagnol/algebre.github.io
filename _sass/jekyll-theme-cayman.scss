@@ -1040,7 +1040,9 @@ hpr {
 .container2 {
  position: absolute;
   right: 0;
-  margin: 20px;
+margin-left: auto;
+ margin-right: auto;
+  margin-top: 20px;
   max-width: 300px;
   padding: 16px;
   background-color: white;
