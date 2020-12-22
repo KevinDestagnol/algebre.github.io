@@ -1037,6 +1037,7 @@ hpr {
 
 /* Add styles to the form container */
 .container2 {
+position: -webkit-sticky;
 position:sticky;
 overflow: scroll;
   right: 0;
