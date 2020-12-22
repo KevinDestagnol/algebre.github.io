@@ -953,9 +953,28 @@ hpr {
   }
 }
 
+.site-footer2 {
+  padding-top: 1rem;
+  margin-top: 1rem;
+  border-top: solid 1px $hr-border-color;
+	text-align:center;
+  font-family: KoHo,Helvetica, Arial, sans-serif;
+  @include large {
+    font-size: 1rem;
+  }
+
+  @include medium {
+    font-size: 1rem;
+  }
+
+  @include small {
+    font-size: 0.9rem;
+  }
+}
+
 .site-footer {
-  padding-top: 0.5rem;
-  margin-top: 0.5rem;
+  padding-top: 2rem;
+  margin-top: 2rem;
   border-top: solid 1px $hr-border-color;
   font-family: KoHo,Helvetica, Arial, sans-serif;
   @include large {
