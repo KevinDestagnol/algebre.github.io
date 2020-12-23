@@ -24,8 +24,6 @@
   <form action="/action_page.php" class="container2">
     <h1>Coordonnées</h1>
     
-     <label for="name"><b>Nom</b><span style="color: red;">*</span></label>
-    <input type="text" placeholder="Nom" name="name" required>
 	  <div class="field" tabindex="1">
 			<label for="username">
 				<i class="far fa-user"></i><b>Nom</b><span style="color: red;">*</span>
@@ -33,11 +31,20 @@
 			<input name="username" type="text" placeholder="Nom" required>
 		</div>
     
-     <label for="firstname"><b>Prénom</b><span style="color: red;">*</span></label>
-    <input type="text" placeholder="Prénom" name="firstname" required>
+<div class="field" tabindex="2">
+			<label for="email">
+				<i class="far fa-envelope"></i><b>Prénom</b><span style="color: red;">*</span>
+			</label>
+			<input name="firstname" type="text" placeholder="Prénom" required>
+		</div>
+    
 
-    <label for="email"><b>Email</b><span style="color: red;">*</span></label>
-    <input type="text" placeholder="Email" name="email" required>
+	  <div class="field" tabindex="3">
+			<label for="email">
+				<i class="far fa-envelope"></i><b>Email</b><span style="color: red;">*</span>
+			</label>
+			<input name="email" type="text" placeholder="email@domain.com" required>
+		</div>
 
 
     <button type="submit" class="button">Soumettre  &checkmark;</button>
