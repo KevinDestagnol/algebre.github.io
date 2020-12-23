@@ -1048,6 +1048,7 @@ transform: translate(-50%, -30%);
 	border-radius: 5px;
 	 @include small {
    transform: translate(-50%, -30%);
+		 max-width: 250px;
   }
 }
 
@@ -1055,7 +1056,7 @@ transform: translate(-50%, -30%);
   input[type=text], input[type=name] {
   width: 100%;
   padding: 15px;
-  margin: 5px 5px 22px 5px;
+  margin: 5px 0px 22px 0px;
   border: none;
   background: #f1f1f1;
 	  border-radius: 5px;
