@@ -1081,7 +1081,7 @@ position:relative;
 left: 50%;
 transform: translate(-50%, 0%);
  border-radius: 15px;
-	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	/*box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);*/
 	@include small {
    width: 75%;
   }
@@ -1451,7 +1451,7 @@ textarea{
 }
 
 button{
-    background: #2f4ad0;
+    background: #8B0000;
     @include bm($bm-pd: 8px 16px, $bm-mg: 16px 0 50px 0);
     @include tf(#fff);
     border: none;
