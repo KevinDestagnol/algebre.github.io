@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet">
+    {% if site.google_analytics %}
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ site.google_analytics }}');
+      </script>
+    {% endif %}
+    <meta charset="UTF-8">
+{% seo %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+     <div class="page-header5" role="banner">
+  <form class="container2" method="post" action="https://www.imo.universite-paris-saclay.fr/~destagnol/bienvenu.php">
+    <h1>Coordonnées</h1>
+    
+	  <div class="field" tabindex="1">
+			<label for="username">
+				<i class="far fa-user"></i><b>Nom</b><span style="color: red;">*</span>
+			</label>
+			<input name="username" type="text" placeholder="Nom" required>
+		</div>
+    
+<div class="field" tabindex="2">
+			<label for="email">
+				<i class="far fa-user"></i><b>Prénom</b><span style="color: red;">*</span>
+			</label>
+			<input name="firstname" type="text" placeholder="Prénom" required>
+		</div>
+    
+
+	  <div class="field" tabindex="3">
+			<label for="email">
+				<i class="far fa-envelope"></i><b>Email</b><span style="color: red;">*</span>
+			</label>
+			<input name="email" type="text" placeholder="email@domain.com" required>
+		</div>
+
+
+    <button type="submit" class="button">Soumettre  &checkmark;</button>
+  </form>
+</div>
+  
+  </body>
+</html>
