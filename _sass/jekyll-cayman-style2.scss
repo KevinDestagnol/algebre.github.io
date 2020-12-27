@@ -1,0 +1,1613 @@
+@import "normalize";
+@import "rouge-github";
+@import "variables";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Wallpoet');
+@import url('https://fonts.googleapis.com/css?family=Quantico');
+@import url('https://fonts.googleapis.com/css?family=KoHo');
+@import url('https://fonts.googleapis.com/css?family=Baloo Bhai 2');
+
+@mixin large {
+  @media screen and (min-width: #{$large-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media screen and (min-width: #{$medium-breakpoint}) and (max-width: #{$large-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin small {
+  @media screen and (max-width: #{$medium-breakpoint}) {
+    @content;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: auto;
+  font-family: KoHo,Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+	font-weight:light;
+  color: $body-text-color;
+}
+
+#skip-to-content {
+  height: 1px;
+  width: 2px;
+  position: absolute;
+  overflow: hidden;
+  top: -10px;
+
+  &:focus {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    height: auto;
+    width: auto;
+    background: invert($body-link-color);
+    outline: thick solid invert($body-link-color);
+  }
+}
+
+figure {
+  margin: 0;
+  float:left;
+  text-align: center;
+  width:50%;
+}
+
+.container img {
+	max-width : 100%;
+}
+
+figcaption {
+  border-bottom: none;
+  font-size: 12px;
+  font-weight:light;
+  text-align: center;
+  display : block;
+  padding : 0 10% 0 10%;
+}
+
+.clearfix::after{
+	content :"";
+	display : table;
+	clear: both;
+}
+
+a{
+	color: #5A5E6B;
+	text-decoration: none;
+	font-weight: 900;
+ @include small {
+	 color:#2D241E;
+	 font-weight:1000;
+	}
+}
+a:hover{
+	color: #800000;
+}
+
+.typedtext{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
+    font-family : Quantico,Helvetica, Arial, sans-serif;
+    color: #8B0000;
+    font-size: 2.5rem;
+}
+
+.typedtext2{
+      padding: 0;
+  margin: 0;
+  width: auto;
+  font-family: KoHo,Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+	font-weight:light;
+  color: $body-text-color;
+}
+
+.typewriter hp1 {
+  color: #8B0000;
+  font-size: 2.5rem;
+  font-family :  Quantico,Helvetica, Arial, sans-serif;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid $body-text-color; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s steps(30, end);
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #8B0000 }
+}
+
+/*.nowrap {
+        flex: 1;
+        width: 10px;
+        float: left;
+    }
+    .container {
+        display: flex;
+    }
+*/
+   .content p {
+        border-right: .15em solid #5A5E6B;
+	margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: #8B0000;
+    font-size: 2.5rem;
+    white-space:nowrap;
+
+	   @include small {
+   font-size: 2rem;
+  }
+        font-family:  Quantico,Helvetica, Arial, sans-serif;
+        font-size: 2.5rem;
+        overflow: hidden;
+}
+        .content p:nth-child(1) {
+        width: 16em;
+        -webkit-animation: type 3s steps(30, end), blink .3s step-end infinite alternate;
+        animation: type 3s steps(30, end), blink .3s step-end infinite alternate;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+      }
+      .content p:nth-child(2) {
+        width: 11.5em;
+        opacity: 0;
+        -webkit-animation: type2 2s steps(40, end);
+        animation: type2 2s steps(40, end);
+        -webkit-animation-delay: 2s;
+        animation-delay: 2s;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+      }
+      .content p:nth-child(3) {
+        width: 7.3em;
+        opacity: 0;
+        -webkit-animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
+        animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
+        -webkit-animation-delay: 4s;
+        animation-delay: 4s;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+      }
+      @keyframes type {
+        0% {
+          width: 0;
+        }
+        99.9% {
+          border-right: .15em solid #5A5E6B;
+        }
+        100% {
+          border: none;
+        }
+      }
+      @-webkit-keyframes type {
+        0% {
+          width: 0;
+        }
+        99.9% {
+          border-right: .15em solid #5A5E6B;
+        }
+        100% {
+          border: none;
+        }
+      }
+      @keyframes type2 {
+        0% {
+          width: 0;
+        }
+        1% {
+          opacity: 1;
+        }
+        99.9% {
+          border-right: .15em solid #5A5E6B;
+        }
+        100% {
+          opacity: 1;
+          border: none;
+        }
+      }
+      @-webkit-keyframes type2 {
+        0% {
+          width: 0;
+        }
+        1% {
+          opacity: 1;
+        }
+        99.9% {
+          border-right: .15em solid #5A5E6B;
+        }
+        100% {
+          opacity: 1;
+          border: none;
+        }
+      }
+      @keyframes type3 {
+        0% {
+          width: 0;
+        }
+        1% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      @-webkit-keyframes type3 {
+        0% {
+          width: 0;
+        }
+        1% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      @keyframes blink {
+        50% {
+          border-color: transparent;
+        }
+      }
+      @-webkit-keyframes blink {
+        50% {
+          border-color: tranparent;
+        }
+      }
+
+  .content2 p {
+     border-right: .15em solid black;
+	  padding: 0;
+  margin: 0;
+  width: auto;
+  font-family: KoHo,Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+	font-weight:light;
+  color: $body-text-color;
+    white-space:nowrap;
+
+	   @include small {
+   font-size: 14px;
+  }
+        overflow: hidden;
+}
+        .content2 p:nth-child(1) {
+        width: 33em;
+        -webkit-animation: type 3s steps(30, end), blink .3s step-end infinite alternate;
+        animation: type 3s steps(30, end), blink .3s step-end infinite alternate;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+      }
+      .content2 p:nth-child(2) {
+        width: 11.5em;
+        opacity: 0;
+        -webkit-animation: type2 2s steps(40, end);
+        animation: type2 2s steps(40, end);
+        -webkit-animation-delay: 2s;
+        animation-delay: 2s;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+      }
+      .content2 p:nth-child(3) {
+        width: 7.3em;
+        opacity: 0;
+        -webkit-animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
+        animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
+        -webkit-animation-delay: 4s;
+        animation-delay: 4s;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+      }
+      @keyframes type {
+        0% {
+          width: 0;
+        }
+        99.9% {
+          border-right: .15em solid black;
+        }
+        100% {
+          border: none;
+        }
+      }
+      @-webkit-keyframes type {
+        0% {
+          width: 0;
+        }
+        99.9% {
+          border-right: .15em solid black;
+        }
+        100% {
+          border: none;
+        }
+      }
+      @keyframes type2 {
+        0% {
+          width: 0;
+        }
+        1% {
+          opacity: 1;
+        }
+        99.9% {
+          border-right: .15em solid black;
+        }
+        100% {
+          opacity: 1;
+          border: none;
+        }
+      }
+      @-webkit-keyframes type2 {
+        0% {
+          width: 0;
+        }
+        1% {
+          opacity: 1;
+        }
+        99.9% {
+          border-right: .15em solid black;
+        }
+        100% {
+          opacity: 1;
+          border: none;
+        }
+      }
+      @keyframes type3 {
+        0% {
+          width: 0;
+        }
+        1% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      @-webkit-keyframes type3 {
+        0% {
+          width: 0;
+        }
+        1% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      @keyframes blink {
+        50% {
+          border-color: transparent;
+        }
+      }
+      @-webkit-keyframes blink {
+        50% {
+          border-color: tranparent;
+        }
+      }
+
+.content3 p {
+     border-right: .15em solid black;
+	  padding: 0;
+  margin: 0;
+  width: auto;
+  font-family: KoHo,Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+	font-weight:light;
+  color: $body-text-color;
+    white-space:nowrap;
+
+	   @include small {
+   font-size: 14px;
+  }
+        overflow: hidden;
+}
+        .content3 p:nth-child(1) {
+        width: 23em;
+        -webkit-animation: type 3s steps(30, end), blink .3s step-end infinite alternate;
+        animation: type 3s steps(30, end), blink .3s step-end infinite alternate;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+      }
+      .content3 p:nth-child(2) {
+        width: 11.5em;
+        opacity: 0;
+        -webkit-animation: type2 2s steps(40, end);
+        animation: type2 2s steps(40, end);
+        -webkit-animation-delay: 2s;
+        animation-delay: 2s;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+      }
+      .content3 p:nth-child(3) {
+        width: 7.3em;
+        opacity: 0;
+        -webkit-animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
+        animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
+        -webkit-animation-delay: 4s;
+        animation-delay: 4s;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+      }
+      @keyframes type {
+        0% {
+          width: 0;
+        }
+        99.9% {
+          border-right: .15em solid black;
+        }
+        100% {
+          border: none;
+        }
+      }
+      @-webkit-keyframes type {
+        0% {
+          width: 0;
+        }
+        99.9% {
+          border-right: .15em solid black;
+        }
+        100% {
+          border: none;
+        }
+      }
+      @keyframes type2 {
+        0% {
+          width: 0;
+        }
+        1% {
+          opacity: 1;
+        }
+        99.9% {
+          border-right: .15em solid black;
+        }
+        100% {
+          opacity: 1;
+          border: none;
+        }
+      }
+      @-webkit-keyframes type2 {
+        0% {
+          width: 0;
+        }
+        1% {
+          opacity: 1;
+        }
+        99.9% {
+          border-right: .15em solid black;
+        }
+        100% {
+          opacity: 1;
+          border: none;
+        }
+      }
+      @keyframes type3 {
+        0% {
+          width: 0;
+        }
+        1% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      @-webkit-keyframes type3 {
+        0% {
+          width: 0;
+        }
+        1% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      @keyframes blink {
+        50% {
+          border-color: transparent;
+        }
+      }
+      @-webkit-keyframes blink {
+        50% {
+          border-color: tranparent;
+        }
+      }
+
+.btn {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.3rem;
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+
+  &:hover {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+
+  + .btn {
+    margin-left: 1rem;
+  }
+
+  @include large {
+    padding: 0.75rem 1rem;
+  }
+
+  @include medium {
+    padding: 0.6rem 0.9rem;
+    font-size: 0.9rem;
+  }
+
+  @include small {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 0.9rem;
+
+    + .btn {
+      margin-top: 1rem;
+      margin-left: 0;
+    }
+  }
+}
+
+.page-header {
+  color: black;
+  text-align: center;
+  background-color: $header-bg-color;
+  background-image: url('https://www.imo.universite-paris-saclay.fr/~destagnol/math_bg.jpg');
+  background-size: cover;
+  background-opacity:0.6;
+  height:260px;
+
+  @include large {
+    padding: 5rem 6rem;
+  }
+
+  @include medium {
+    padding: 3rem 4rem;
+  }
+
+  @include small {
+    padding: 2rem 1rem;
+    height:122px;
+  }
+}
+
+.page-header2 {
+  color: black;
+  text-align: center;
+  background-color: $header-bg-color;
+  background-image: url('https://www.imo.universite-paris-saclay.fr/~destagnol/Erreur.png');
+  background-size: cover;
+  background-opacity:0.6;
+  height:600px;
+
+  @include large {
+    padding: 5rem 6rem;
+  }
+
+  @include medium {
+    padding: 3rem 4rem;
+  }
+
+  @include small {
+    padding: 2rem 1rem;
+    height:200px;
+  }
+}
+
+.page-header3 {
+  color: black;
+  text-align: center;
+  background-color: #5aaa53;
+  background-image: url('https://www.imo.universite-paris-saclay.fr/~destagnol/check.png');
+  background-size: 7%;
+  background-repeat: no-repeat;
+  background-opacity:0.6;
+  height:auto;
+  background-position: center;
+
+  @include large {
+    padding: 5rem 6rem;
+  }
+
+  @include medium {
+    padding: 3rem 4rem;
+  }
+
+  @include small {
+    padding: 2rem 1rem;
+    background-size: 10%;
+    background-repeat: no-repeat;
+height:auto;
+ background-position: center;
+  }
+}
+
+.page-header4 {
+  color: black;
+  text-align: center;
+  background-color: #B22222;
+  background-image: url('https://www.imo.universite-paris-saclay.fr/~destagnol/fail2.png');
+  background-size: 7%;
+  background-repeat: no-repeat;
+  background-opacity:0.6;
+  height:auto;
+  background-position: center;
+
+  @include large {
+    padding: 5rem 6rem;
+  }
+
+  @include medium {
+    padding: 3rem 4rem;
+  }
+
+  @include small {
+    padding: 2rem 1rem;
+    background-size: 10%;
+    background-repeat: no-repeat;
+height:auto;
+ background-position: center;
+  }
+}
+
+
+.project-name {
+  margin-top: 0;
+  margin-bottom: 0.1rem;
+
+  @include large {
+    font-size: 3.25rem;
+  }
+
+  @include medium {
+    font-size: 2.25rem;
+  }
+
+  @include small {
+    font-size: 1.75rem;
+  }
+}
+
+.project-tagline {
+  margin-bottom: 2rem;
+  font-weight: normal;
+  opacity: 0.7;
+
+  @include large {
+    font-size: 1.25rem;
+  }
+
+  @include medium {
+    font-size: 1.15rem;
+  }
+
+  @include small {
+    font-size: 1rem;
+  }
+}
+
+.main-content {
+  word-wrap: break-word;
+
+  :first-child {
+    margin-top: 0;
+  }
+
+  @include large {
+    max-width: 100%;
+    padding: 2rem 3rem;
+    margin: 0 auto;
+    font-size: 1.1rem;
+  }
+
+  @include medium {
+    max-width: 79%;
+    padding: 2rem 4rem;
+    font-size: 1.1rem;
+  }
+
+  @include small {
+    padding: 2rem 1rem;
+    font-size: 1rem;
+  }
+  
+  kbd {
+    background-color: #fafbfc;
+    border: 1px solid #c6cbd1;
+    border-bottom-color: #959da5;
+    border-radius: 3px;
+    box-shadow: inset 0 -1px 0 #959da5;
+    color: #444d56;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 10px;
+    padding: 3px 5px;
+    vertical-align: middle;
+  }
+
+  img {
+    max-width: 100%;
+  }
+hprime {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: #8B0000;
+    font-size: 3.4rem;
+    font-family : Quantico,Helvetica, Arial, sans-serif;
+	@include small {
+   font-size: 2.5rem;
+  }
+  }
+hprime2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: #8B0000;
+    font-size: 2.5rem;
+    font-family :  Quantico,Helvetica, Arial, sans-serif;
+	@include small {
+   font-size: 2rem;
+  }
+  }
+	
+hpr {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: #8D0000;
+    font-size: 3.9rem;
+    font-family : "Open Sans", "Helvetica Neue",Helvetica, Arial, sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+    color: #8D0000;
+    font-family : KoHo,Helvetica, Arial, sans-serif;
+  }
+
+  h7 {
+    margin-top: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: normal;
+    
+    color: $section-headings-color;
+  }
+
+  p {
+    margin-bottom: 1em;
+  }
+
+  code {
+    padding: 2px 4px;
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-size: 0.9rem;
+    color: $code-text-color;
+    background-color: $code-bg-color;
+    border-radius: 0.3rem;
+  }
+
+  pre {
+    padding: 0.8rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    color: $code-text-color;
+    word-wrap: normal;
+    background-color: $code-bg-color;
+    border: solid 1px $border-color;
+    border-radius: 0.3rem;
+
+    > code {
+      padding: 0;
+      margin: 0;
+      font-size: 0.9rem;
+      color: $code-text-color;
+      word-break: normal;
+      white-space: pre;
+      background: transparent;
+      border: 0;
+    }
+  }
+
+  .highlight {
+    margin-bottom: 1rem;
+
+    pre {
+      margin-bottom: 0;
+      word-break: normal;
+    }
+  }
+
+  .highlight pre,
+  pre {
+    padding: 0.8rem;
+    overflow: auto;
+    font-size: 0.9rem;
+    line-height: 1.45;
+    border-radius: 0.3rem;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  pre code,
+  pre tt {
+    display: inline;
+    max-width: initial;
+    padding: 0;
+    margin: 0;
+    overflow: initial;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0;
+
+    &:before,
+    &:after {
+      content: normal;
+    }
+  }
+
+  ul,
+  ol {
+    margin-top: 0;
+  }
+
+  blockquote {
+    padding: 0 1rem;
+    margin-left: 0;
+    color: $blockquote-text-color;
+    border-left: 0.3rem solid $border-color;
+
+    > :first-child {
+      margin-top: 0;
+    }
+
+    > :last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  table {
+    display: block;
+    width: 100%;
+    overflow: auto;
+    word-break: normal;
+    word-break: keep-all; // For Firefox to horizontally scroll wider tables.
+    -webkit-overflow-scrolling: touch;
+
+    th {
+      font-weight: bolder;
+    }
+
+    th,
+    td {
+      padding: 0.5rem 1rem;
+      border: 1px solid $table-border-color;
+    }
+  }
+
+  dl {
+    padding: 0;
+
+    dt {
+      padding: 0;
+      margin-top: 1rem;
+      font-size: 1rem;
+      font-weight: bolder;
+    }
+
+    dd {
+      padding: 0;
+      margin-bottom: 1rem;
+    }
+  }
+
+  hr {
+    height: 2px;
+    padding: 0;
+    margin: 1rem 0;
+    background-color: $hr-border-color;
+    border: 0;
+  }
+}
+
+.site-footer2 {
+  padding-top: 0;
+  margin-top: 0;
+  border-top: solid 1px $hr-border-color;
+	text-align:center;
+  font-family: KoHo,Helvetica, Arial, sans-serif;
+  @include large {
+    font-size: 1rem;
+  }
+
+  @include medium {
+    font-size: 1rem;
+  }
+
+  @include small {
+    font-size: 0.9rem;
+  }
+}
+
+.site-footer {
+  padding-top: 2rem;
+  margin-top: 2rem;
+  border-top: solid 1px $hr-border-color;
+  font-family: KoHo,Helvetica, Arial, sans-serif;
+  @include large {
+    font-size: 1rem;
+  }
+
+  @include medium {
+    font-size: 1rem;
+  }
+
+  @include small {
+    font-size: 0.9rem;
+  }
+}
+
+.site-footer-owner {
+  display: block;
+  font-weight: bolder;
+}
+
+.site-footer-credits {
+  color: $blockquote-text-color;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("https://www.imo.universite-paris-saclay.fr/~destagnol/bg2.png");
+
+  min-height: 730px;
+
+  /* Center and scale the image nicely */
+  background-size: cover;
+  position: relative;
+	padding: 0;
+  margin: 0;
+  
+}
+
+.page-header5 {
+  color: black;
+  background-color: $header-bg-color;
+  background-image: url("https://www.imo.universite-paris-saclay.fr/~destagnol/bg2.png");
+  background-size: cover;
+  background-opacity:0.6;
+  height: 850px;
+
+  @include large {
+    padding: 5rem 6rem;
+  }
+
+  @include medium {
+    padding: 3rem 4rem;
+  }
+
+  @include small {
+    padding: 2rem 1rem;
+    height: 800px;
+  }
+}
+
+/* Add styles to the form container */
+.container2 {
+position:fixed;
+overflow: scroll;
+left: 50%;
+top:30%;
+transform: translate(-50%, -30%);
+  max-width: 350px;
+  padding: 16px;
+  background-color: white;
+	border-radius: 5px;
+	 @include small {
+   transform: translate(-50%, -30%);
+		 max-width: 280px;
+  }
+}
+
+/* Full-width input fields */
+  input[type=text], input[type=name] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0px 22px 0px;
+  border: none;
+  background: #f1f1f1;
+	  border-radius: 5px;
+}
+
+input[type=text]:focus, input[type=name]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn2 {
+  background-color: #8B0000;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.7;
+ text-align:center;
+position:relative;
+left: 50%;
+transform: translate(-50%, 0%);
+ border-radius: 15px;
+	/*box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);*/
+	@include small {
+   width: 75%;
+  }
+}
+
+.btn2:hover {
+  opacity: 1;
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Saira+Semi+Condensed&display=swap');
+$all: all .5s ease;
+$sai: 'Saira Semi Condensed', sans-serif;
+$c5: #555;
+$ins: inset;
+$o-t: 0 -8px 6px -6px $c5;
+$o-b: 0 8px 6px -6px $c5;
+$o-l: -8px 0 6px -6px $c5;
+$o-r: 8px 0 6px -6px $c5;
+$o-tl: -8px -8px 6px -6px $c5;
+$o-tr: 8px -8px 6px -6px $c5;
+$o-bl: -8px 8px 6px -6px $c5;
+$o-br: 8px 8px 6px -6px $c5;
+$o-tb: $o-t, $o-b;
+$o-lr: $o-l, $o-r;
+$o-glow: 0 0 10px 2px $c5;
+$i-t: $ins $o-b;
+$i-b: $ins $o-t;
+$i-l: $ins $o-r;
+$i-r: $ins $o-l;
+$i-tl: $ins $o-tr;
+$i-tr: $ins $o-tl;
+$i-bl: $ins $o-br;
+$i-br: $ins $o-bl;
+$i-tb: $ins $o-b, $ins $o-t;
+$i-lr: $ins $o-r, $ins $o-l;
+$i-glow: $ins $o-glow;
+$bl: block;
+$in: inline;
+$ib: inline-block;
+$fl: flex;
+$gr: grid;
+$rl: relative;
+$ab: absolute;
+$fx: fixed;
+$r: row;
+$rr: row-reverse;
+$c: column;
+$cr: column-reverse;
+$nw: nowrap;
+$w: wrap;
+$wr: wrap-reverse;
+$bs: baseline;
+$ce: center;
+$fs: flex-start;
+$fe: flex-end;
+$sa: space-around;
+$sb: space-between;
+$st: stretch;
+$rnw: $r $nw;
+$rw: $r $w;
+$rwr: $r $wr;
+$rrnw: $rr $nw;
+$rrw: $rr $w;
+$rrwr: $rr $wr;
+$cnw: $c $nw;
+$cw: $c $w;
+$cwr: $c $wr;
+$crnw: $cr $nw;
+$crw: $cr $w;
+$crwr: $cr $wr;
+$ta-c: center;
+$ta-l: left;
+$ta-r: right;
+$ta-j: justify;
+$va-b: baseline;
+$va-m: middle;
+$va-sb: sub;
+$va-sp: super;
+$va-tp: top;
+$va-ttp: text-top;
+$va-bt: bottom;
+$va-tbt: text-bottom;
+
+@mixin bg(
+    $bg-i: null,
+    $bg-s: null,
+    $bg-r: null,
+    $bg-p: null,
+    $bg-a: null,
+    $bg-b: null,
+    $bg-c: null,
+    $bg-o: null
+){
+    background-image: $bg-i;
+    background-size: $bg-s;
+    background-repeat: $bg-r;
+    background-position: $bg-p;
+    background-attachment: $bg-a;
+    background-blend-mode: $bg-b;
+    background-clip: $bg-c;
+    background-origin: $bg-o
+}
+
+@mixin br(
+    $br-tp: null,
+    $br-rg: null,
+    $br-bt: null,
+    $br-lf: null,
+    $br-im: null,
+    $br-isr: null,
+    $br-iwd: null,
+    $br-irp: null,
+    $br-iot: null,
+    $br-isl: null
+){
+    border-top: $br-tp;
+    border-right: $br-rg;
+    border-bottom: $br-bt;
+    border-left: $br-lf;
+    border-image: $br-im;
+    border-image-source: $br-isr;
+    border-image-width: $br-iwd;
+    border-image-repeat: $br-irp;
+    border-image-outset: $br-iot;
+    border-image-slice: $br-isl
+}
+
+@mixin bm(
+    $bm-wd: null,
+    $bm-hg: null,
+    $bm-mxwd: null,
+    $bm-mxhg: null,
+    $bm-miwd: null,
+    $bm-mihg: null,
+    $bm-mg: null,
+    $bm-pd: null,
+    $bm-tp: null,
+    $bm-rg: null,
+    $bm-bt: null,
+    $bm-lf: null,
+    $bm-dp: null,
+    $bm-ps: null
+){
+    width: $bm-wd;
+    height: $bm-hg;
+    max-width: $bm-mxwd;
+    max-height: $bm-mxhg;
+    min-width: $bm-miwd;
+    min-height: $bm-mihg;
+    margin: $bm-mg;
+    padding: $bm-pd;
+    top: $bm-tp;
+    right: $bm-rg;
+    bottom: $bm-bt;
+    left: $bm-lf;
+    display: $bm-dp;
+    position: $bm-ps
+}
+
+@mixin fb(
+    $fb-ff: null,
+    $fb-ai: null,
+    $fb-ac: null,
+    $fb-as: null,
+    $fb-jc: null,
+    $fb-fl: null,
+    $fb-fb: null,
+    $fb-fg: null,
+    $fb-fs: null,
+    $fb-fo: null
+){
+    flex-flow: $fb-ff;
+    align-items: $fb-ai;
+    align-content: $fb-ac;
+    align-self: $fb-as;
+    justify-content: $fb-jc;
+    flex: $fb-fl;
+    flex-basis: $fb-fb;
+    flex-grow: $fb-fg;
+    flex-shrink: $fb-fs;
+    order: $fb-fo
+}
+
+@mixin other(
+    $ot-zi: null,
+    $ot-op: null,
+    $ot-br: null,
+    $ot-of: null,
+    $ot-ofx: null,
+    $ot-ofy: null,
+    $ot-vis: null,
+    $ot-tsi: null,
+    $ot-tsf: null,
+    $ot-cr: null,
+    $ot-bs: null
+){
+    z-index: $ot-zi;
+    opacity: $ot-op;
+    border-radius: $ot-br;
+    overflow: $ot-of;
+    overflow-x: $ot-ofx;
+    overflow-y: $ot-ofy;
+    visibility: $ot-vis;
+    transition: $ot-tsi;
+    transform: $ot-tsf;
+    cursor: $ot-cr;
+    box-shadow: $ot-bs
+}
+
+@mixin tf(
+    $tf-cl: null,
+    $tf-fm: null,
+    $tf-fs: null,
+    $tf-fw: null,
+    $tf-ls: null,
+    $tf-lh: null,
+    $tf-ta: null,
+    $tf-td: null,
+    $tf-ti: null,
+    $tf-ts: null,
+    $tf-tt: null,
+    $tf-to: null,
+    $tf-va: null,
+    $tf-whs: null,
+    $tf-wb: null,
+    $tf-ws: null,
+    $tf-ww: null,
+    $tf-wm: null
+){
+    color: $tf-cl;
+    font-family:  KoHo,Helvetica, Arial, sans-serif;
+    font-size: $tf-fs;
+    font-weight: $tf-fw;
+    letter-spacing: $tf-ls;
+    line-height: $tf-lh;
+    text-align: $tf-ta;
+    text-decoration: $tf-td;
+    text-indent: $tf-ti;
+    text-shadow: $tf-ts;
+    text-transform: $tf-tt;
+    text-overflow: $tf-to;
+    vertical-align: $tf-va;
+    white-space: $tf-whs;
+    word-break: $tf-wb;
+    word-spacing: $tf-ws;
+    word-wrap: $tf-ww;
+    writing-mode: $tf-wm
+}
+
+@mixin big-container($dis, $pos){
+    @include bm(100%, 100%);
+    @if $dis and $pos == rl{
+        @include bm($bm-dp: $dis, $bm-ps: $rl)
+    }
+    @else if $dis and $pos == ab{
+        @include bm($bm-tp: 0, $bm-lf: 0, $bm-dp: $dis, $bm-ps: $ab)
+    }
+    @else if $dis and $pos == fx{
+        @include bm($bm-tp: 0, $bm-lf: 0, $bm-dp: $dis, $bm-ps: $fx)
+    }
+}
+
+@mixin sticky-banner($dis, $pos){
+    @if $dis and $pos == tp{
+        @include bm(100%, $bm-tp: 0, $bm-lf: 0, $bm-dp: $dis, $bm-ps: $fx)
+    }
+    @else if $dis and $pos == bt{
+        @include bm(100%, $bm-bt: 0, $bm-lf: 0, $bm-dp: $dis, $bm-ps: $fx)
+    }
+    @else if $dis and $pos == lf{
+        @include bm($bm-hg: 100%, $bm-tp: 0, $bm-lf: 0, $bm-dp: $dis, $bm-ps: $fx)
+    }
+    @else if $dis and $pos == rg{
+        @include bm($bm-hg: 100%, $bm-tp: 0, $bm-rg: 0, $bm-dp: $dis, $bm-ps: $fx)
+    }
+}
+
+@mixin relative-center{
+    margin-left: auto;
+    margin-right: auto;
+    @include bm($bm-dp: $bl, $bm-ps: $rl)
+}
+
+@mixin sticky-center($dis, $pos){
+    @include bm($bm-tp: 50%, $bm-lf: 50%);
+    @if $dis{
+        @include bm($bm-dp: $dis)
+    }
+    @if $pos{
+        @include bm($bm-ps: $pos)
+    }
+}
+
+@mixin flex-center($flow){
+    @if $flow{
+        @include fb($fb-ff: $flow)
+    }
+    @include fb($fb-ai: $ce, $fb-jc: $ce)
+}
+
+@mixin pseudo{
+    @include bm($bm-dp: $bl, $bm-ps: $ab);
+    content: ""
+}
+
+@mixin big-pseudo{
+    @include bm(100%, 100%, $bm-tp: 0, $bm-lf: 0);
+    @include pseudo
+}
+
+@mixin animation($name, $arg){
+    animation: #{$name} #{$arg};
+        @keyframes #{$name}{
+            @content;
+        }
+}
+
+*{
+    @include tf($tf-fm: $sai);
+    @include other($ot-tsi: $all)
+}
+
+
+.field:nth-of-type(2){
+    @include bm($bm-mg: 16px 0)
+}
+
+label, input, textarea{
+    @include bm($bm-pd: 8px)
+}
+
+label, [placeholder]{
+    @include tf(#555)
+}
+
+label i{
+    @include bm($bm-mg: 0 10px 0 0)
+}
+
+.field:focus-within label{
+    @include tf(#000, $tf-ls: 2px)
+}
+
+input, textarea{
+    background: rgba(255,255,255,.5);
+    border: none;
+    @include other($ot-br: 4px, $ot-bs: $o-b);
+        &:focus{
+            background: rgba(255,255,255,1);
+            @include other($ot-bs: none)
+        }
+}
+
+textarea{
+    resize: none;
+        &::-webkit-scrollbar{
+            @include bm(0)
+        }
+}
+
+button{
+    background: #8B0000;
+    @include bm($bm-pd: 8px 16px, $bm-mg: 16px 0 50px 0);
+    @include tf(#fff);
+    border: none;
+    @include other($ot-br: 4px, $ot-cr: pointer, $ot-bs: $o-b);
+        &:hover{
+            @include tf($tf-ls: 2px);
+            @include other($ot-bs: none)
+        }
+}
+
+.login-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+
+.login-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.login-box .user-box label {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #03e9f4;
+  font-size: 12px;
+}
+
+.login-box form a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #03e9f4;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 40px;
+  letter-spacing: 4px
+}
+
+.login-box a:hover {
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 100px #03e9f4;
+}
+
+.login-box a span {
+  position: absolute;
+  display: block;
+}
+
+.login-box a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #03e9f4);
+  animation: btn-anim1 1s linear infinite;
+}
+
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+  50%,100% {
+    left: 100%;
+  }
+}
+
+.login-box a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #03e9f4);
+  animation: btn-anim2 1s linear infinite;
+  animation-delay: .25s
+}
+
+@keyframes btn-anim2 {
+  0% {
+    top: -100%;
+  }
+  50%,100% {
+    top: 100%;
+  }
+}
+
+.login-box a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #03e9f4);
+  animation: btn-anim3 1s linear infinite;
+  animation-delay: .5s
+}
+
+@keyframes btn-anim3 {
+  0% {
+    right: -100%;
+  }
+  50%,100% {
+    right: 100%;
+  }
+}
+
+.login-box a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #03e9f4);
+  animation: btn-anim4 1s linear infinite;
+  animation-delay: .75s
+}
+
+@keyframes btn-anim4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,100% {
+    bottom: 100%;
+  }
+}
