@@ -1469,6 +1469,9 @@ button{
   top: 50%;
   left: 50%;
   width: 400px;
+ @include small {
+   width: 75%;
+  }
   padding: 40px;
   transform: translate(-50%, -50%);
   background: rgba(0,0,0,.5);
