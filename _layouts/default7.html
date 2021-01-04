@@ -24,7 +24,7 @@
    <div class="page-header5" role="banner">
 <div class="login-box">
   <h2>Soumettre un document</h2>
-  <form  method="get" action="https://kevindestagnol.github.io/maths254.github.io">
+  <form  method="get" action="https://kevindestagnol.github.io/maths254.github.io" id="f">
     <div class="user-box">
       <input type="text" name="firstname" required="">
       <label>Prénom</label>
@@ -33,9 +33,9 @@
       <input type="text" name="name" required="">
       <label>Nom</label>
     </div>
+    <label style="white">Choisir le document PDF :</label>
       <input type="file" name="pdf" required="">
-      <label>PDF</label>
-<a type="submit" style="white"> <span> </span><span> </span><span> </span><span> </span>
+<a href="#" onclick="document.getElementById("f").submit();"> <span> </span><span> </span><span> </span><span> </span>
     Soumettre
     </a>
   </form>
