@@ -1,5 +1,24 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+<script>
+function SubForm (){
+    $.ajax({
+        url:'https://api.apispreadsheets.com/data/5956/',
+        type:'post',
+        data:$("#myForm").serializeArray(),
+        success: function(){
+          location.href = 'https://www.imo.universite-paris-saclay.fr/~destagnol/bienvenu.php';
+        },
+        error: function(){
+          location.href = 'https://kevindestagnol.github.io/maths254.github.io/failure';
+        }
+    });
+}
+</script>
   <head>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet">
     {% if site.google_analytics %}
