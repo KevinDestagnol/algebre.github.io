@@ -1407,7 +1407,7 @@ $va-tbt: text-bottom;
 }
 
 form{
-    @include bm(400px, $bm-dp: $fl);
+    @include bm(200px, $bm-dp: $fl);
     @include flex-center($cw);
         div, label, input, textarea{
             @include bm(100%)
