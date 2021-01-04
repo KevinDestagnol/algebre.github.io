@@ -1407,8 +1407,6 @@ $va-tbt: text-bottom;
 }
 
 form{
-	position:fixed;
-overflow: scroll;
     @include bm(400px, $bm-dp: $fl);
     @include flex-center($cw);
         div, label, input, textarea{
@@ -1466,7 +1464,8 @@ button{
 }
 
 .login-box {
-  position: absolute;
+  position:fixed;
+  overflow: scroll;
   top: 50%;
   left: 50%;
   width: 400px;
