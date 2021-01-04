@@ -1407,6 +1407,8 @@ $va-tbt: text-bottom;
 }
 
 form{
+	position:fixed;
+overflow: scroll;
     @include bm(400px, $bm-dp: $fl);
     @include flex-center($cw);
         div, label, input, textarea{
