@@ -1492,6 +1492,13 @@ button{
  width:90%;
 }
 
+input[type="file"] {
+  border: none;
+  position: relative;
+  display: block;
+  outline: none;
+}
+
 .login-box .user-box input {
   width: 100%;
   padding: 10px 0 10px 0;
