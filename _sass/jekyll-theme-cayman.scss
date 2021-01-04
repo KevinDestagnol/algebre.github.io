@@ -1407,7 +1407,7 @@ $va-tbt: text-bottom;
 }
 
 form{
-    @include bm(150px, $bm-dp: $fl);
+    @include bm(300px, $bm-dp: $fl);
     @include flex-center($cw);
         div, label, input, textarea{
             @include bm(100%)
@@ -1415,7 +1415,7 @@ form{
 }
 
 .field:nth-of-type(2){
-    @include bm($bm-mg: 16px 0)
+    @include bm($bm-mg: 10px 0)
 }
 
 label, input, textarea{
