@@ -6,7 +6,7 @@ Bienvenu sur la page du cours de **Maths 254** de l'année **2020-2021** de l'un
 
 # Polycopié de cours et feuilles de TD
 
-Le <a href="cours_math_254.pdf">polycopié</a> du cours.
+Le <a href="https://www.imo.universite-paris-saclay.fr/~destagnol/cours_maths_254.pdf">polycopié</a> du cours.
 
 # Rendre un document pour correction
 
