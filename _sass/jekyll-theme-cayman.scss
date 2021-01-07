@@ -1647,6 +1647,7 @@ position:fixed;
 overflow: scroll;
 left: 50%;
 top:30%;
+	box-sizing: none;
 	padding: 16px;
 transform: translate(-50%, -30%);
   max-width: 350px;
@@ -2080,7 +2081,7 @@ button{
   padding: 40px;
   transform: translate(-50%, -50%);
   background: rgba(0,0,0,.5);
-  box-sizing: border-box;
+  box-sizing: none;
   box-shadow: 0 15px 25px rgba(0,0,0,.6);
   border-radius: 10px;
 }
