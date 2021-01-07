@@ -1047,6 +1047,7 @@ hpr {
 /* Add styles to the form container */
 .container2 {
 position:fixed;
+overflow:scroll;
 left: 50%;
 top:30%;
 transform: translate(-50%, -30%);
