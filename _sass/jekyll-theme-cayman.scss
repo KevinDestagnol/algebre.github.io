@@ -1046,13 +1046,6 @@ hpr {
 
 /* Add styles to the form container */
 .container2 {
-position:fixed;
-overflow: scroll;
-left: 50%;
-top:30%;
-transform: translate(-50%, -30%);
-  max-width: 350px;
-  padding: 16px;
   background-color: white;
 	border-radius: 5px;
 	 @include small {
@@ -1406,6 +1399,14 @@ $va-tbt: text-bottom;
     animation: #{$name} #{$arg};
         @keyframes #{$name}{
             @content;
+        }
+}
+
+form{
+    @include bm(300px, $bm-dp: $fl);
+    @include flex-center($cw);
+        div, label, input, textarea{
+            @include bm(100%)
         }
 }
 
