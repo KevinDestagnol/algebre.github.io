@@ -10,5 +10,5 @@ Le <a href="https://www.imo.universite-paris-saclay.fr/~destagnol/cours_maths_25
 
 # Rendre un document pour correction
 
-Je corrige tous les exercices et documents que vous m'envoyez. Pour ce faire, merci de renseigner <a href="https://www.imo.universite-paris-saclay.fr/~destagnol/upload3.html">ici</a> votre nom et prénom ainsi que votre exercice ou document **sous la forme d'un unique pdf**. Vous pouvez utiliser par exemple le <a href="https://www.ilovepdf.com/merge_pdf">site suivant</a> pour convertir des formats png ou jpeg au format pdf ainsi que pour fusionner plusieurs fichiers pdf en un seul pdf.
+Je corrige tous les exercices et documents que vous m'envoyez. Pour ce faire, merci de renseigner <a href="https://www.imo.universite-paris-saclay.fr/~destagnol/upload3.html">ici</a> votre nom et prénom ainsi que votre exercice ou document **sous la forme d'un unique pdf**. Vous pouvez utiliser par exemple le <a href="https://www.ilovepdf.com/merge_pdf">site suivant</a> pour convertir des formats png ou jpeg au format pdf ainsi que pour fusionner plusieurs fichiers pdf en un seul <a href="https://kevindestagnol.github.io/maths254.github.io/uploadg">pdf</a>.
  
