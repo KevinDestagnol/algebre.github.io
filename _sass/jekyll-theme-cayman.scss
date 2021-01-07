@@ -7,7 +7,14 @@
 @import url('https://fonts.googleapis.com/css?family=Quantico');
 @import url('https://fonts.googleapis.com/css?family=KoHo');
 @import url('https://fonts.googleapis.com/css?family=Baloo Bhai 2');
-
+form {
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
 @mixin large {
   @media screen and (min-width: #{$large-breakpoint}) {
     @content;
