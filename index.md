@@ -2,7 +2,7 @@
 @import "{{ site.theme }}";
 ---
 
-Bienvenu sur la page du cours de **Maths 254** de l'année **2020-2021** de l'université Paris-Saclay où vous trouverez tous les documents relatifs aux cours et aux TDs ainsi que des annales de l'an dernier. Vous pouvez vous inscrire au cours <a href="https://kevindestagnol.github.io/maths254.github.io/upload">ici</a>. Les cours et les TDs ont lieu sur Collaborate (lien disponible dans la section correspondant au cours sur Ecampus) jusqu'à nouvel ordre. Vous pouvez me contacter à l'adresse mail <b>kevin.destagnol (at) universite-paris-saclay.fr<b> pour toute question ou toute suggestion par rapport à l'organisation du cours ou des TDs.
+Bienvenu sur la page du cours de **Maths 254** de l'année **2020-2021** de l'université Paris-Saclay où vous trouverez tous les documents relatifs aux cours et aux TDs ainsi que des annales de l'an dernier. Vous pouvez vous inscrire au cours <a href="https://kevindestagnol.github.io/maths254.github.io/upload">ici</a>. Les cours et les TDs ont lieu sur Collaborate (lien disponible dans la section correspondant au cours sur Ecampus) jusqu'à nouvel ordre. Vous pouvez me contacter à l'adresse mail **kevin.destagnol (at) universite-paris-saclay.fr** pour toute question ou toute suggestion par rapport à l'organisation du cours ou des TDs.
 
 # Polycopié de cours et feuilles de TD
 
