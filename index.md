@@ -7,8 +7,8 @@ Bienvenu sur la page du cours de **Maths 254** de l'année **2020-2021** de l'un
 # Polycopié de cours et feuilles de TD
 
 * Le <a href="https://www.imo.universite-paris-saclay.fr/~destagnol/cours_maths_254.pdf">polycopié</a> du cours. N'hésitez pas à m'écrire pour toute question ou si vous repérez ce qui vous semble être une erreur ou une coquille.
-<br>
-* La <a href="https://www.imo.universite-paris-saclay.fr/~destagnol/TD1_m254.pdf">première feuille de TD sur les suites et séries et son <a href="https://kevindestagnol.github.io/maths254.github.io/erreur">corrigé</a>.
+
+* La <a href="https://www.imo.universite-paris-saclay.fr/~destagnol/TD1_m254.pdf">première feuille de TD</a> sur les suites et séries et son <a href="https://kevindestagnol.github.io/maths254.github.io/erreur">corrigé</a>.
 
 # Cours et TDs à distance
 
