@@ -22,7 +22,7 @@ Enfin, les exercices à rendre (via la section ci-dessous **Rendre un document p
 
 # Annales de l'an dernier
 
-* Vous trouverez <a href="https://www.imo.universite-paris-saclay.fr/~destagnol/dm1_m254.pdf">ici</a> le sujet du premier DM de l'an dernier ainsi que <a href"https://www.imo.universite-paris-saclay.fr/~destagnol/dm1_m254_corrige.pdf">son corrigé</a>.
+* Vous trouverez <a href="https://www.imo.universite-paris-saclay.fr/~destagnol/dm1_m254.pdf">ici</a> le sujet du premier DM de l'an dernier ainsi que <a href="https://www.imo.universite-paris-saclay.fr/~destagnol/dm1_m254_corrige.pdf">son corrigé</a>.
 
 # Rendre un document pour correction
 
