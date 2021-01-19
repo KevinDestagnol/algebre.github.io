@@ -8,7 +8,7 @@ Bienvenu sur la page du cours de **Maths 254** de l'année **2020-2021** de l'un
 
 * Le <a href="https://www.imo.universite-paris-saclay.fr/~destagnol/cours_maths_254.pdf">polycopié</a> du cours. N'hésitez pas à m'écrire pour toute question ou si vous repérez ce qui vous semble être une erreur ou une coquille.
 
-* La <a href="https://www.imo.universite-paris-saclay.fr/~destagnol/TD1_m254.pdf">première feuille de TD</a> sur les suites et séries et son <a href="https://kevindestagnol.github.io/maths254.github.io/erreur">corrigé</a>. Les <a href="maths254.github.io/TD1_goupeC2.pdf">notes manuscrites</a> de la première séance de TD couvrant les exercices 1, 2 et le début du 3 pour le groupe C2.
+* La <a href="https://www.imo.universite-paris-saclay.fr/~destagnol/TD1_m254.pdf">première feuille de TD</a> sur les suites et séries et son <a href="https://kevindestagnol.github.io/maths254.github.io/erreur">corrigé</a>. Les <a href="TD1goupeC2.pdf">notes manuscrites</a> de la première séance de TD couvrant les exercices 1, 2 et le début du 3 pour le groupe C2.
 
 # Cours et TDs à distance
 
