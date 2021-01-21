@@ -21,7 +21,7 @@ Enfin, les exercices à rendre (via la section ci-dessous **Rendre un document p
 Enfin, les exercices à rendre (via la section ci-dessous **Rendre un document pour correction**) sont disponibles <a href="https://www.imo.universite-paris-saclay.fr/~destagnol/exos_cours2.pdf">ici</a> avec leur <a href="exos_cours2_correction.pdf">corrigé</a>.
 
 * **Cours 3** : Les slides du troisième cours sont disponibles <a href="cours3_m254_vierge.pdf">ici</a> ainsi que leur version <a href="cours3_m254.pdf">annotée</a> et l'enregistrement du cours est diponible <a href="https://eu.bbcollab.com/collab/ui/session/playback/load/184393fc583d4cbba5f51992c42f48a7?authToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJiYkNvbGxhYkFwaSIsInJlY29yZGluZ1VpZCI6IjE4NDM5M2ZjNTgzZDRjYmJhNWY1MTk5MmM0MmY0OGE3IiwiaXNzIjoiYmJDb2xsYWJBcGkiLCJ0eXBlIjoxLCJleHAiOjE2MTEyMjg0NjcsImlhdCI6MTYxMTIyNDg2NywiY29uc3VtZXIiOiJhMWZmMzQ1ZjcyZDg0OWEwYWJmN2U4NzUxMzc0NjlkMiJ9.i0M2qQlL5Jt5iZXK6w1wbKqaNAa1TFR1JmO2xMmwyVk">ici</a> (sur la section correspondant au cours sur Ecampus). Ce cours **couvre le début du Chapitres IV** du polycopié ci-dessus et notamment les sections 4.1, 4.2 et 4.3 (jusqu'aux coefficients de Fourier).<br>
-Enfin, les exercices à rendre (via la section ci-dessous **Rendre un document pour correction**) sont disponibles <a href="https://www.imo.universite-paris-saclay.fr/~destagnol/exos_cours3.pdf">ici</a> avec leur <a href="https://kevindestagnol.github.io/maths254.github.io/erreur">corrigé</a>.
+Enfin, les exercices à rendre (via la section ci-dessous **Rendre un document pour correction**) sont disponibles <a href="exos_cours3.pdf">ici</a> avec leur <a href="https://kevindestagnol.github.io/maths254.github.io/erreur">corrigé</a>.
 
 # Annales de l'an dernier
 
