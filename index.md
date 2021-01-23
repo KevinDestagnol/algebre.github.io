@@ -26,6 +26,7 @@ Enfin, les exercices à rendre (via la section ci-dessous **Rendre un document p
 # Annales de l'an dernier
 
 * Vous trouverez <a href="https://www.imo.universite-paris-saclay.fr/~destagnol/dm1_m254.pdf">ici</a> le sujet du premier DM de l'an dernier ainsi que <a href="https://www.imo.universite-paris-saclay.fr/~destagnol/dm1_m254_corrige.pdf">son corrigé</a>.
+* Vous trouverez <a href="examen_m254_2020.pdf">ici</a> le sujet de l'examen de l'an dernier ainsi que <a href="examen_m254_2020_corrige.pdf">son corrigé</a> et un <a href="https://www.imo.universite-paris-saclay.fr/~destagnol/sujet_blanc_m254.pdf">sujet blanc</a> que j'avais donné pour préparer l'examen.
 
 # Rendre un document pour correction
 
