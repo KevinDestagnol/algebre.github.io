@@ -10,6 +10,8 @@ Bienvenu sur la page du cours de **Maths 254** de l'année **2020-2021** de l'un
 
 * La <a href="https://www.imo.universite-paris-saclay.fr/~destagnol/TD1_m254.pdf">première feuille de TD</a> sur les suites et séries et son <a href="https://kevindestagnol.github.io/maths254.github.io/erreur">corrigé</a>. Les <a href="TD1_goupeC2.pdf">notes manuscrites</a> de la première séance de TD couvrant les exercices 1, 2 et le début du 3 pour le **groupe C2** et son <a href="https://ecampus.paris-saclay.fr/mod/collaborate/recordings.php?c=41520&action=view&rid=e8e3b47cd8774e27ac1969d5bd7adbb3&url=rest_launch&sesskey=Anagl4tyYT&sessionlinkid=60342">enregistrement</a>.
 
+* La <a href="td2_m254_2021.pdf">deuxième feuille de TD</a> sur les séries de Fourier et son <a href="https://kevindestagnol.github.io/maths254.github.io/erreur">corrigé</a>.
+
 # Cours et TDs à distance
 
 Vous trouverez ci-dessous toutes les ressources concernant les cours et les TDs à distance ainsi que les exercices à faire d'un cours sur l'autre.
@@ -22,6 +24,11 @@ Enfin, les exercices à rendre (via la section ci-dessous **Rendre un document p
 
 * **Cours 3** : Les slides du troisième cours sont disponibles <a href="cours3_m254_vierge.pdf">ici</a> ainsi que leur version <a href="cours3_m254.pdf">annotée</a> et l'enregistrement du cours est diponible <a href="https://eu.bbcollab.com/collab/ui/session/playback/load/184393fc583d4cbba5f51992c42f48a7?authToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJiYkNvbGxhYkFwaSIsInJlY29yZGluZ1VpZCI6IjE4NDM5M2ZjNTgzZDRjYmJhNWY1MTk5MmM0MmY0OGE3IiwiaXNzIjoiYmJDb2xsYWJBcGkiLCJ0eXBlIjoxLCJleHAiOjE2MTEyMjg0NjcsImlhdCI6MTYxMTIyNDg2NywiY29uc3VtZXIiOiJhMWZmMzQ1ZjcyZDg0OWEwYWJmN2U4NzUxMzc0NjlkMiJ9.i0M2qQlL5Jt5iZXK6w1wbKqaNAa1TFR1JmO2xMmwyVk">ici</a> (sur la section correspondant au cours sur Ecampus). Ce cours **couvre le début du Chapitres IV** du polycopié ci-dessus et notamment les sections 4.1, 4.2 et 4.3 (jusqu'aux coefficients de Fourier).<br>
 Enfin, les exercices à rendre (via la section ci-dessous **Rendre un document pour correction**) sont disponibles <a href="exos_cours3.pdf">ici</a> avec leur <a href="https://kevindestagnol.github.io/maths254.github.io/erreur">corrigé</a>.
+
+# Devoirs à la maison
+
+Le premier devoir à la maison est disponible <a href="dm1_m254_2021.pdf">ici</a>. Il est à rendre pour le **11 février 2021**. Merci de le rendre à votre chargé de TD, via le formulaire ci-dessous (section **Rendre un document pour correction**) pour le groupe C2 et par mail à &Eacute;lodie Maignant pour le groupe C1. Vous pouvez rédiger votre travail **par groupe de 3 maximum** à condition que **chacun ou chacune d'entre vous rédige une partie du devoir**. Le corrigé est <a href="https://kevindestagnol.github.io/maths254.github.io/erreur">ici</a>.
+
 
 # Annales de l'an dernier
 
