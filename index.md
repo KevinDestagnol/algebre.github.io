@@ -29,7 +29,7 @@ Vous trouverez <a href="https://www.imo.universite-paris-saclay.fr/~destagnol/se
 Enfin, les exercices à rendre (via la section ci-dessous **Rendre un document pour correction**) sont disponibles <a href="exos_cours3.pdf">ici</a> avec leur <a href="https://kevindestagnol.github.io/maths254.github.io/erreur">corrigé</a>.
 
 * **Cours 4** : Les slides du troisième cours sont disponibles <a href="cours4_m254_vierge.pdf">ici</a> ainsi que leur version <a href="cours4_m254.pdf">annotée</a> et l'enregistrement du cours est diponible <a href="https://eu.bbcollab.com/collab/ui/session/playback/load/184393fc583d4cbba5f51992c42f48a7?authToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJiYkNvbGxhYkFwaSIsInJlY29yZGluZ1VpZCI6IjE4NDM5M2ZjNTgzZDRjYmJhNWY1MTk5MmM0MmY0OGE3IiwiaXNzIjoiYmJDb2xsYWJBcGkiLCJ0eXBlIjoxLCJleHAiOjE2MTEyMjg0NjcsImlhdCI6MTYxMTIyNDg2NywiY29uc3VtZXIiOiJhMWZmMzQ1ZjcyZDg0OWEwYWJmN2U4NzUxMzc0NjlkMiJ9.i0M2qQlL5Jt5iZXK6w1wbKqaNAa1TFR1JmO2xMmwyVk">ici</a> (sur la section correspondant au cours sur Ecampus). Ce cours **couvre la fin du Chapitres IV** du polycopié ci-dessus et notamment les sections 4.4, 4.5 et 4.7.<br>
-Enfin, pas d'exercices à rendre pour le cours suivant, vous avez le DM 1 pour vous exercer ainsi que le calcul commencé en fin de cours à terminer, à savoir appliquer Parseval à la fonction <math><mi>f</mi>:</math>&#x211D;&rarr;&#x211D; <math>2</math>&pi;-périodique.
+Enfin, pas d'exercices à rendre pour le cours suivant, vous avez le DM 1 pour vous exercer ainsi que le calcul commencé en fin de cours à terminer, à savoir appliquer Parseval à la fonction <math><mi>f</mi>:</math>&#x211D;&rarr;&#x211D; <math>2</math>&#960;-périodique.
 
 # Devoirs à la maison
 
