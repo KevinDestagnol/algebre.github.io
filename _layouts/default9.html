@@ -28,7 +28,10 @@
     </header>
     <main id="content" class="main-content" role="main">
       <center>
-      <hprime class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }} : Convergence de la série de Fourier </hprime> 
+      <hprime class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }} </hprime>
+	      <hprime2 class="project-name">
+        <div id="typedtext" style="font-family: Quantico,Helvetica, Arial, sans-serif;"></div>
+        </hprime2>
       <!--<hprime2 class="project-name">{{ page.description | default: site.description | default: site.github.project_tagline }}</hprime2>-->
       </center>
       
@@ -40,7 +43,7 @@
 On définit alors pour tout entier naturel <math><mi>N</mi></math> et tout réel <math><mi>t</mi></math>, la série de Fourier tronquée à <math><mi>N</mi></math> (autrement dit la somme partielle de rang <math><mi>N</mi></math> associée à la série de Fourier de <math><mi>f</mi></math> avec le langage des séries) </br>
 <p class="flotte" style="text-align:center">
 <math mathsize="normal" xmlns='http://www.w3.org/1998/Math/MathML' display='block' style="font-family:Times New Roman, Times, serif;">
-	<msub><mi>S</mi>{<mi>N</mi>,<mi>f</mi>}</msub><mi>(</mi><mi>t</mi><mi>)</mi>
+	<msub><mi>S</mi><mi>N,f</mi></msub><mi>(</mi><mi>t</mi><mi>)</mi>
     <mo>=</mo>
 	<msub><mi>a</mi><mn>0</mn></msub><mi>(</mi><mi>f</mi><mi>)</mi><mo>+</mo>
     <munderover displaystyle="true">
@@ -77,7 +80,7 @@ On définit alors pour tout entier naturel <math><mi>N</mi></math> et tout réel
 La seconde égalité provenant des calculs des coefficients de Fourier effectués en pages 45 et suivantes du polycopié de <a href="cours_maths_254.pdf">cours<c></a>.
 </br>
 </br>
-Le théorème de Dirichlet nous assure que lorsque <math><mi>N</mi></math> tend vers l'infini, la quantité <math><msub><mi>S</mi><mi>N</mi>,<mi>f</mi></msub><mi>(</mi><mi>t</mi><mi>)</mi></math> doit tendre vers <math><mi>f</mi><mi>(</mi><mi>t</mi><mi>)</mi></math> pour tout réel <math><mi>t</mi></math> et ainsi pour <math><mi>N</mi></math> assez grand, le polynôme trigonométrique <math><msub><mi>S</mi><mi>N</mi>,<mi>f</mi></msub></math> doit être une bonne approximation de la fonction <math><mi>f</mi></math>. C'est ce qu'illustre l'animation suivante qui représente le graphe de la fonction <math><mi>f</mi></math> ainsi que ceux des polynômes trigonométriques <math><msub><mi>S</mi><mi>N,f</mi></msub></math> pour <math><mi>N</mi></math> entre 0 et 19. 
+Le théorème de Dirichlet nous assure que lorsque <math><mi>N</mi></math> tend vers l'infini, la quantité <math><msub><mi>S</mi><mi>N,f</mi></msub><mi>(</mi><mi>t</mi><mi>)</mi></math> doit tendre vers <math><mi>f</mi><mi>(</mi><mi>t</mi><mi>)</mi></math> pour tout réel <math><mi>t</mi></math> et ainsi pour <math><mi>N</mi></math> assez grand, le polynôme trigonométrique <math><msub><mi>S</mi><mi>N,f</mi></msub></math> doit être une bonne approximation de la fonction <math><mi>f</mi></math>. C'est ce qu'illustre l'animation suivante qui représente le graphe de la fonction <math><mi>f</mi></math> ainsi que ceux des polynômes trigonométriques <math><msub><mi>S</mi><mi>N,f</mi></msub></math> pour <math><mi>N</mi></math> entre 0 et 19. 
 </br>
 <p class="flotte" style="text-align:center">
  <video controls>
@@ -94,7 +97,7 @@ Le théorème de Dirichlet nous assure que lorsque <math><mi>N</mi></math> tend 
  // set up text to print, each item in array is new line
  /*$(typedtext)[0].innerHTML = "Test";*/
  var aText = new Array(
-"Analyse de Fourier et Géométrie."
+"Convergence de la série de Fourier."
 );
 var iSpeed = 170; // time delay of print out
 var iArrLength = aText[0].length; // the length of the text array
