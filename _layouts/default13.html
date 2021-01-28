@@ -38,11 +38,12 @@
 	    <br>
       
 <c> On donne ici un exemple ultra-simplifié de cas où les séries de Fourier peuvent servir à éliminer un bruit dans un signal.
-</br>
+</br><br>
 Vous savez tous qu'un son n'est rien d'autre qu'une onde mécanique qui se propage dans l'air ou dans un fluide. Imaginons alors que pour les besoins d'une expérience, nous devions enregistrer un signal sonore périodique et que le signal en question corresponde au signal <math style="font-family:Times New Roman, Times, serif;">2&pi;</math>-périodique suivant, noté <math><mi>f</mi></math> dans la suite :</br>
 <p class="flotte" style="text-align:center">
  <img src="signal_complique.png" alt="Signal périodique" width="500" />
 </p>
+mais qu'une alarme se soit déclenchée pendant l'expérience et qu'on ait obtenu le signal bruité ci-dessous, que l'on notera <math><mi>g</mi></math> dans la suite.
 <p class="flotte" style="text-align:center">
  <img src="signal_bruite.png" alt="Signal bruité" width="500" />
 </p>
@@ -58,7 +59,7 @@ Par ailleurs, on définit alors pour tout entier naturel <math><mi>N</mi></math>
 <math mathsize="big" xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
 	<msub><mi>S</mi><mi>N,g</mi></msub><mi>(</mi><mi>t</mi><mi>)</mi>
     <mo>=</mo>
-	<msub><mi>a</mi><mn>0</mn></msub><mi>(</mi><mi>g</mi><<mi>)</mi><mo>+</mo>
+	<msub><mi>a</mi><mn>0</mn></msub><mi>(</mi><mi>g</mi><mi>)</mi><mo>+</mo>
     <munderover>
       <mo>&sum;</mo>
       <mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow>
@@ -78,7 +79,7 @@ Par ailleurs, on définit alors pour tout entier naturel <math><mi>N</mi></math>
    </math>
 </p>
 </br>
-Le théorème de Dirichlet nous assure que lorsque <math><mi>N</mi></math> tend vers l'infini, la quantité <math><msub><mi>S</mi><mi>N,g</mi></msub><mi>(<>/mi><mi>t</mi><mi>)</mi></math> doit tendre vers <math><mi>g</mi><mi>(</mi><mi>t</mi><mi>)</mi></math> pour tout réel <math><mi>t</mi></math> et ainsi pour <math><mi>N</mi></math> assez grand, le polynôme trigonométrique <math><msub><mi>S</mi><mi>N,g</mi></msub></math> doit être une bonne approximation du signal <math><mi>g</mi></math>. C'est ce qu'illustre l'animation suivante qui représente le graphe de la fonction <math><mi>g</mi></math> ainsi que ceux des polynômes trigonométriques <math><msub><mi>S</mi><mi>N,g</mi></msub></math> pour <math><mi>N</mi></math> entre 0 et 58. 
+Le théorème de Dirichlet nous assure que lorsque <math><mi>N</mi></math> tend vers l'infini, la quantité <math><msub><mi>S</mi><mi>N,g</mi></msub><mi>(</mi><mi>t</mi><mi>)</mi></math> doit tendre vers <math><mi>g</mi><mi>(</mi><mi>t</mi><mi>)</mi></math> pour tout réel <math><mi>t</mi></math> et ainsi pour <math><mi>N</mi></math> assez grand, le polynôme trigonométrique <math><msub><mi>S</mi><mi>N,g</mi></msub></math> doit être une bonne approximation du signal <math><mi>g</mi></math>. C'est ce qu'illustre l'animation suivante qui représente le graphe de la fonction <math><mi>g</mi></math> ainsi que ceux des polynômes trigonométriques <math><msub><mi>S</mi><mi>N,g</mi></msub></math> pour <math><mi>N</mi></math> entre 0 et 58. 
 </br>
 <p class="flotte" style="text-align:center">
  <video  width="500" controls>
