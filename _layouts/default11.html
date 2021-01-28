@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    {% if site.google_analytics %}
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ site.google_analytics }}');
+      </script>
+    {% endif %}
+    <meta charset="UTF-8">
+{% seo %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+      {% if site.show_downloads %}
+        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
+        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
+      {% endif %}
+    </header>
+    <main id="content" class="main-content" role="main">
+      <center>
+      <hprime class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }} </hprime>
+	      <hprime2 class="project-name">
+        <div id="typedtext" style="font-family: Quantico,Helvetica, Arial, sans-serif;"></div>
+        </hprime2>
+      <!--<hprime2 class="project-name">{{ page.description | default: site.description | default: site.github.project_tagline }}</hprime2>-->
+      </center>
+	    <br>
+	    <br>
+      
+<c>On considère le signal <math style="font-family:Times New Roman, Times, serif;">2&pi;</math>-périodique de la page 47 du polycopié de <a href="cours_maths_254.pdf">cours<c></a>, noté <math><mi>f</mi></math> dans la suite.</br><br>
+On définit alors pour tout entier naturel <math><mi>N</mi></math> et tout réel <math><mi>t</mi></math>, la série de Fourier tronquée à <math><mi>N</mi></math> (autrement dit la somme partielle de rang <math><mi>N</mi></math> associée à la série de Fourier de <math><mi>f</mi></math> avec le langage des séries) </br>
+<p class="flotte" style="text-align:center">
+<math mathsize="big" xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+	<msub><mi>S</mi><mi>N,f</mi></msub><mi>(</mi><mi>t</mi><mi>)</mi>
+    <mo>=</mo>
+	<msub><mi>a</mi><mn>0</mn></msub><mi>(</mi><mi>f</mi><mi>)</mi><mo>+</mo>
+    <munderover>
+      <mo style="font-family:Times New Roman, Times, serif;">&sum;</mo>
+      <mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow>
+      <mi>N</mi>
+    </munderover>
+	<mi>(</mi>
+	<msub><mi>a</mi><mi>n</mi></msub><mi>(</mi><mi>f</mi><mi>)</mi><mi>cos</mi>
+	<mi>(</mi>
+	<mi>n</mi>
+	<mi>t</mi>
+	<mi>)</mi>    <mo>+</mo><msub><mi>b</mi><mi>n</mi></msub><mi>(</mi><mi>f</mi><mi>)</mi><mi>sin</mi>
+	<mi>(</mi>
+	<mi>n</mi>
+	<mi>t</mi>
+	<mi>)</mi>  
+	<mi>)</mi>
+    <mo>=</mo><mfrac><mrow><msup><mi>e</mi><mi style="font-family:Times New Roman, Times, serif;">2&pi;</mi></msup><mo>-</mo><mi>1</mi></mrow><mn style="font-family:Times New Roman, Times, serif;">2&pi;</mn></mfrac><mo>-</mo><mn>2</mn><munderover>
+      <mo style="font-family:Times New Roman, Times, serif;">&sum;</mo>
+      <mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow>
+      <mi>N</mi>
+    </munderover><mfrac>
+    <mrow><mi>sin</mi>
+	    <mi>(</mi>
+	<mi>n</mi>
+	<mi>t</mi>
+	    <mi>)</mi></mrow>
+  <mi>n</mi>
+  </mfrac>.
+   </math>
+</p>
+</br>
+
+
+La seconde égalité provenant des calculs des coefficients de Fourier effectués en pages 47 et suivantes du polycopié de <a href="cours_maths_254.pdf">cours<c></a>.
+</br>
+</br>
+Le théorème de Dirichlet (dans la version de la Proposition 4.7 (ii) du polycopié de <a href="cours_maths_254.pdf">cours<c></a>) nous assure que lorsque <math><mi>N</mi></math> tend vers l'infini, la quantité <math><msub><mi>S</mi><mi>N,f</mi></msub><mi>(</mi><mi>t</mi><mi>)</mi></math> doit tendre vers <math><mi>f</mi><mi>(</mi><mi>t</mi><mi>)</mi></math> en tout point de continuité <math><mi>t</mi></math> et vers <math><mfrac><mrow><mi>f</mi><mi>(</mi><msup><mi>t</mi><mo>+</mo></msup><mi>)</mi><mo>+</mo><mi>f</mi><mi>(</mi><msup><mi>t</mi><mo>-</mo></msup><mi>)</mi></mrow><mn>2</mn></mfrac></math> pour tout point de discontinuité <math><mi>t</mi></math> et ainsi pour <math><mi>N</mi></math> assez grand, le polynôme trigonométrique <math><msub><mi>S</mi><mi>N,f</mi></msub></math> doit être une bonne approximation de la fonction <math><mi>f</mi></math>. C'est ce qu'illustre l'animation suivante qui représente le graphe de la fonction <math><mi>f</mi></math> ainsi que ceux des polynômes trigonométriques <math><msub><mi>S</mi><mi>N,f</mi></msub></math> pour <math><mi>N</mi></math> entre 0 et 49. 
+</br>
+<p class="flotte" style="text-align:center">
+ <video  width="500" controls>
+  <source alt="Animation exp" src="exp.mp4" type="video/mp4">
+</video> 
+</p>
+</br>
+On observe un effet de bord, une déformation du signal à proximité des discontinuité. Ce phénomène est appelé <b>phénomène de Gibbs</b><c> et traduit le fait que la convergence est "moins bonne", ce qui est finalement compréhensible puisque les polynômes trigonométriques approchant le signal discontinu sont, eux, continus et même aussi régulier que l'on veut!
+
+
+      <footer class="site-footer">
+        <span class="site-footer-credits" font-family:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;>This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      </footer>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+ // set up text to print, each item in array is new line
+ /*$(typedtext)[0].innerHTML = "Test";*/
+ var aText = new Array(
+"Convergence d'une série de Fourier : Illustration."
+);
+var iSpeed = 170; // time delay of print out
+var iArrLength = aText[0].length; // the length of the text array
+var iScrollAt = 20; // start scrolling up at this many lines
+var iIndex = 0; // start printing array at this posision
+var iTextPos = 0; // initialise text position
+var sContents = ''; // initialise contents variable
+var iRow; // initialise current row
+ 
+function typewriter()
+{
+ sContents =  ' ';
+ iRow = Math.max(0, iIndex-iScrollAt);
+ 
+ while ( iRow < iIndex ) {
+  sContents += aText[iRow++] + '<br />';
+ }
+ if (iTextPos++<aText[iIndex].length-1){
+ $(typedtext)[0].innerHTML = sContents + aText[iIndex].substring(0, iTextPos)+"_";
+ $(typedtext)[0].innerHTML = $(typedtext)[0].innerHTML.replace('_', '<span style="color: #5A5E6B;">_</span>');
+     iTextPos++
+ setTimeout("typewriter()", iSpeed);
+}
+else {
+  $(typedtext)[0].innerHTML = sContents + aText[iIndex].substring(0, iTextPos);
+ iTextPos++
+ setTimeout("typewriter()", iSpeed);
+}
+}
+
+
+typewriter();
+typedtext.txt = fullTxt.substring(0, typedtext.txt.length - 1); 
+    </script>
+  </body>
+</html>
