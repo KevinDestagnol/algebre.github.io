@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    {% if site.google_analytics %}
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ site.google_analytics }}');
+      </script>
+    {% endif %}
+    <meta charset="UTF-8">
+{% seo %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+      {% if site.show_downloads %}
+        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
+        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
+      {% endif %}
+    </header>
+    <main id="content" class="main-content" role="main">
+      <center>
+      <hprime class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }} </hprime>
+	      <hprime2 class="project-name">
+        <div id="typedtext" style="font-family: Quantico,Helvetica, Arial, sans-serif;"></div>
+        </hprime2>
+      <!--<hprime2 class="project-name">{{ page.description | default: site.description | default: site.github.project_tagline }}</hprime2>-->
+      </center>
+	    <br>
+	    <br>
+      
+<c> On donne ici un exemple ultra-simplifié de cas où les séries de Fourier peuvent servir à éliminer un bruit dans un signal.
+</br>
+Vous savez tous qu'un son n'est rien d'autre qu'une onde mécanique qui se propage dans l'air ou dans un fluide. Imaginons alors que pour les besoins d'une expérience, nous devions enregistrer un signal sonore périodique et que le signal en question corresponde au signal <math>2&pi;</math>-périodique suivant, noté <math><mi>f</mi></math> dans la suite :</br>
+<p class="flotte" style="text-align:center">
+ <img src="signal_complique.png" alt="Signal périodique" width="500" />
+</p>
+<p class="flotte" style="text-align:center">
+ <img src="signal_bruite.png" alt="Signal bruité" width="500" />
+</p>
+</br>
+Bien qu'on puisse deviner quelques tendances du signal d'origine, il est difficile à partir de ce signal bruité de se faire une idée précise du véritable signal que l'on souhaitait comprendre. Par ailleurs, l'expérience ayant été très coûteuse en temps et en matériel, il n'est pas envisageable de la reproduire et on aimerait savoir s'il est possible d'éliminer le bruit dans le signal mesuré et ainsi de retrouver le signal que l'on souhaitait mesurer. Regardons donc ce que l'analyse de Fourier peut nous apprendre. On calcule les coefficients de Fourier <math><msub><mrow><mfenced separators=''><msub><mi>a</mi><mi>n</mi></msub><mfenced><mi>g</mi></mfenced></mfenced></mrow><mrow><mi>n</mi><mo>&isin;</mo><mn>&naturals;</mn></mrow></msub></math> et <math><msub><mrow><mfenced separators=''><msub><mi>b</mi><mi>n</mi></msub><mfenced><mi>g</mi></mfenced></mfenced></mrow><mrow><mi>n</mi><mo>&geq;</mo><mn>1</mn></mrow></msub></math>. On obtient les coefficients suivants :
+<p class="flotte" style="text-align:center">
+ <img src="coeff_aa.png" alt="Coefficients de Fourier" width="400" />
+ <img src="coeff_bb.png" alt="Coefficients de Fourier" width="400" />
+</p>
+</br>
+Par ailleurs, on définit alors pour tout entier naturel <math><mi>N</mi></math> et tout réel <math><mi>t</mi></math>, la série de Fourier tronquée à <math><mi>N</mi></math> (autrement dit la somme partielle de rang <math><mi>N</mi></math> associée à la série de Fourier de <math><mi>g</mi></math> avec le langage des séries) </br>
+<p class="flotte" style="text-align:center">
+<math mathsize="big" xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+    <msub><mi>S</mi><mi>N,g</mi></msub><mfenced><mi>t</mi></mfenced>
+    <mo>=</mo>
+    <msub><mi>a</mi><mn>0</mn></msub><mfenced><mi>g</mi></mfenced><mo>+</mo>
+    <munderover>
+      <mo>&sum;</mo>
+      <mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow>
+      <mi>N</mi>
+    </munderover>
+    <mfenced open="[" close="]" separators="">
+    <msub><mi>a</mi><mi>n</mi></msub><mfenced><mi>g</mi></mfenced><mi>cos</mi>
+  <mfenced separators=' '>
+	<mi>n</mi>
+	<mi>t</mi>
+  </mfenced>    <mo>+</mo><msub><mi>b</mi><mi>n</mi></msub><mfenced><mi>g</mi></mfenced><mi>sin</mi>
+  <mfenced separators=' '>
+	<mi>n</mi>
+	<mi>t</mi>
+  </mfenced>    
+    </mfenced>
+    <mo>.
+   </math>
+</p>
+</br>
+Le théorème de Dirichlet nous assure que lorsque <math><mi>N</mi></math> tend vers l'infini, la quantité <math><msub><mi>S</mi><mi>N,g</mi></msub><mfenced><mi>t</mi></mfenced></math> doit tendre vers <math><mi>g</mi><mfenced><mi>t</mi></mfenced></math> pour tout réel <math><mi>t</mi></math> et ainsi pour <math><mi>N</mi></math> assez grand, le polynôme trigonométrique <math><msub><mi>S</mi><mi>N,g</mi></msub></math> doit être une bonne approximation du signal <math><mi>g</mi></math>. C'est ce qu'illustre l'animation suivante qui représente le graphe de la fonction <math><mi>g</mi></math> ainsi que ceux des polynômes trigonométriques <math><msub><mi>S</mi><mi>N,g</mi></msub></math> pour <math><mi>N</mi></math> entre 0 et 58. 
+</br>
+<p class="flotte" style="text-align:center">
+ <video  width="500" controls>
+  <source alt="Animation signal bruité" src="signal_complique_bruit.mp4" type="video/mp4">
+</video> 
+</p>
+On constate alors que quelque chose se passe à l'itération 14 et cela est confirmé par les graphes des coefficients de Fourier, il semblerait que le coefficient <math><msub><mi>b</mi><mn>14</mn></msub><mfenced><mi>g</mi></mfenced></math> soit anormalement grand et fasse en quelque sorte "tâche" sur le graphe des coefficients de Fourier de <math><mi>g</mi></math>. Il est ainsi probable que ce coefficient de Fourier soit la répercussion du bruit qui est venu polluer notre signal. On va donc décider de remplacer ce coefficient  <math><msub><mi>b</mi><mn>14</mn></msub><mfenced><mi>g</mi></mfenced></math> par 0 dans la série de Fourier de <math><mi>g</mi></math> et on espère alors que la nouvelle série de Fourier obtenue convergera vers un signal qui se rapproche du signal original que l'on souhaitait mesurer. On définit donc la série de Fourier tronquée et modifiée par :
+<p class="flotte" style="text-align:center">
+<math mathsize="big" xmlns='http://www.w3.org/1998/Math/MathML' display='block'>
+    <msub><mi>S</mi><mi>N,g,modif</mi></msub><mfenced><mi>t</mi></mfenced>
+    <mo>=</mo>
+    <msub><mi>a</mi><mn>0</mn></msub><mfenced><mi>g</mi></mfenced><mo>+</mo>
+    <munderover>
+      <mo>&sum;</mo>
+     <mrow><munder><mrow><mi>n</mi><mo>=</mo><mn>1</mn><mo></mrow><mrow mathsize="small"></mo><mi>n</mi><mo>&ne;</mo><mn>14</mn></mrow></munder></mrow>
+      <mi>N</mi>
+    </munderover>
+    <msub><mi>b</mi><mi>n</mi></msub><mfenced><mi>g</mi></mfenced><mi>sin</mi>
+  <mfenced separators=' '>
+	<mi>n</mi>
+	<mi>t</mi>
+  </mfenced>    
+    <mo>+</mo> <munderover>
+      <mo>&sum;</mo>
+      <mrow><mi>n</mi><mo>=</mo><mn>1</mn><mo></mrow>
+      <mi>N</mi>
+    </munderover>
+    <msub><mi>a</mi><mi>n</mi></msub><mfenced><mi>g</mi></mfenced><mi>cos</mi>
+  <mfenced separators=' '>
+	<mi>n</mi>
+	<mi>t</mi>
+  </mfenced>    .
+   </math>
+</p>
+</br>
+On donne alors le tracé du graphe de <math><msub><mi>S</mi><mi>N,g, modif</mi></msub></math> pour <math><mi>N</mi></math> entre 0 et 58.
+</br>
+<p class="flotte" style="text-align:center">
+ <video  width="500" controls>
+  <source alt="Animation signal bruité" src="signal_complique_bruit_corrige.mp4" type="video/mp4">
+</video> 
+</p>
+On observe bien que cette série de Fourier modifiée converge vers un signal qui semble correspondre au signal que l'on souhaitait initialement mesurer! En réalité le signal est légèrement différent mais cela est ici imperceptible à l'oeil nu! En effet, les coefficients de Fourier de <math><mi>f</mi></math> sont les suivants
+<p class="flotte" style="text-align:center">
+ <img src="coeff_a.png" alt="Coefficients de Fourier" width="400" />
+ <img src="coeff_b.png" alt="Coefficients de Fourier" width="400" />
+</p>
+</br>
+tandis que ceux de  <math><mi>g</mi></math> avec <math><msub><mi>b</mi><mn>14</mn></msub><mfenced><mi>g</mi></mfenced></math> remplacé par 0 sont les suivants :
+<p class="flotte" style="text-align:center">
+ <img src="coeff_aa.png" alt="Coefficients de Fourier" width="400" />
+ <img src="coeff_bbb.png" alt="Coefficients de Fourier" width="400" />
+</p>
+</br>
+On obtient ainsi deux séries de Fourier légèrement différentes (pour l'une le coefficient <math><msub><mi>b</mi><mn>14</mn></msub></math> sera nul tandis que pour l'autre il sera non nul mais très petit) mais les deux séries sont suffisamment proches pour que l'on ne distingue pas la différence et pour que le signal original reconstruit soit considéré comme une bonne approximation suffisante du signal que l'on souhaitait mesurer! 
+</br>
+</br>
+En général, on a des moyens d'obtenir la signature de Fourier d'un bruit (en gros l'équivalent de ses "premiers" coefficients de Fourier) à partir de l'enregistrement du bruit seul (que l'on peut soit reproduire plus tard soit isoler sur une partie de l'enregistrement souvent effectué à blanc avant le début de la mesure justement en cas de bruit de fond à détecter et éliminer). Cela permet alors en gros de corriger la série de Fourier et d'éliminer le bruit sur le même principe que ce qui est présenté ci-dessus.</br>
+</br>
+Par exemple, pour un morceau de musique avec un bruit de fond (conversations dans une salle par exemple). On isole le bruit de fond avant le début du morceau et on calcule en quelque sorte ses coefficients de Fourier. Puis à la partie où le morceau est joué, on associe une "série de Fourier" à laquelle on retire la "série de Fourier" du bruit de fond. La série de Fourier ainsi obtenue devrait alors converger vers quelque chose de très proche du morceau de musique sans bruit de fond! Cela n'est qu'un exemple parmi tant d'autres des applications de l'analyse de Fourier au traitement des signaux et on peut aussi bein sûr adapter l'analyse de Fourier au traitement des images! Ici évidemment, les choses ont été simplifiées à outrance à des fins pédagogiques puisqu'un morceau de musique ou une image ne correspondent pas à des signaux périodiques pour lesquels le spectre (les fréquences dont sont composés les signaux) est discret mais dans les cas où ce spectre est continu, on dispose de l'analogue continu des séries de Fourier, à savoir la transformée de Fourier et son approximation discrète la transformée de Fourier rapide (qui est notamment utilisée par votre smartphone).
+
+
+      <footer class="site-footer">
+        <span class="site-footer-credits" font-family:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;>This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      </footer>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+ // set up text to print, each item in array is new line
+ /*$(typedtext)[0].innerHTML = "Test";*/
+ var aText = new Array(
+"Séries de Fourier : une application."
+);
+var iSpeed = 170; // time delay of print out
+var iArrLength = aText[0].length; // the length of the text array
+var iScrollAt = 20; // start scrolling up at this many lines
+var iIndex = 0; // start printing array at this posision
+var iTextPos = 0; // initialise text position
+var sContents = ''; // initialise contents variable
+var iRow; // initialise current row
+ 
+function typewriter()
+{
+ sContents =  ' ';
+ iRow = Math.max(0, iIndex-iScrollAt);
+ 
+ while ( iRow < iIndex ) {
+  sContents += aText[iRow++] + '<br />';
+ }
+ if (iTextPos++<aText[iIndex].length-1){
+ $(typedtext)[0].innerHTML = sContents + aText[iIndex].substring(0, iTextPos)+"_";
+ $(typedtext)[0].innerHTML = $(typedtext)[0].innerHTML.replace('_', '<span style="color: #5A5E6B;">_</span>');
+     iTextPos++
+ setTimeout("typewriter()", iSpeed);
+}
+else {
+  $(typedtext)[0].innerHTML = sContents + aText[iIndex].substring(0, iTextPos);
+ iTextPos++
+ setTimeout("typewriter()", iSpeed);
+}
+}
+
+
+typewriter();
+typedtext.txt = fullTxt.substring(0, typedtext.txt.length - 1); 
+    </script>
+  </body>
+</html>
+
