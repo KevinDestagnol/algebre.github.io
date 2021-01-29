@@ -30,7 +30,7 @@ Vous trouverez ci-dessous toutes les ressources concernant les cours et les TDs 
 
 * Enfin, les exercices à rendre (via la section ci-dessous **Rendre un document pour correction**) sont disponibles <a href="https://www.imo.universite-paris-saclay.fr/~destagnol/exos_cours1.pdf">ici</a> avec leur <a href="https://www.imo.universite-paris-saclay.fr/~destagnol/exos_cours1_correction.pdf">corrigé</a>.<br>
 
-*vVous trouverez <a href="https://www.imo.universite-paris-saclay.fr/~destagnol/suiteconvergente.html">ici</a> une animation illustrant la convergence d'une suite.
+* Vous trouverez <a href="https://www.imo.universite-paris-saclay.fr/~destagnol/suiteconvergente.html">ici</a> une animation illustrant la convergence d'une suite.
 
 ## Cours 2
 
