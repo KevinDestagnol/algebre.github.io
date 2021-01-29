@@ -16,6 +16,12 @@ Bienvenu sur la page du cours de **Maths 254** de l'année **2020-2021** de l'un
 
 2. La <a href="td2_m254_2021.pdf">deuxième feuille de TD</a> sur les séries de Fourier et son <a href="https://kevindestagnol.github.io/maths254.github.io/erreur">corrigé</a>.
 
+1. Item
+2. Item
+   * Mixed
+   * Mixed  
+3. Item
+
 # Cours et TDs à distance
 
 Vous trouverez ci-dessous toutes les ressources concernant les cours et les TDs à distance ainsi que les exercices à faire d'un cours sur l'autre.
