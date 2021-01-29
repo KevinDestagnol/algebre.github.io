@@ -17,7 +17,6 @@ Bienvenu sur la page du cours de **Maths 254** de l'année **2020-2021** de l'un
    * Les <a href="TD M 254 26_01_21.pdf">notes manuscrites</a> de la seconde séance de TD couvrant la fin de l'exercice  3 et l'exercice 6 et son <a href="https://eu.bbcollab.com/collab/ui/session/playback/load/6cd81fab03ef4634bc5b8370a71e08ff?authToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJiYkNvbGxhYkFwaSIsInJlY29yZGluZ1VpZCI6IjZjZDgxZmFiMDNlZjQ2MzRiYzViODM3MGE3MWUwOGZmIiwiaXNzIjoiYmJDb2xsYWJBcGkiLCJ0eXBlIjoxLCJleHAiOjE2MTE2NTc0NjksImlhdCI6MTYxMTY1Mzg2OSwiY29uc3VtZXIiOiJhMWZmMzQ1ZjcyZDg0OWEwYWJmN2U4NzUxMzc0NjlkMiJ9.Gz8AEJaR52XD2J4wsqujy4OjUmEJlvTJym5Qcy_cc1s">enregistrement</a> pour le **groupe C2**.
    * Pour le **groupe C1**, les notes des séances de TD et les enregistrements sont déposés sur Ecampus par &Eacute;lodie Maignant.<br>
    
-<br>
 2. La <a href="td2_m254_2021.pdf">deuxième feuille de TD</a> sur les séries de Fourier et son <a href="https://kevindestagnol.github.io/maths254.github.io/erreur">corrigé</a>.
 
 # Cours et TDs à distance
