@@ -6,21 +6,17 @@ Bienvenu sur la page du cours de **Maths 254** de l'année **2020-2021** de l'un
 
 # Polycopié de cours et feuilles de TD
 
+## Polycopié
+
 * Le <a href="cours_maths_254.pdf">polycopié</a> du cours et sa version <a href="cours_maths_254_abrege.pdf">courte</a> ne contenant que l'essentiel à connaître. N'hésitez pas à m'écrire pour toute question ou si vous repérez ce qui vous semble être une erreur ou une coquille.
 
+## Feuilles de TD
+
 1. La <a href="https://www.imo.universite-paris-saclay.fr/~destagnol/TD1_m254.pdf">première feuille de TD</a> sur les suites et séries et son <a href="TD1_m254_2021_corrige.pdf">corrigé</a>. 
- * Les <a href="TD1_goupeC2.pdf">notes manuscrites</a> de la première séance de TD couvrant les exercices 1, 2 et le début du 3 et son <a   href="https://ecampus.paris-saclay.fr/mod/collaborate/recordings.php?c=41520&action=view&rid=e8e3b47cd8774e27ac1969d5bd7adbb3&url=rest_launch&sesskey=Anagl4tyYT& sessionlinkid=60342">enregistrement</a> pour le **groupe C2**. 
- * Les <a href="TD M 254 26_01_21.pdf">notes manuscrites</a> de la seconde séance de TD couvrant la fin de l'exercice  3 et l'exercice 6 et son <a href="https://eu.bbcollab.com/collab/ui/session/playback/load/6cd81fab03ef4634bc5b8370a71e08ff?authToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJiYkNvbGxhYkFwaSIsInJlY29yZGluZ1VpZCI6IjZjZDgxZmFiMDNlZjQ2MzRiYzViODM3MGE3MWUwOGZmIiwiaXNzIjoiYmJDb2xsYWJBcGkiLCJ0eXBlIjoxLCJleHAiOjE2MTE2NTc0NjksImlhdCI6MTYxMTY1Mzg2OSwiY29uc3VtZXIiOiJhMWZmMzQ1ZjcyZDg0OWEwYWJmN2U4NzUxMzc0NjlkMiJ9.Gz8AEJaR52XD2J4wsqujy4OjUmEJlvTJym5Qcy_cc1s">enregistrement</a> pour le **groupe C2**. 
- * Pour le **groupe C1**, les notes des séances de TD et les enregistrements sont déposés sur Ecampus par &Eacute;lodie Maignant.
-
-
+   * Les <a href="TD1_goupeC2.pdf">notes manuscrites</a> de la première séance de TD couvrant les exercices 1, 2 et le début du 3 et son <a   href="https://ecampus.paris-saclay.fr/mod/collaborate/recordings.php?c=41520&action=view&rid=e8e3b47cd8774e27ac1969d5bd7adbb3&url=rest_launch&sesskey=Anagl4tyYT& sessionlinkid=60342">enregistrement</a> pour le **groupe C2**.
+   * Les <a href="TD M 254 26_01_21.pdf">notes manuscrites</a> de la seconde séance de TD couvrant la fin de l'exercice  3 et l'exercice 6 et son <a href="https://eu.bbcollab.com/collab/ui/session/playback/load/6cd81fab03ef4634bc5b8370a71e08ff?authToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJiYkNvbGxhYkFwaSIsInJlY29yZGluZ1VpZCI6IjZjZDgxZmFiMDNlZjQ2MzRiYzViODM3MGE3MWUwOGZmIiwiaXNzIjoiYmJDb2xsYWJBcGkiLCJ0eXBlIjoxLCJleHAiOjE2MTE2NTc0NjksImlhdCI6MTYxMTY1Mzg2OSwiY29uc3VtZXIiOiJhMWZmMzQ1ZjcyZDg0OWEwYWJmN2U4NzUxMzc0NjlkMiJ9.Gz8AEJaR52XD2J4wsqujy4OjUmEJlvTJym5Qcy_cc1s">enregistrement</a> pour le **groupe C2**.
+   * Pour le **groupe C1**, les notes des séances de TD et les enregistrements sont déposés sur Ecampus par &Eacute;lodie Maignant.
 2. La <a href="td2_m254_2021.pdf">deuxième feuille de TD</a> sur les séries de Fourier et son <a href="https://kevindestagnol.github.io/maths254.github.io/erreur">corrigé</a>.
-
-1. Item
-2. Item
-   * Mixed
-   * Mixed  
-3. Item
 
 # Cours et TDs à distance
 
