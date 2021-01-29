@@ -18,7 +18,10 @@ Bienvenu sur la page du cours de **Maths 254** de l'année **2020-2021** de l'un
    * Pour le **groupe C1**, les notes des séances de TD et les enregistrements sont déposés sur Ecampus par &Eacute;lodie Maignant.<br>
    
    
-2. La <a href="td2_m254_2021.pdf">deuxième feuille de TD</a> sur les séries de Fourier et son <a href="https://kevindestagnol.github.io/maths254.github.io/erreur">corrigé</a>.
+2. La <a href="td2_m254_2021.pdf">deuxième feuille de TD</a> sur les séries de Fourier et son <a href="https://kevindestagnol.github.io/maths254.github.io/erreur">corrigé</a>.<br>
+
+
+3.
 
 # Cours et TDs à distance
 
@@ -62,11 +65,17 @@ Vous trouverez ci-dessous toutes les ressources concernant les cours et les TDs 
 
 * Enfin <a href="https://kevindestagnol.github.io/maths254.github.io/application"> ici</a>, une application des séries de Fourier à l'élimination d'un bruit dans un signal.
 
+## Cours 5
+
+## Cours 6
+
 # Devoirs à la maison
 
 ## Premier devoir
 
 Le premier devoir à la maison est disponible <a href="dm1_m254_2021.pdf">ici</a>. Il est à rendre pour le **10 février 2021**. Merci de le rendre à votre chargé de TD, via le formulaire ci-dessous (section **Rendre un document pour correction**) pour le groupe C2 et par mail à &Eacute;lodie Maignant pour le groupe C1. Vous pouvez rédiger votre travail **par groupe de 3 maximum** à condition que **chacun ou chacune d'entre vous rédige une partie du devoir**. Le corrigé est <a href="https://kevindestagnol.github.io/maths254.github.io/erreur">ici</a>.
+
+## Second devoir
 
 
 # Annales de l'an dernier
