@@ -77,13 +77,27 @@ figure {
 .container img {
 	max-width : 100%;
 }
-
- videosize {
-	max-width : 95%;
+.video-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  max-width: 95%;
+  height: 100%; 
+  overflow: hidden;
 }
+.video-container video {
+  /* Make video to at least 100% wide and tall */
+  max-width: 95%; 
 
-.container source {
-	max-width : 90%;
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  width: auto;
+  height: auto;
+
+  /* Center the video */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 
 .container math {
