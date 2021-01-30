@@ -91,10 +91,9 @@ figure {
   /* Center the video */
 }
 
-math[display="block" i] {
+math {
 	 @include small {
-  display: block math;
-  math-style: small;
+  mathsize: small;
 	}
 }
 
