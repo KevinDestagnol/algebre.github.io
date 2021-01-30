@@ -91,18 +91,11 @@ figure {
   /* Center the video */
 }
 
-.math-container {
-  max-width: 95%;
-}
-.math-container math {
-  /* Make video to at least 100% wide and tall */
-  max-width: 95%; 
-
-  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
-  width: auto;
-  height: auto;
-
-  /* Center the video */
+math[display="block" i] {
+	 @include small {
+  display: block math;
+  math-style: small;
+	}
 }
 
 figcaption {
