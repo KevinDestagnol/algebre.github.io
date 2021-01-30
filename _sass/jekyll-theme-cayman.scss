@@ -91,7 +91,7 @@ figure {
   /* Center the video */
 }
 
-math {
+math[display="block" i] {
 	 @include small {
  max-width: 95%;
 	}
