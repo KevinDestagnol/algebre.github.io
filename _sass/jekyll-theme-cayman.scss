@@ -91,8 +91,18 @@ figure {
   /* Center the video */
 }
 
-.container math {
-	max-width : 90%;
+.math-container {
+  max-width: 95%;
+}
+.math-container math {
+  /* Make video to at least 100% wide and tall */
+  max-width: 95%; 
+
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  width: auto;
+  height: auto;
+
+  /* Center the video */
 }
 
 figcaption {
