@@ -19,8 +19,8 @@ Bienvenu sur la page du cours de **Maths 254** de l'année **2020-2021** de l'un
    
    
 2. La <a href="td2_m254_2021.pdf">deuxième feuille de TD</a> sur les séries de Fourier et son <a href="td2_m254_2021_corrigé.pdf">corrigé</a>.
-   * Les <a href="TD3_m254.pdf">notes manuscrites</a> de la séance 3 de TD couvrant l'exercices 1 et son <a   href="td2_m254_2021_corrigé.pdf">corrigé manuscrit</a> pour le **groupe C2**.<br>
-    * Les <a href=" TD2 part.2.pdf">notes manuscrites</a> de la séance 4 de TD couvrant l'exercices 2 pour le **groupe C2**.<br>
+   * Les <a href="TD3_m254.pdf">notes manuscrites</a> de la séance 3 de TD couvrant l'exercices 1 pour le **groupe C2**.<br>
+    * Les <a href="TD2part2.pdf">notes manuscrites</a> de la séance 4 de TD couvrant l'exercices 2 pour le **groupe C2**.<br>
    
 
 # Cours et TDs à distance
