@@ -18,7 +18,7 @@ Bienvenu sur la page du cours de **Maths 254** de l'année **2020-2021** de l'un
    * Pour le **groupe C1**, les notes des séances de TD et les enregistrements sont déposés sur Ecampus par &Eacute;lodie Maignant.<br>
    
    
-2. La <a href="td2_m254_2021.pdf">deuxième feuille de TD</a> sur les séries de Fourier et son <a href="td2_m254_2021_corrigé.pdf">corrigé</a>.
+2. La <a href="td2_m254_2021.pdf">deuxième feuille de TD</a> sur les séries de Fourier et son <a href="td2_m254_2021_corrigé.pdf">corrigé</a>.
    * Les <a href="TD3_m254.pdf">notes manuscrites</a> de la séance 3 de TD couvrant l'exercices 1 pour le **groupe C2**.<br>
     * Les <a href="TD2part2.pdf">notes manuscrites</a> de la séance 4 de TD couvrant l'exercices 2 pour le **groupe C2**.<br>
    
