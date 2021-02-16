@@ -83,7 +83,7 @@ Vous trouverez ci-dessous toutes les ressources concernant les cours et les TDs 
 
 ## Premier devoir
 
-Le premier devoir à la maison est disponible <a href="dm1_m254_2021.pdf">ici</a>. Il est à rendre pour le **10 février 2021**. Merci de le rendre à votre chargé de TD, via le formulaire ci-dessous (section **Rendre un document pour correction**) pour le groupe C2 et par mail à &Eacute;lodie Maignant pour le groupe C1. Vous pouvez rédiger votre travail **par groupe de 3 maximum** à condition que **chacun ou chacune d'entre vous rédige une partie du devoir**. Le corrigé est <a href="dm1_m254_2021_corrigé.pdf">ici</a>.
+Le premier devoir à la maison est disponible <a href="dm1_m254_2021.pdf">ici</a>. Il est à rendre pour le **10 février 2021**. Merci de le rendre à votre chargé de TD, via le formulaire ci-dessous (section **Rendre un document pour correction**) pour le groupe C2 et par mail à &Eacute;lodie Maignant pour le groupe C1. Vous pouvez rédiger votre travail **par groupe de 3 maximum** à condition que **chacun ou chacune d'entre vous rédige une partie du devoir**. Le corrigé est <a href="dm1_m254_2021_corrigé.pdf">ici</a>.
 
 ## Second devoir
 
