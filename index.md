@@ -21,6 +21,8 @@ Bienvenu sur la page du cours de **Maths 254** de l'année **2020-2021** de l'un
 2. La <a href="td2_m254_2021.pdf">deuxième feuille de TD</a> sur les séries de Fourier et son <a href="td2_m254_2021_corrigé.pdf">corrigé</a>.
    * Les <a href="TD3_m254.pdf">notes manuscrites</a> de la séance 3 de TD couvrant l'exercices 1 pour le **groupe C2**.<br>
     * Les <a href="TD2part2.pdf">notes manuscrites</a> de la séance 4 de TD couvrant l'exercices 2 pour le **groupe C2**.<br>
+
+3. La <a href="Cours_td3_m254_2021.pdf">troisième feuille de Cours-TD</a> sur les automorphismes orthogonaux du plan et de l'espace et son <a href="https://kevindestagnol.github.io/maths254.github.io/erreur">corrigé</a>.
    
 
 # Cours et TDs à distance
@@ -86,6 +88,8 @@ Vous trouverez ci-dessous toutes les ressources concernant les cours et les TDs 
 Le premier devoir à la maison est disponible <a href="dm1_m254_2021.pdf">ici</a>. Il est à rendre pour le **10 février 2021**. Merci de le rendre à votre chargé de TD, via le formulaire ci-dessous (section **Rendre un document pour correction**) pour le groupe C2 et par mail à &Eacute;lodie Maignant pour le groupe C1. Vous pouvez rédiger votre travail **par groupe de 3 maximum** à condition que **chacun ou chacune d'entre vous rédige une partie du devoir**. Le corrigé est <a href="dm1_m254_2021_corrigé.pdf">ici</a>.
 
 ## Second devoir
+
+Le second devoir à la maison est disponible <a href="dm2_m254_2021.pdf">ici</a>. Il est à rendre pour le **15 mars 2021**. Merci de le rendre à votre chargé de TD, via le formulaire ci-dessous (section **Rendre un document pour correction**) pour le groupe C2 et par mail à &Eacute;lodie Maignant pour le groupe C1. Vous pouvez rédiger votre travail **par groupe de 3 maximum** à condition que **chacun ou chacune d'entre vous rédige une partie du devoir**. Le corrigé est <a href="https://kevindestagnol.github.io/maths254.github.io/erreur">ici</a>.
 
 
 # Annales de l'an dernier
