@@ -22,7 +22,7 @@ Bienvenu sur la page du cours de **Maths 254** de l'année **2020-2021** de l'un
    * Les <a href="TD3_m254.pdf">notes manuscrites</a> de la séance 3 de TD couvrant l'exercices 1 pour le **groupe C2**.<br>
     * Les <a href="TD2part2.pdf">notes manuscrites</a> de la séance 4 de TD couvrant l'exercices 2 pour le **groupe C2**.<br>
 
-3. La <a href="Cours_td3_m254_2021.pdf">troisième feuille de Cours-TD</a> sur les automorphismes orthogonaux du plan et de l'espace et son <a href="https://kevindestagnol.github.io/maths254.github.io/erreur">corrigé</a>.
+3. La <a href="Cours_td3_m254.pdf">troisième feuille de Cours-TD</a> sur les automorphismes orthogonaux du plan et de l'espace et son <a href="https://kevindestagnol.github.io/maths254.github.io/erreur">corrigé</a>.
    
 
 # Cours et TDs à distance
