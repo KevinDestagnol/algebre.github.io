@@ -20,9 +20,10 @@ Bienvenu sur la page du cours de **Maths 254** de l'année **2020-2021** de l'un
    
 2. La <a href="td2_m254_2021.pdf">deuxième feuille de TD</a> sur les séries de Fourier et son <a href="td2_m254_2021_corrigé.pdf">corrigé</a>.
    * Les <a href="TD3_m254.pdf">notes manuscrites</a> de la séance 3 de TD couvrant l'exercices 1 pour le **groupe C2**.<br>
-    * Les <a href="TD2part2.pdf">notes manuscrites</a> de la séance 4 de TD couvrant l'exercices 2 pour le **groupe C2**.<br>
+   * Les <a href="TD2part2.pdf">notes manuscrites</a> de la séance 4 de TD couvrant l'exercices 2 pour le **groupe C2**.<br>
 
 3. La <a href="Cours_td3_m254.pdf">troisième feuille de Cours-TD</a> sur les automorphismes orthogonaux du plan et de l'espace et son <a href="https://kevindestagnol.github.io/maths254.github.io/erreur">corrigé</a>.
+   * Les <a href="Cours_TD3_plan.pdf">notes manuscrites</a> de la séance 5 de TD couvrant les deux premières section (Introduction et Cas du plan) pour le **groupe C2**, un <a href="Cours_td3_m254_correction.pdf">corrigé partiel</a> et <a href="https://eu.bbcollab.com/collab/ui/session/playback/load/a476405ba3ee4c07a9cfe16db81983ab?authToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJiYkNvbGxhYkFwaSIsInJlY29yZGluZ1VpZCI6ImE0NzY0MDViYTNlZTRjMDdhOWNmZTE2ZGI4MTk4M2FiIiwiaXNzIjoiYmJDb2xsYWJBcGkiLCJ0eXBlIjoxLCJleHAiOjE2MTQ3MjE0NDksImlhdCI6MTYxNDcxNzg0OSwiY29uc3VtZXIiOiJhMWZmMzQ1ZjcyZDg0OWEwYWJmN2U4NzUxMzc0NjlkMiJ9.aSoX1Gz94i0uoI8DQsD1TRvn4-f9xkzICFyVsq-XfOs">l'enregistrement</a>.<br>
    
 
 # Cours et TDs à distance
@@ -99,6 +100,8 @@ Le second devoir à la maison est disponible <a href="dm2_m254_2021.pdf">ici</a>
 * Vous trouverez <a href="dm2_m254.pdf">ici</a> le sujet du second DM de l'an dernier ainsi que <a href="dm2_m254_correction.pdf">son corrigé</a>.
 
 * Vous trouverez <a href="examen_m254_2020.pdf">ici</a> le sujet de l'examen de l'an dernier ainsi que <a href="examen_m254_2020_corrige.pdf">son corrigé</a> et un <a href="https://www.imo.universite-paris-saclay.fr/~destagnol/sujet_blanc_m254.pdf">sujet blanc</a> que j'avais donné pour préparer l'examen.
+
+* Vous trouverez enfin <a href="https://www.imo.universite-paris-saclay.fr/~destagnol/m254.html">ici</a> des vidéos utilisées lors du confinement de l'an dernier concernant les automorphismes orthogonaux de l'espace ainsi que des exercices d'applications corrigés (en vidéo également). 
 
 # Rendre un document pour correction
 
