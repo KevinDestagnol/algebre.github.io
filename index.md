@@ -80,7 +80,7 @@ Vous trouverez ci-dessous toutes les ressources concernant les cours et les TDs 
 
 * Les slides du sixième (et dernier) cours sont disponibles <a href="cours6_m254_annoté.pdf">ici</a> et l'enregistrement du cours est diponible <a href="https://eu.bbcollab.com/collab/ui/session/playback/load/727534317b5d4babb5644bd53bdefcde?authToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJiYkNvbGxhYkFwaSIsInJlY29yZGluZ1VpZCI6IjcyNzUzNDMxN2I1ZDRiYWJiNTY0NGJkNTNiZGVmY2RlIiwiaXNzIjoiYmJDb2xsYWJBcGkiLCJ0eXBlIjoxLCJleHAiOjE2MTM0ODE2MTksImlhdCI6MTYxMzQ3ODAxOSwiY29uc3VtZXIiOiJhMWZmMzQ1ZjcyZDg0OWEwYWJmN2U4NzUxMzc0NjlkMiJ9.7FfNOnpMwJO-8Xn7OZ6MMtYTAVP6UZOvDr4Q9vJboMY">ici</a> (sur la section correspondant au cours sur Ecampus). Ce cours couvre la fin du **Chapitre IV** de la version abrégée du polycopié ci-dessus, à savoir tous les prérequis en algèbre linéaire.<br>
 
-* Pour vous aider à assimiler tout cela, des exercices sur les cours 5 et 6 (à rendre via la section ci-dessous **Rendre un document pour correction**) sont disponibles <a href="exos_cours5_et_6.pdf">ici</a> avec leur <a href="https://kevindestagnol.github.io/maths254.github.io/erreur">corrigé</a>.<br>
+* Pour vous aider à assimiler tout cela, des exercices sur les cours 5 et 6 (à rendre via la section ci-dessous **Rendre un document pour correction**) sont disponibles <a href="exos_cours5_et_6.pdf">ici</a> avec leur <a href="exos_cours5_et_6_correction.pdf">corrigé</a>.<br>
 
 # Devoirs à la maison
 
