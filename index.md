@@ -24,7 +24,7 @@ Bienvenu sur la page du cours de **Maths 254** de l'année **2020-2021** de l'un
 
 3. La <a href="Cours_td3_m254.pdf">troisième feuille de Cours-TD</a> sur les automorphismes orthogonaux du plan et de l'espace et son <a href="Cours_td3_m254_correction.pdf">corrigé</a>.
    * Les <a href="Cours_TD3_plan.pdf">notes manuscrites</a> de la séance 5 de TD couvrant les deux premières sections (Introduction et Cas du plan) pour le **groupe C2** et <a href="https://eu.bbcollab.com/collab/ui/session/playback/load/a476405ba3ee4c07a9cfe16db81983ab?authToken=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJiYkNvbGxhYkFwaSIsInJlY29yZGluZ1VpZCI6ImE0NzY0MDViYTNlZTRjMDdhOWNmZTE2ZGI4MTk4M2FiIiwiaXNzIjoiYmJDb2xsYWJBcGkiLCJ0eXBlIjoxLCJleHAiOjE2MTQ3MjE0NDksImlhdCI6MTYxNDcxNzg0OSwiY29uc3VtZXIiOiJhMWZmMzQ1ZjcyZDg0OWEwYWJmN2U4NzUxMzc0NjlkMiJ9.aSoX1Gz94i0uoI8DQsD1TRvn4-f9xkzICFyVsq-XfOs">l'enregistrement</a>.<br>
-   * Les <a href="Cours_TD3_espace.pdf">notes manuscrites</a> de la séance 6 de TD couvrant la dernière section (Cas de l'espace) pour le **groupe C2**.<br>
+   * Les <a href="TD_3_Maths.pdf">notes manuscrites</a> de la séance 6 de TD couvrant la dernière section (Cas de l'espace) pour le **groupe C2**.<br>
    * Enfin, vous trouverez <a href="https://www.imo.universite-paris-saclay.fr/~destagnol/NH3-2.html">ici</a>, <a href="https://www.imo.universite-paris-saclay.fr/~destagnol/NH3-1.html">ici</a> et <a href="https://www.imo.universite-paris-saclay.fr/~destagnol/NH3-3.html">ici</a> les animations Geogebra utilisées pour illustrer les transformations linéaires qui préservent une molécule d'ammoniac.
    
 
