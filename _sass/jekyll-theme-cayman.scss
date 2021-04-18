@@ -1075,10 +1075,10 @@ hpr {
 position:absolute;
 left: 50%;
 top:30%;
+overflow-x:hidden;
 overflow-y:auto;
 transform: translate(-50%, -30%);
   max-width: 850px;
-  max-height:95%;
   width: 550px;
   padding: 16px;
   background-color: white;
