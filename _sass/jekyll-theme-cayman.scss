@@ -1075,6 +1075,7 @@ hpr {
 position:fixed;
 left: 50%;
 top:30%;
+overflow: scroll;
 transform: translate(-50%, -30%);
   max-width: 850px;
   width: 550px;
