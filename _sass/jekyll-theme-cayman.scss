@@ -1528,6 +1528,7 @@ button{
     @include bm($bm-pd: 8px 16px, $bm-mg: 16px 0 50px 0);
     @include tf(#fff);
     border: none;
+    bottom-margin:40px;
     @include other($ot-br: 4px, $ot-cr: pointer, $ot-bs: $o-b);
         &:hover{
             @include tf($tf-ls: 2px);
