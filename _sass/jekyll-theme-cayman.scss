@@ -1077,7 +1077,6 @@ left: 50%;
 top:30%;
 overflow-x:hidden;
 overflow-y:auto;
-transform: translate(-50%, -30%);
   max-width: 850px;
   width: 550px;
   padding: 16px;
@@ -1085,7 +1084,6 @@ transform: translate(-50%, -30%);
 	border-radius: 5px;
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 	 @include small {
-   transform: translate(-50%, -30%);
 		 max-width: 280px;
   }
 }
