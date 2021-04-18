@@ -1072,11 +1072,10 @@ hpr {
 
 /* Add styles to the form container */
 .container3 {
-position:fixed;
+position:absolute;
 left: 50%;
 top:30%;
-overflow-x:hidden;
-overflow-y:scroll;
+overflow:auto;
 transform: translate(-50%, -30%);
   max-width: 850px;
   width: 550px;
