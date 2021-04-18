@@ -1109,17 +1109,20 @@ transform: translate(-50%, -30%);
   padding: 15px;
   margin: 5px 0px 22px 0px;
   border: none;
+  text-align:left;
   background: #f1f1f1;
 	  border-radius: 5px;
 }
 
 input[type=firstname]:focus {
   background-color: #ddd;
+ text-align:left;
   outline: none;
 }
 
 input[type=firstname] {
   width: 48%;
+text-align:left;
   padding: 15px;
   margin: 5px 0px 22px 0px;
   border: none;
@@ -1129,6 +1132,7 @@ input[type=firstname] {
 
 input[type=text]:focus, input[type=name]:focus {
   background-color: #ddd;
+  text-align:left;
   outline: none;
 }
 
