@@ -1072,7 +1072,7 @@ hpr {
 
 /* Add styles to the form container */
 .container3 {
-position:absolute;
+position:-webkit-sticky;
 left: 50%;
 top:30%;
 overflow-x:hidden;
