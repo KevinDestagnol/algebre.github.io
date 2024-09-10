@@ -45,17 +45,6 @@
           </center>
 </p>
 </div> 
-   <script>
-var video = document.getElementById('video_background');
-var legende = document.getElementById('bouh');
-var wrapper = document.getElementById('wrapper');
-var image = document.getElementById('image_background');
-video.addEventListener('ended', function() {
-    video.style.display = 'none';
-    legende.style.display = 'none';
-    image.style.display = 'inline';
-}, false);
-      </script>
 
 <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 <script type="text/javascript"> 
@@ -67,6 +56,7 @@ var image = document.getElementById('image_background');
 video.on('ended', function() {
     video.fadeOut('200',function(){//$(this) refers to video
         image.fadeIn('200');
+        legende.fadeIn('200');
     });
 });
 </script>
