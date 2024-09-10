@@ -36,7 +36,7 @@
       </center>
       <div id="wrapper" style="text-align: center;"> 
       <p class="flotte" style="text-align:center">
- <video id="video_background" width="500" controls class="video-container" autoplay muted>
+ <video id="video" width="500" controls class="video-container" autoplay muted>
   <source src="hepta.mp4" type="video/mp4">
 </video>  
   <p><center><FONT id="bouh" size="2pt"> Vidéo tirée de la chaîne YouTube <a href="https://www.youtube.com/@AutomathsVulga"> Automaths - Jason Lapeyronnie</a></FONT></center></p>
@@ -45,6 +45,12 @@
           </center>
 </p>
 </div> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="text/javascript">
+  $('#video video').bind('ended', function(){
+   $(this).parent().fadeOut()
+})
+</script>
 
 <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 <script type="text/javascript"> 
