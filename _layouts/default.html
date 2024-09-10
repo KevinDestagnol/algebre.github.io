@@ -59,9 +59,10 @@ video.addEventListener('ended', function() {
 
 <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 <script type="text/javascript"> 
-var video = $('#video_background');
-var image = $('#image_background');
-var legende = $('#legende'); 
+var video = document.getElementById('video_background');
+var legende = document.getElementById('bouh');
+var wrapper = document.getElementById('wrapper');
+var image = document.getElementById('image_background');
 
 video.on('ended', function() {
     $video.fadeOut('200',function(){//$(this) refers to video
