@@ -47,25 +47,11 @@
 </div> 
    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
 <script src="text/javascript">
-  $('#video video').bind('ended', function(){ $(this).parent().animate({ opacity: 0 }, 6000); })
+  $('#video video').bind('ended', function(){ $(this).parent().animate({ opacity: 0 }, 3000); })
 </script>
 
-<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-<script type="text/javascript"> 
-var video = $('#video');
-var image = $('#image_background');
-var legende = $('#bouh');
 
-
-video.on('ended', function() {
-    video.fadeOut('200',function(){//$(this) refers to video
-        image.fadeIn('200');
-        legende.fadeIn('200');
-    });
-});
-</script>
-
-           <script>
+<script>
 var video = document.getElementById('video_background');
 var legende = document.getElementById('bouh');
 var wrapper = document.getElementById('wrapper');
@@ -73,7 +59,7 @@ var image = document.getElementById('image_background');
 video.addEventListener('ended', function() {
     legende.style.display = 'none';
 }, false);
-      </script>
+</script>
       
       <script>
        var images = ['Fourier1.png','Fourier1.png','Fourier1.png','Fourier1.png','Fourier1.png','Fourier1.png','Fourier1.png','Fourier1.png','Fourier2.png','Fourier2.png','Fourier2.png','Fourier2.png','Fourier2.png','Fourier2.png','Fourier2.png','Fourier2.png'];
