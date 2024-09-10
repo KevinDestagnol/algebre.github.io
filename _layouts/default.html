@@ -87,7 +87,7 @@
   </div>
   <div class="column">
     <p class="flotte" style="text-align:center">
-<video id="video" width="500" controls class="video-container" autoplay muted>
+<video id="video_background" width="500" controls class="video-container" autoplay muted>
    <source src="heptag.mp4" type="video/mp4"> 
 </video> 
 <center><FONT size="2pt"> Vidéo tirée de la chaîne YouTube <a href="https://www.youtube.com/@AutomathsVulga"> Automaths - Jason Lapeyronnie</a></FONT></center>
@@ -99,6 +99,15 @@
 </p>
   </div>
 </div> 
+
+    <script type="text/javascript"> 
+var video = document.getElementById('video_background');
+var image = document.getElementById('image2');
+video.addEventListener('ended', function() {
+    //video.style.display = 'none';
+    image.style.display = 'block';
+}, false);
+</script>
 
        {{ content }}
 
