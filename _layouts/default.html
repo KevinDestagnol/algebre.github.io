@@ -49,6 +49,20 @@
 <script src="text/javascript">
   $('#video video').bind('ended', function(){ $(this).parent().animate({ opacity: 0 }, 3000); })
 </script>
+
+      <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script type="text/javascript"> 
+var video = $('#video_background');
+var image = $('#image_background');
+var legende = $('#bouh');
+
+video.on('ended', function() {
+    $(this).fadeOut('200',function(){//$(this) refers to video
+        image.fadeIn('200');
+        legende.fadeIn('200');
+    });
+});
+</script>
   
       
       <script>
