@@ -44,8 +44,20 @@
   <img  id="image_background" src="galois.png" width="100"/>
           </center>
 </p>
+</div> 
+   <script>
+var video = document.getElementById('video_background');
+var legende = document.getElementById('bouh');
+var wrapper = document.getElementById('wrapper');
+var image = document.getElementById('image_background');
+video.addEventListener('ended', function() {
+    video.style.display = 'none';
+    legende.style.display = 'none';
+    image.style.display = 'inline';
+}, false);
+      </script>
 
-   <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 <script type="text/javascript"> 
 var video = $('#video_background');
 var image = $('#image_background');
@@ -57,7 +69,6 @@ video.on('ended', function() {
     });
 });
 </script>
-</div> 
       
       <script>
        var images = ['Fourier1.png','Fourier1.png','Fourier1.png','Fourier1.png','Fourier1.png','Fourier1.png','Fourier1.png','Fourier1.png','Fourier2.png','Fourier2.png','Fourier2.png','Fourier2.png','Fourier2.png','Fourier2.png','Fourier2.png','Fourier2.png'];
