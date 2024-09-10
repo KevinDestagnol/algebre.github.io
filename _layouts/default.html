@@ -38,20 +38,20 @@
       <p class="flotte" style="text-align:center">
  <video id="video_background" width="500" controls class="video-container" autoplay muted>
   <source src="hepta.mp4" type="video/mp4">
-   <center><FONT size="2pt"> Vidéo tirée de la chaîne YouTube <a href="https://www.youtube.com/@AutomathsVulga"> Automaths - Jason Lapeyronnie</a></FONT></center>
+   <p id="bouh"></p><center><FONT size="2pt"> Vidéo tirée de la chaîne YouTube <a href="https://www.youtube.com/@AutomathsVulga"> Automaths - Jason Lapeyronnie</a></FONT></center></p>
 </video> 
         <center>
-          <image id="image_background">
-  <img   src="galois.png" width="100"/>
-          </image>
+  <img  id="image_background" src="galois.png" width="100"/>
           </center>
 </p>
         <script>
 var video = document.getElementById('video_background');
+var legende = document.getElementById('bouh');
 var wrapper = document.getElementById('wrapper');
 var image = document.getElementById('image_background');
 video.addEventListener('ended', function() {
     video.style.display = 'none';
+    legende.style.display = 'none';
     image.style.display = 'inline';
 }, false);
       </script>
