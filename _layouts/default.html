@@ -52,7 +52,7 @@ var image = $('#image_background');
 var legende = $('#legende'); 
 
 video.on('ended', function() {
-    $(this).fadeOut('200',function(){//$(this) refers to video
+    $video.fadeOut('200',function(){//$(this) refers to video
         image.fadeIn('200');
     });
 });
