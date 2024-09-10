@@ -45,7 +45,11 @@
           </center>
 </p>
 </div> 
-
+   <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+<script src="text/javascript">
+  var legende = $('#bouh');
+  $('#video video').bind('ended', function(){ $(this).parent().animate({ opacity: 0 }, 3000);  legende.style.display = 'none'; })
+</script>
 
       <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script type="text/javascript"> 
