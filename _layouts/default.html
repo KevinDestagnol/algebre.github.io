@@ -65,7 +65,7 @@ var wrapper = document.getElementById('wrapper');
 var image = document.getElementById('image_background');
 
 video.on('ended', function() {
-    $video.fadeOut('200',function(){//$(this) refers to video
+    video.fadeOut('200',function(){//$(this) refers to video
         image.fadeIn('200');
     });
 });
