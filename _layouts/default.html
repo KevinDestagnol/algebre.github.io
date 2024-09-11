@@ -105,23 +105,14 @@ var video = document.getElementById('video_background');
 var image2 = document.getElementById('image2');
 var image1 = document.getElementById('image1');
 video.addEventListener('ended', function() {
-    //video.style.display = 'none';
+    video.style.display = 'none';
     image1.style.display = 'inline';
     image2.style.display = 'inline';
 }, false);
 setTimeout(function() {
-  image1.hidden= true;
-}, 1000); 
-</script>
-   <script type="text/javascript"> 
-var image1 = document.getElementById('image1');    
-  setTimeout(function() {
   image1.style.display='none';
-}, 1000);
-  </script>
-    <script type="text/javascript"> 
-var image2 = document.getElementById('image2');    
-  setTimeout(function() {
+}, 1000); 
+setTimeout(function() {
   image2.style.display='none';
 },1000);
 </script>
