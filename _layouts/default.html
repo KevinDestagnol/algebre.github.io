@@ -90,7 +90,7 @@
 <video id="video_background" width="500" controls class="video-container" autoplay muted>
    <source src="heptag.mp4" type="video/mp4"> 
 </video> 
-<center><FONT size="2pt"> Vidéo tirée de la chaîne YouTube <a href="https://www.youtube.com/@AutomathsVulga"> Automaths - Jason Lapeyronnie</a></FONT></center>
+<center><FONT id="t" size="2pt"> Vidéo tirée de la chaîne YouTube <a href="https://www.youtube.com/@AutomathsVulga"> Automaths - Jason Lapeyronnie</a></FONT></center>
       </p> 
   </div>
   <div class="column">
@@ -104,8 +104,10 @@
 var video = document.getElementById('video_background');
 var image2 = document.getElementById('image2');
 var image1 = document.getElementById('image1');
+      var t = document.getElementById('t');
 video.addEventListener('ended', function() {
     video.style.display = 'none';
+    t.style.display = 'none';
     image1.style.display = 'inline';
     image2.style.display = 'inline';
 }, false);
