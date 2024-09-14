@@ -3,12 +3,14 @@
 ---
 
 En attendant qu'Ecampus refonctionne et que la situation soit stabilisée, bienvenu sur la page du cours d'**Algèbre M1 MF** de l'année **2024-2025** de l'université Paris-Saclay où vous trouverez tous les documents relatifs aux cours et aux TDs ainsi que des annales des années précédentes. N'hésitez pas à m'écrire (**kevin.destagnol (at) universite-paris-saclay.fr**) pour toute question relative au cours ou aux TDs.
+<br>
+<i>Welcome on the webpage of the **Algebra** course of the M1 of the Paris-Saclay university for the year **2024-2025**. You will find here all the relevant documents  : lecture notes, exercise sheets and solutions, previous midterms and exams. Do not hesitate to ask me any questions at **kevin.destagnol (at) universite-paris-saclay.fr**.</i>
 
 # Polycopiés de cours et feuilles de TD
 
 ## Polycopiés
 
-Les notes de cours de l'année dernière (dues à David Harari) :
+Les notes de cours de l'année dernière (dues à David Harari) :<br>
 
 *  Le <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg24/group24.pdf">chapitre</a> sur les groupes;
 *  Le <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg24/ring24.pdf">chapitre</a> sur les anneaux commutatifs;
@@ -17,7 +19,7 @@ Les notes de cours de l'année dernière (dues à David Harari) :
 
    # Feuilles de TD
 
-1. La <a href="TD1_groupes_2024.pdf">première feuille de TD</a> sur les groupes.
+1. La <a href="TD1_groupes_2024.pdf">première feuille de TD</a> sur les groupes ainsi que son <a href="https://kevindestagnol.github.io/algebre.github.io/erreur">corrigé</a>.
    * Lors de la première séance, nous avons traité les exercices 1, 2 et 3 dont voici un <a href="TD1_correction_partielle.pdf">corrigé</a>.
 
 # Devoirs à la maison
@@ -30,30 +32,31 @@ Les notes de cours de l'année dernière (dues à David Harari) :
 
 # Annales des partiels et examens
 
-**Attention** que le professeur en charge du cours a changé cette année et que l'esprit des partiels et examens est ainsi susceptible de changer aussi!
+**Attention** que le professeur en charge du cours a changé cette année et que l'esprit des partiels et examens est ainsi susceptible de changer aussi!<br>
+<i>**Be aware** that the professor in charge of the lecture changed this year and as a consequence, the midterm and exam this year might differ from the ones below. If you wish to have an english version of the midterm and of the exam, **inform** Jean-Benoît Bost as soon as possible. In any case, you are of course always free to write your solutions in english.</i>
 
 ## 2020-2021
 
-* Le <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg24/oct23.pdf">partiel</a> et son <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg24/coroct23.pdf">corrigé</a>;
-* L'<a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg24/dec23.pdf">examen</a> et son <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg24/cordec23.pdf">corrigé</a>.
+* Le <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg24/oct23.pdf">partiel</a> et son <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg24/coroct23.pdf">corrigé</a> (in <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg24/engoct23.pdf"> english</a>);
+* L'<a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg24/dec23.pdf">examen</a> et son <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg24/cordec23.pdf">corrigé</a> (in <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg24/engdec23.pdf"> english</a>).
 
 ## 2021-2022
 
 
-* Le <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg23/oct22.pdf">partiel</a> et son <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg23/coroct22.pdf">corrigé</a>;
-* L'<a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg23/dec22.pdf">examen</a> et son <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg23/cordec22.pdf">corrigé</a>.
+* Le <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg23/oct22.pdf">partiel</a> et son <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg23/coroct22.pdf">corrigé</a> (in <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg23/engoct22.pdf"> english</a>);
+* L'<a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg23/dec22.pdf">examen</a> et son <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg23/cordec22.pdf">corrigé</a> (in <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg23/engdec22.pdf"> english</a>).
 
 ## 2022-2023
 
 
-* Le <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg22/oct21.pdf">partiel</a> et son <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg22/coroct21.pdf">corrigé</a>;
-* L'<a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg22/dec21.pdf">examen</a> et son <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg22/cordec21.pdf">corrigé</a>.
+* Le <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg22/oct21.pdf">partiel</a> et son <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg22/coroct21.pdf">corrigé</a> (in <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg22/engoct21.pdf"> english</a>);
+* L'<a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg22/dec21.pdf">examen</a> et son <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg22/cordec21.pdf">corrigé</a> (in <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg22/engdec21.pdf"> english</a>).
 
 ## 2023-2024
 
 
-* Le <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg21/oct20.pdf">partiel</a> et son <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg21/coroct20.pdf">corrigé</a>;
-* L'<a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg21/dec20.pdf">examen</a> et son <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg21/cordec20.pdf">corrigé</a>.
+* Le <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg21/oct20.pdf">partiel</a> et son <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg21/coroct20.pdf">corrigé</a> (in <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg21/engoct20.pdf"> english</a>);
+* L'<a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg21/dec20.pdf">examen</a> et son <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg21/cordec20.pdf">corrigé</a> (in <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg21/engdec20.pdf"> english</a>).
 
 
 <!--Bienvenu sur la page du cours de **Maths 254** de l'année **2020-2021** de l'université Paris-Saclay où vous trouverez tous les documents relatifs aux cours et aux TDs ainsi que des annales de l'an dernier. Vous pouvez vous inscrire au cours <a href="https://kevindestagnol.github.io/maths254.github.io/upload">ici</a>. Les cours et les TDs ont lieu sur Collaborate (lien disponible dans la section correspondant au cours sur Ecampus) jusqu'à nouvel ordre. Vous pouvez me contacter à l'adresse mail **kevin.destagnol (at) universite-paris-saclay.fr** pour toute question ou toute suggestion par rapport à l'organisation du cours ou des TDs.
