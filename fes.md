@@ -1,5 +1,5 @@
 ---
-@import "{{ site.theme}}";
+@import "{{ site.theme }}";
 ---
 
 En attendant qu'Ecampus refonctionne et que la situation soit stabilisée, bienvenu sur la page du cours de **Mathématiques Générales I** du M1 FES de l'année **2024-2025** de l'université Paris-Saclay où vous trouverez tous les documents relatifs aux cours et aux TDs ainsi que des annales des années précédentes. N'hésitez pas à m'écrire (**kevin.destagnol (at) universite-paris-saclay.fr**) pour toute question relative au cours ou aux TDs.<br>
