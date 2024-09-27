@@ -26,11 +26,9 @@ Les notes de cours de l'année dernière (dues à David Harari) :<br>
 
 ## Premier devoir
 
-Pour vous donner une idée de ce à quoi ressembleront les interrogations, <a href="cc1_fes_2023_2024.pdf">voici</a> la première de l'an dernier!
 
 ## Second devoir
 
-Et la <a href="cc2_fes_2023_2024.pdf">seconde</a>.
 
 ## Annales des années précédentes
 
