@@ -27,10 +27,9 @@ Les notes de cours (dues à David Harari) :<br>
 
 ## Annales des années précédentes
 
-# Annales
-
 Pour vous donner une idée de ce à quoi ressembleront les interrogations, <a href="cc1_fes_2023_2024.pdf">voici</a> la première de l'an dernier! Et la seconde <a href="cc2_fes_2023_2024.pdf">ici!</a>
 
+# Annales
 
 ## Partiel et examen 2023-2024
 
