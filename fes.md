@@ -15,7 +15,9 @@ Les notes de cours (dues à David Harari) :<br>
    # Feuilles de TD
 
 1. La <a href="TD1_groupes_2024_FES.pdf">première feuille de TD</a> sur les groupes ainsi que son <a href="https://kevindestagnol.github.io/algebre.github.io/erreur">corrigé</a>.
-   * Lors de la première séance, nous avons traité les exercices 1, 2, 3 et une partie de l'exercice 4 dont voici un <a href="TD1_correction_partielle_FES.pdf">corrigé</a>.
+   * Lors de la première séance, nous avons traité les exercices 1, 2, 3 et une partie de l'exercice 4.
+   * Lors de la deuxième séance, nous avons traité la fin de l'exercice 4 et nous avons commencé l'exercice 5.
+   * Lors de la troisième séance, nous avons terminé l'exercice 5 puis traité les exercices puis une partie des exercices 12 et 13. Voici un <a href="TD1_correction_partielle_FES.pdf">corrigé</a> de la première partie du TD sur les généralités. Sur les exercices non traités en cours, je vous encourage à regarder en priorité les exercices 10, 11 puis 8 et 9 (très classiques à l'agrégation)! Mais bien sûr faire tous les exercices, c'est encore mieux!
 
 # Interrogations
 
