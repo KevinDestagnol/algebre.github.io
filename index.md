@@ -19,7 +19,7 @@ Les notes de cours de l'année dernière (dues à David Harari) :<br>
 
 Pour la partie produit tensoriel, il y a une section dans le polycopié sur les modules ci-dessus. En revanche, la partie représentations linéaires des groupes est nouvelles. Pour celles et ceux qui souhaiteraient des références, on peut mentionner le livre de Jean-Pierre Serre, <i>Représentations linéaires des groupes finis</i> ou celui de Gérard Rauch,<i>Les groupes finis et leurs représentations.</i>
 
-# Feuilles de TD
+## Feuilles de TD
 
 1. La <a href="TD1_groupes_2024.pdf">première feuille de TD</a> sur les groupes ainsi que son <a href="TD1_correction_partielle.pdf">corrigé</a>. Toute la partie cours sur les groupes résolubles et nilpotents se trouve dans le polycopié de David Harari ci-dessus!
 2. La <a href="TD2_algebre_2024_2025.pdf">deuxième feuille de TD</a> sur le produit tensoriel d'espaces vecrtoriels et les représentations linéaires de groupes ainsi que son <a href="https://kevindestagnol.github.io/algebre.github.io/erreur">corrigé</a>.
