@@ -31,6 +31,7 @@ Les notes de cours de l'année dernière (dues à David Harari) :<br>
 
 ## Annales des années précédentes
 
+Le <a href="DM1_algèbre_2023_2024.pdf">premier DM</a> de l'année 2023/2024 et <a href="DM1_algèbre_2022_2023.pdf">pcelui</a> de l'année 2022/2023.
 
 # Annales des partiels et examens
 
