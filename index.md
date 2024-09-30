@@ -22,7 +22,7 @@ Pour la partie produit tensoriel, il y a une section dans le polycopié sur les 
 ## Feuilles de TD
 
 1. La <a href="TD1_groupes_2024.pdf">première feuille de TD</a> sur les groupes ainsi que son <a href="TD1_correction_partielle.pdf">corrigé</a>. Toute la partie cours sur les groupes résolubles et nilpotents se trouve dans le polycopié de David Harari ci-dessus!
-2. La <a href="TD2_algebre_2024_2025.pdf">deuxième feuille de TD</a> sur le produit tensoriel d'espaces vecrtoriels et les représentations linéaires de groupes ainsi que son <a href="https://kevindestagnol.github.io/algebre.github.io/erreur">corrigé</a>.
+2. La <a href="TD2_algebre_2024_2025.pdf">deuxième feuille de TD</a> sur le produit tensoriel d'espaces vectoriels et les représentations linéaires de groupes ainsi que son <a href="https://kevindestagnol.github.io/algebre.github.io/erreur">corrigé</a>.
   
 # Devoirs à la maison
 
