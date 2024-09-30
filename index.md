@@ -17,7 +17,7 @@ Les notes de cours de l'année dernière (dues à David Harari) :<br>
 *  Le <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg24/modules24.pdf">chapitre</a> sur les modules;
 *  Le <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg24/galois24.pdf">chapitre</a> sur les corps et la théorie de Galois.
 
-Pour la partie produit tensoriel, il y a une section dans le polycopié sur les modules ci-dessus. En revanche, la partie représentations linéaires des groupes est nouvelles. Pour celles et ceux qui souhaiteraient des références, on peut mentionner le livre de Jean-Pierre Serre, <i>Représentations linéaires des groupes finis</i> ou celui de Gérard Rauch,<i>Les groupes finis et leurs représentations.</i>
+Pour la partie produit tensoriel, il y a une section dans le polycopié sur les modules ci-dessus. En revanche, la partie représentations linéaires des groupes est nouvelles. Pour celles et ceux qui souhaiteraient des références, on peut mentionner le livre de Jean-Pierre Serre, <i>Représentations linéaires des groupes finis</i> ou celui de Gérard Rauch, <i>Les groupes finis et leurs représentations.</i>
 
 ## Feuilles de TD
 
@@ -28,7 +28,7 @@ Pour la partie produit tensoriel, il y a une section dans le polycopié sur les 
 
 ## Premier devoir
 
-Vous trouverez ici le 
+Vous trouverez ici le <a href="DM1_algebre_2024_2025.pdf">premier devoir</a> à la maison. Il est à rendre idéalement le vendredi 11 octobre à Pierre Lorenzon pour le groupe 2 et le lundi 14 octobre pour le groupe 1 lors de vos séances de TD respectives. Si jamais le groupe de Pierre Lorenzon a besoin de plus de temps, il est possible de venir me rendre votre copie le lundi 14 octobre et je lui transmettrai. Enfin, <a href="https://kevindestagnol.github.io/algebre.github.io/erreur">un corrigé.</a>
 
 ## Second devoir
 
