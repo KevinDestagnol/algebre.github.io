@@ -28,6 +28,7 @@ Pour la partie produit tensoriel, il y a une section dans le polycopié sur les 
 
 ## Premier devoir
 
+Vous trouverez ici le <a href="DM1_algèbre_2024_2025.pdf">premier devoir à la maison.</a> Il est à rendre idéalement le vendredi 11 octobre à Pierre Lorenzon pour le groupe 2 et le lundi 14 octobre pour le groupe 1 lors de vos séances de TD respectives. Si jamais le groupe de Pierre Lorenzon a besoin de plus de temps, il est possible de venir me rendre votre copie le lundi 14 octobre et je lui transmettrai. Enfin, <a href="https://kevindestagnol.github.io/algebre.github.io/erreur">un corrigé.</a>
 
 ## Second devoir
 
