@@ -6,6 +6,8 @@ En attendant qu'Ecampus refonctionne et que la situation soit stabilisée, bienv
 <br>
 <i>Welcome on the webpage of the **Algebra** course of the M1 of the Paris-Saclay university for the year **2024-2025**. You will find here all the relevant documents  : lecture notes, exercise sheets and solutions, previous midterms and exams. Do not hesitate to ask me any questions at **kevin.destagnol (at) universite-paris-saclay.fr**.</i>
 
+
+
 # Polycopiés de cours et feuilles de TD
 
 ## Polycopiés
@@ -17,12 +19,13 @@ Les notes de cours de l'année dernière (dues à David Harari) :<br>
 *  Le <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg24/modules24.pdf">chapitre</a> sur les modules;
 *  Le <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg24/galois24.pdf">chapitre</a> sur les corps et la théorie de Galois.
 
-Pour la partie produit tensoriel, il y a une section dans le polycopié sur les modules ci-dessus. En revanche, la partie représentations linéaires des groupes est nouvelles. Pour celles et ceux qui souhaiteraient des références, on peut mentionner le livre de Jean-Pierre Serre, <i>Représentations linéaires des groupes finis</i> ou celui de Gérard Rauch, <i>Les groupes finis et leurs représentations.</i>
+Pour la partie produit tensoriel, il y a une section dans le polycopié sur les modules ci-dessus. En revanche, la partie représentations linéaires des groupes est nouvelles. Pour celles et ceux qui souhaiteraient des références, on peut mentionner le livre de Jean-Pierre Serre, <i>Représentations linéaires des groupes finis</i> ou celui de Gérard Rauch, <i>Les groupes finis et leurs représentations.</i> Une autre référence qui peut vous être utile sont les slides suivants (dus à <a href="https://www.idpoisson.fr/beck/enseignement/">Vincent Beck</a>) : <a href="https://www.idpoisson.fr/beck/wp-content/uploads/sites/16/2018/06/cours-Gmodule-poly.pdf">G-modules</a>, <a href="https://www.idpoisson.fr/beck/wp-content/uploads/sites/16/2018/06/cours-semisimple-poly.pdf">semi-simplicité</a>, <a href="https://www.idpoisson.fr/beck/wp-content/uploads/sites/16/2018/06/cours-caractere-lineaire-poly.pdf">caractères linéaires</a>, <a href="https://www.idpoisson.fr/beck/wp-content/uploads/sites/16/2018/06/cours-caractere-poly.pdf">caractères I</a> et <a href="https://www.idpoisson.fr/beck/wp-content/uploads/sites/16/2018/06/cours-caractere-2-poly.pdf">caractères II</a>. **Attention** que ces slides ne sont pas exempts de coquilles et par conséquent n'hésitez pas à me contacter en cas de questions!
 
 ## Feuilles de TD
 
 1. La <a href="TD1_groupes_2024.pdf">première feuille de TD</a> sur les groupes ainsi que son <a href="TD1_correction_partielle.pdf">corrigé</a>. Toute la partie cours sur les groupes résolubles et nilpotents se trouve dans le polycopié de David Harari ci-dessus!
 2. La <a href="TD2_algebre_2024_2025.pdf">deuxième feuille de TD</a> sur le produit tensoriel d'espaces vectoriels et les représentations linéaires de groupes ainsi que son <a href="https://kevindestagnol.github.io/algebre.github.io/erreur">corrigé</a>.
+3. La <a href="TD3_algebre_2024_2025.pdf">troisième feuille de TD</a> sur les anneaux ainsi que son <a href="https://kevindestagnol.github.io/algebre.github.io/erreur">corrigé</a>.
   
 # Devoirs à la maison
 
