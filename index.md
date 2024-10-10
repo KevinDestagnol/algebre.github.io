@@ -6,7 +6,7 @@ En attendant qu'Ecampus refonctionne et que la situation soit stabilisée, bienv
 <br>
 <i>Welcome on the webpage of the **Algebra** course of the M1 of the Paris-Saclay university for the year **2024-2025**. You will find here all the relevant documents  : lecture notes, exercise sheets and solutions, previous midterms and exams. Do not hesitate to ask me any questions at **kevin.destagnol (at) universite-paris-saclay.fr**.</i>
 
-<b style='color:red;'>Je serai absent le lundi 4/11 et le lundi 11/11 est férié. Je vous propose donc de rattraper la séance du 4/11 avant le partiel le vendredi 19/10 de 10h45 à 13h en salle 0A1 à la place du cours et la séance du 11/11 le vendredi 15/11 de 10h45 à 13h en salle 0A1 à la place du cours également.</b> <p><font color="red">Il nous manquera alors deux fois 15 minutes de TD que l'on rattrapera en débordant de 5-10 minutes quelques séances de TD habituelles le lundi après-midi.</font></p>
+<b style='color:red;'>Je serai absent le lundi 4/11 et le lundi 11/11 est férié. Je vous propose donc de rattraper la séance du 4/11 avant le partiel le vendredi 19/10 de 10h45 à 13h en salle 0A1 à la place du cours et la séance du 11/11 le vendredi 15/11 de 10h45 à 13h en salle 0A1 à la place du cours également.</b><font color="red">Il nous manquera alors deux fois 15 minutes de TD que l'on rattrapera en débordant de 5-10 minutes quelques séances de TD habituelles le lundi après-midi.</font>
 
 
 
