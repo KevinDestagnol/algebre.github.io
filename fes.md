@@ -15,16 +15,13 @@ Les notes de cours (dues à David Harari) :<br>
    # Feuilles de TD
 
 1. La <a href="TD1_groupes_2024_FES.pdf">première feuille de TD</a> sur les groupes ainsi que son <a href="https://kevindestagnol.github.io/algebre.github.io/erreur">corrigé</a>.
-   * Lors de la première séance, nous avons traité les exercices 1, 2, 3 et une partie de l'exercice 4.
-   * Lors de la deuxième séance, nous avons traité la fin de l'exercice 4 et nous avons commencé l'exercice 5.
-   * Lors de la troisième séance, nous avons terminé l'exercice 5 puis traité les exercices puis une partie des exercices 12 et 13. Voici un <a href="TD1_correction_partielle_FES.pdf">corrigé</a> de la première partie du TD sur les généralités. Sur les exercices non traités en cours, je vous encourage à regarder en priorité les exercices 10, 11 puis 8 et 9 (très classiques à l'agrégation)! Mais bien sûr faire tous les exercices, c'est encore mieux!
-   * Lors de la quatrième séance, nous avons traté les exercices 2, 3 et 6 sur les actions de groupe et commencé l'exercice 9 sur les théorèmes de Sylow. Voici un <a href="TD1_correction_partielle_FES2.pdf">corrigé</a> de ces exercices.
+   * Voici un <a href="TD1_correction_partielle_FES.pdf">corrigé</a> des deux premières parties du TD sur les généralités ainsi que les actions de groupes et les théorèmes de Sylow. 
 
 # Interrogations
 
 ## Première interrogation
 
-La première interrogatio aura lieu **jeudi 10 octobre à 14h** et portera sur tout le cours jusqu'aux théorèmes de Sylow.
+La <a href="cc1_fes_2024_2025.pdf">première interrogation</a> a eu lieu le **jeudi 17 octobre à 14h** et portait sur tout le cours jusqu'aux théorèmes de Sylow. Une correction est disponible <a href="cc1_fes_2024_2025_correction.pdf">ici</a>.
 
 ## Seconde interrogation
 
