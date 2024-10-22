@@ -29,8 +29,8 @@ Pour la partie produit tensoriel, il y a une section dans le polycopié sur les 
 2. La <a href="TD2_algebre_2024_2025.pdf">deuxième feuille de TD</a> sur le produit tensoriel d'espaces vectoriels et les représentations linéaires de groupes ainsi que son <a href="corrige_TD2_algebre_2024_2025.pdf">corrigé</a>. Pour le groupe des isométries du cube voici quelques animations pour vous aider à visualiser :
      * <a href="cubbe1.html">Ici</a> le 4-cycle (bleu jaune rouge vert);
      * <a href="cubbe2.html">Ici</a> la double transposition  (bleu rouge)(jaune vert);
-     * <a href="cubbe3.html">Ici</a> le 3-cycle ;
-     * <a href="cubbe4.html">Ici</a> la transposition .
+     * <a href="cubbe3.html">Ici</a> le 3-cycle (rouge jaune vert);
+     * <a href="cubbe4.html">Ici</a> la transposition (jaune bleu).
 4. La <a href="TD3_algebre_2024_2025.pdf">troisième feuille de TD</a> sur les anneaux ainsi que son <a href="https://kevindestagnol.github.io/algebre.github.io/erreur">corrigé</a>.
   
 # Devoirs à la maison
