@@ -30,7 +30,7 @@ Pour la partie produit tensoriel, il y a une section dans le polycopié sur les 
      * <a href="cubbe1.html">Ici</a> le 4-cycle (bleu jaune rouge vert);
      * <a href="cubbe2.html">Ici</a> la double transposition  (bleu rouge)(jaune vert);
      * <a href="cubbe3.html">Ici</a> le 3-cycle (rouge jaune vert);
-     * <a href="cubbe4.html">Ici</a> la transposition (jaune bleu).
+     * <a href="t.html">Ici</a> la transposition (jaune bleu).
 4. La <a href="TD3_algebre_2024_2025.pdf">troisième feuille de TD</a> sur les anneaux ainsi que son <a href="https://kevindestagnol.github.io/algebre.github.io/erreur">corrigé</a>.
   
 # Devoirs à la maison
