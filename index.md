@@ -31,11 +31,12 @@ Pour la partie produit tensoriel, il y a une section dans le polycopié sur les 
      * <a href="cubbe2.html">Ici</a> la double transposition  (bleu rouge)(jaune vert);
      * <a href="cubbe3.html">Ici</a> le 3-cycle (rouge jaune vert);
      * <a href="t.html">Ici</a> la transposition (jaune bleu).
+
 De même pour le groupe des isométries du tétraèdre :
-     * <a href="tetra1.html">Ici</a> ;
-     * <a href="tetra2.html">Ici</a> ;
-     * <a href="tetra3.html">Ici</a> ;
-     * <a href="tetra4.html">Ici</a> et <a href="tetra5.html">Ici</a>.
+     * <a href="tetra1.html">Ici</a> la transposition (1 3);
+     * <a href="tetra2.html">Ici</a> le 3-cycle (1 3 4);
+     * <a href="tetra3.html">Ici</a> la double transposition (1 2)(3 4);
+     * <a href="tetra4.html">Ici</a> le 4-cycle (1 2 3 4) comme produit de (1 3) (1 2) (3 4) et <a href="tetra5.html">ici</a> une rotation de 90 degrés et d'axe une droite passant par le milieu de deux arêtes opposées. Si vous composez cela avec la symétrie centrrale, vous obtenez le 4-cycle (1 4 2 3) (ce qui est plus facile pour calculer la trace car les deux isométries que l'on compose commutent contrairement au cas précédent).
 4. La <a href="TD3_algebre_2024_2025.pdf">troisième feuille de TD</a> sur les anneaux ainsi que son <a href="https://kevindestagnol.github.io/algebre.github.io/erreur">corrigé</a>.
   
 # Devoirs à la maison
