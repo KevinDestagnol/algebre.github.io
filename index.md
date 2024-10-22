@@ -30,9 +30,8 @@ Pour la partie produit tensoriel, il y a une section dans le polycopié sur les 
      * <a href="cubbe1.html">Ici</a> le 4-cycle (bleu jaune rouge vert);
      * <a href="cubbe2.html">Ici</a> la double transposition  (bleu rouge)(jaune vert);
      * <a href="cubbe3.html">Ici</a> le 3-cycle (rouge jaune vert);
-     * <a href="t.html">Ici</a> la transposition (jaune bleu).
-
-De même pour le groupe des isométries du tétraèdre :
+     * <a href="t.html">Ici</a> la transposition (jaune bleu).<br>
+  De même pour le groupe des isométries du tétraèdre :
      * <a href="tetra1.html">Ici</a> la transposition (1 3);
      * <a href="tetra2.html">Ici</a> le 3-cycle (1 3 4);
      * <a href="tetra3.html">Ici</a> la double transposition (1 2)(3 4);
