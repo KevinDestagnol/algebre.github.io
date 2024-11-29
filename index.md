@@ -6,8 +6,6 @@ En attendant qu'Ecampus refonctionne et que la situation soit stabilisée, bienv
 <br>
 <i>Welcome on the webpage of the **Algebra** course of the M1 of the Paris-Saclay university for the year **2024-2025**. You will find here all the relevant documents  : lecture notes, exercise sheets and solutions, previous midterms and exams. Do not hesitate to ask me any questions at **kevin.destagnol (at) universite-paris-saclay.fr**.</i>
 
-<b style='color:red;'>Je serai absent le lundi 4/11 et le lundi 11/11 est férié. Je vous propose donc de rattraper la séance du 4/11 avant le partiel le vendredi 18/10 de 08h15 à 10h30 en salle 0A1 à la place du cours et la séance du 11/11 le vendredi 15/11 de 10h45 à 13h en salle 0A1 à la place du cours également.</b><font color="red"> Il nous manquera alors deux fois 15 minutes de TD que l'on rattrapera en débordant de 5-10 minutes quelques séances de TD habituelles le lundi après-midi.</font>
-
 
 
 # Polycopiés de cours et feuilles de TD
@@ -36,7 +34,8 @@ De même pour le groupe des isométries du tétraèdre :
      * <a href="tetra2.html">Ici</a> le 3-cycle (1 3 4);
      * <a href="tetra3.html">Ici</a> la double transposition (1 2)(3 4);
      * <a href="tetra4.html">Ici</a> le 4-cycle (1 2 3 4) comme produit de (1 3) (1 2) (3 4) et <a href="tetra5.html">ici</a> une rotation de 90 degrés et d'axe une droite passant par le milieu de deux arêtes opposées. Si vous composez cela avec la symétrie centrrale, vous obtenez le 4-cycle (1 4 2 3) (ce qui est plus facile pour calculer la trace car les deux isométries que l'on compose commutent contrairement au cas précédent).
-4. La <a href="TD3_algebre_2024_2025.pdf">troisième feuille de TD</a> sur les anneaux ainsi que son <a href="https://kevindestagnol.github.io/algebre.github.io/erreur">corrigé</a>.
+4. La <a href="TD3_algebre_2024_2025.pdf">troisième feuille de TD</a> sur les anneaux ainsi que son <a href="correction_TD3_algebre_2024_2025.pdf">corrigé</a>. Des  <a href="Slides_anneaux_ 2020_2021.pdf">slides</a> qui remontent à une ancienne version du TD lors de la période Covid et qui peuvent compléter le corrigé.
+5. La <a href="TD4_algebre_2024_2025.pdf">troisième feuille de TD</a> sur les anneaux ainsi que son <a href="https://kevindestagnol.github.io/algebre.github.io/erreur">corrigé</a>.
   
 # Devoirs à la maison
 
@@ -45,6 +44,8 @@ De même pour le groupe des isométries du tétraèdre :
 Vous trouverez ici le <a href="DM1_algebre_2024_2025.pdf">premier devoir</a> à la maison. Il est à rendre idéalement le **vendredi 11 octobre** à Pierre Lorenzon pour le groupe 2 et le **lundi 14 octobre** pour le groupe 1 lors de vos séances de TD respectives. Si jamais le groupe 2 a besoin de plus de temps, il est possible de venir me rendre votre copie en salle 0A2 le lundi 14 octobre et je lui transmettrai. Enfin, <a href="dm1_24_25_correction.pdf">un corrigé.</a>
 
 ## Second devoir
+
+Vous trouverez ici le <a href="DM2_algebre_2024_2025.pdf">second devoir</a> à la maison. Il est à rendre idéalement le **lundi 9 décembre**. Pour le groupe 2, il est possible de venir me rendre votre copie en salle 0A2 le lundi 9 décembre et je la transmettrai à Pierre Lorenzon. Enfin, <a href="https://kevindestagnol.github.io/algebre.github.io/erreur">un corrigé.</a>
 
 ## Annales des années précédentes
 
