@@ -17,7 +17,7 @@ Les notes de cours (dues à David Harari) :<br>
    # Feuilles de TD
 
 1. La <a href="TD1_groupes_2024_FES.pdf">première feuille de TD</a> sur les groupes ainsi que son <a href="TD1_correction_partielle_FES.pdf">corrigé</a>.
-2. La <a href="TD2_FES.pdf">première feuille de TD</a> sur les groupes ainsi que son <a href="https://kevindestagnol.github.io/algebre.github.io/erreur">corrigé</a>.
+2. La <a href="TD2_FES.pdf">deuxième feuille de TD</a> sur les anneaux ainsi que son <a href="https://kevindestagnol.github.io/algebre.github.io/erreur">corrigé</a>.
    * Voici un <a href="TD2_correction_partielle_FES.pdf">corrigé</a> de la première partie du TD sur les généralités sur les anneaux. 
 
 # Interrogations
