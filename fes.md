@@ -4,6 +4,7 @@
 
 En attendant qu'Ecampus refonctionne et que la situation soit stabilisée, bienvenu sur la page du cours de **Mathématiques Générales I** du M1 FES de l'année **2024-2025** de l'université Paris-Saclay où vous trouverez tous les documents relatifs aux cours et aux TDs ainsi que des annales des années précédentes. N'hésitez pas à m'écrire (**kevin.destagnol (at) universite-paris-saclay.fr**) pour toute question relative au cours ou aux TDs.<br>
 Si vous le souhaitez, nous pourrons organiser une **séance bonus** avant l'examen pour répondre à vos éventuelles questions et traiter quelques exercices supplémentaires que nous n'aurons pas eu le temps de traiter en TD.<br>
+<font color="red">Je vous rappelle enfin qu'on rattrapera la séance de TD du 21/11 le vendredi 6/12 de 13h30 à 16h en salle 1A13 et que les Oraux auront lieu le vendredi 13 décembre.</font>
 
 
 
