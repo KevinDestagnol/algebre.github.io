@@ -3,7 +3,8 @@
 ---
 
 En attendant qu'Ecampus refonctionne et que la situation soit stabilisée, bienvenu sur la page du cours de **Mathématiques Générales I** du M1 FES de l'année **2024-2025** de l'université Paris-Saclay où vous trouverez tous les documents relatifs aux cours et aux TDs ainsi que des annales des années précédentes. N'hésitez pas à m'écrire (**kevin.destagnol (at) universite-paris-saclay.fr**) pour toute question relative au cours ou aux TDs.<br>
-Si vous le souhaitez, nous pourrons organiser une **séance bonus** avant le partiel pour répondre à vos éventuelles questions et traiter quelques exercices supplémentaires que nous n'aurons pas eu le temps de traiter en TD.
+Si vous le souhaitez, nous pourrons organiser une **séance bonus** avant l'examen pour répondre à vos éventuelles questions et traiter quelques exercices supplémentaires que nous n'aurons pas eu le temps de traiter en TD.<br>
+
 
 
 ## Polycopiés
@@ -11,11 +12,13 @@ Si vous le souhaitez, nous pourrons organiser une **séance bonus** avant le par
 Les notes de cours (dues à David Harari) :<br>
 
 *  Le <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1fes25/groupfes25.pdf">chapitre</a> sur les groupes;
+*  Le <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1fes25/ringfes25.pdf">chapitre</a> sur les anneaux.
 
    # Feuilles de TD
 
-1. La <a href="TD1_groupes_2024_FES.pdf">première feuille de TD</a> sur les groupes ainsi que son <a href="https://kevindestagnol.github.io/algebre.github.io/erreur">corrigé</a>.
-   * Voici un <a href="TD1_correction_partielle_FES.pdf">corrigé</a> des deux premières parties du TD sur les généralités ainsi que les actions de groupes et les théorèmes de Sylow. 
+1. La <a href="TD1_groupes_2024_FES.pdf">première feuille de TD</a> sur les groupes ainsi que son <a href="TD1_correction_partielle_FES.pdf">corrigé</a>.
+2. La <a href="TD2_FES.pdf">première feuille de TD</a> sur les groupes ainsi que son <a href="https://kevindestagnol.github.io/algebre.github.io/erreur">corrigé</a>.
+   * Voici un <a href="TD2_correction_partielle_FES.pdf">corrigé</a> de la première partie du TD sur les généralités sur les anneaux. 
 
 # Interrogations
 
@@ -28,6 +31,10 @@ La <a href="cc1_fes_2024_2025.pdf">première interrogation</a> a eu lieu le **je
 ## Annales des années précédentes
 
 Pour vous donner une idée de ce à quoi ressembleront les interrogations, <a href="cc1_fes_2023_2024.pdf">voici</a> la première de l'an dernier! Et la seconde <a href="cc2_fes_2023_2024.pdf">ici!</a>
+
+# Partiel
+
+* Le <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1fes25/octfes25.pdf">partiel</a> ainsi que son <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1fes25/coroctfes25.pdf">corrigé</a>. 
 
 # Annales
 
