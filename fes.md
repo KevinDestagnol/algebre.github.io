@@ -35,7 +35,7 @@ Pour vous donner une idée de ce à quoi ressembleront les interrogations, <a hr
 
 # Partiel
 
-* Le <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1fes25/octfes25.pdf">partiel</a> ainsi que son <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1fes25/coroctfes25.pdf">corrigé</a>. 
+Le <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1fes25/octfes25.pdf">partiel</a> ainsi que son <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1fes25/coroctfes25.pdf">corrigé</a>. 
 
 # Annales
 
