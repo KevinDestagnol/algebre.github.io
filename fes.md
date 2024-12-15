@@ -28,7 +28,7 @@ La <a href="cc1_fes_2024_2025.pdf">première interrogation</a> a eu lieu le **je
 
 ## Seconde interrogation
 
-La <a href="cc2_fes_2024_2025_correction.pdf">deuxième interrogation corrigée</a> qui a eu lieu le **jeudi 12 décembre à 14h**. 
+La <a href="cc2_2024_2025_fes_correction.pdf">deuxième interrogation corrigée</a> qui a eu lieu le **jeudi 12 décembre à 14h**. 
 
 ## Annales des années précédentes
 
