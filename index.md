@@ -35,7 +35,7 @@ De même pour le groupe des isométries du tétraèdre :
      * <a href="tetra3.html">Ici</a> la double transposition (1 2)(3 4);
      * <a href="tetra4.html">Ici</a> le 4-cycle (1 2 3 4) comme produit de (1 3) (1 2) (3 4) et <a href="tetra5.html">ici</a> une rotation de 90 degrés et d'axe une droite passant par le milieu de deux arêtes opposées. Si vous composez cela avec la symétrie centrrale, vous obtenez le 4-cycle (1 4 2 3) (ce qui est plus facile pour calculer la trace car les deux isométries que l'on compose commutent contrairement au cas précédent).
 4. La <a href="TD3_algebre_2024_2025.pdf">troisième feuille de TD</a> sur les anneaux ainsi que son <a href="correction_TD3_algebre_2024_2025.pdf">corrigé</a>. Des  <a href="Slides_anneaux_ 2020_2021.pdf">slides</a> qui remontent à une ancienne version du TD lors de la période Covid et qui peuvent compléter le corrigé.
-5. La <a href="TD4_algebre_2024_2025.pdf">quatrième feuille de TD</a> sur les anneaux ainsi que son <a href="TD4_algebre_correction">corrigé</a> ainsi que celle d'un ancien <a href="DM2_annale">DM</a>.
+5. La <a href="TD4_algebre_2024_2025.pdf">quatrième feuille de TD</a> sur les anneaux ainsi que son <a href="TD4_algebre_correction.pdf">corrigé</a> ainsi que celle d'un ancien <a href="DM2_annale.pdf">DM</a>.
   
 # Devoirs à la maison
 
