@@ -24,12 +24,11 @@ Les notes de cours (dues à David Harari) :<br>
 
 ## Première interrogation
 
-* La <a href="cc1_fes_2024_2025.pdf">première interrogation</a> a eu lieu le **jeudi 17 octobre à 14h** et portait sur tout le cours jusqu'aux théorèmes de Sylow. Une correction est disponible <a href="cc1_fes_2024_2025_correction.pdf">ici</a>.
-* La <a href="cc2_fes_2024_2025_correction.pdf">deuxième interrogation corrigée</a> qui a eu lieu le **jeudi 12 décembre à 14h**. 
+La <a href="cc1_fes_2024_2025.pdf">première interrogation</a> a eu lieu le **jeudi 17 octobre à 14h** et portait sur tout le cours jusqu'aux théorèmes de Sylow. Une correction est disponible <a href="cc1_fes_2024_2025_correction.pdf">ici</a>.
 
 ## Seconde interrogation
 
-<font color="red">La seconde interrogation aura lieu le jeudi 12 décembre!</font>
+La <a href="cc2_fes_2024_2025_correction.pdf">deuxième interrogation corrigée</a> qui a eu lieu le **jeudi 12 décembre à 14h**. 
 
 ## Annales des années précédentes
 
