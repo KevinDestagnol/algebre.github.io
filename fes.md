@@ -18,14 +18,14 @@ Les notes de cours (dues à David Harari) :<br>
    # Feuilles de TD
 
 1. La <a href="TD1_groupes_2024_FES.pdf">première feuille de TD</a> sur les groupes ainsi que son <a href="TD1_correction_partielle_FES.pdf">corrigé</a>.
-2. La <a href="TD2_FES.pdf">deuxième feuille de TD</a> sur les anneaux ainsi que son <a href="https://kevindestagnol.github.io/algebre.github.io/erreur">corrigé</a>.
-   * Voici un <a href="TD2_FES_correction_partielle.pdf">corrigé</a> de la première partie du TD sur les généralités sur les anneaux. 
+2. La <a href="TD2_FES.pdf">deuxième feuille de TD</a> sur les anneaux ainsi que son <a href="TD2_FES_correction_partielle.pdf">corrigé</a>.
 
 # Interrogations
 
 ## Première interrogation
 
-La <a href="cc1_fes_2024_2025.pdf">première interrogation</a> a eu lieu le **jeudi 17 octobre à 14h** et portait sur tout le cours jusqu'aux théorèmes de Sylow. Une correction est disponible <a href="cc1_fes_2024_2025_correction.pdf">ici</a>.
+* La <a href="cc1_fes_2024_2025.pdf">première interrogation</a> a eu lieu le **jeudi 17 octobre à 14h** et portait sur tout le cours jusqu'aux théorèmes de Sylow. Une correction est disponible <a href="cc1_fes_2024_2025_correction.pdf">ici</a>.
+* La <a href="cc2_fes_2024_2025_correction.pdf">deuxième interrogation corrigée</a> qui a eu lieu le **jeudi 12 décembre à 14h**. 
 
 ## Seconde interrogation
 
