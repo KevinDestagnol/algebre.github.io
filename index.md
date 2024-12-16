@@ -45,7 +45,7 @@ Vous trouverez ici le <a href="DM1_algebre_2024_2025.pdf">premier devoir</a> à 
 
 ## Second devoir
 
-Vous trouverez ici le <a href="DM2_algebre_2024_2025.pdf">second devoir</a> à la maison. Il est à rendre idéalement le **lundi 9 décembre**. Pour le groupe 2, il est possible de venir me rendre votre copie en salle 0A2 le lundi 9 décembre et je la transmettrai à Pierre Lorenzon. Enfin, <a href="DM2_2024_2025_correction">un corrigé.</a>
+Vous trouverez ici le <a href="DM2_algebre_2024_2025.pdf">second devoir</a> à la maison. Il est à rendre idéalement le **lundi 9 décembre**. Pour le groupe 2, il est possible de venir me rendre votre copie en salle 0A2 le lundi 9 décembre et je la transmettrai à Pierre Lorenzon. Enfin, <a href="DM2_2024_2025_correction.pdf">un corrigé.</a>
 
 ## Annales des années précédentes
 
