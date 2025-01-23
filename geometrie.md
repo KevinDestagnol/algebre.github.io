@@ -1,5 +1,5 @@
 ---
-layout: default15
+layout: default18
 ---
 
 Bienvenu sur la page du cours de **Géométrie M1 MF** de l'année **2024-2025** de l'université Paris-Saclay où vous trouverez tous les documents relatifs aux cours et aux TDs. N'hésitez pas à m'écrire (**kevin.destagnol (at) universite-paris-saclay.fr**) pour toute question relative au cours ou aux TDs.
