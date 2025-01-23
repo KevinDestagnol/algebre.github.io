@@ -2,9 +2,9 @@
 @import "{{ site.theme }}";
 ---
 
-En attendant qu'Ecampus refonctionne et que la situation soit stabilisée, bienvenu sur la page du cours d'**Algèbre M1 MF** de l'année **2024-2025** de l'université Paris-Saclay où vous trouverez tous les documents relatifs aux cours et aux TDs ainsi que des annales des années précédentes. N'hésitez pas à m'écrire (**kevin.destagnol (at) universite-paris-saclay.fr**) pour toute question relative au cours ou aux TDs.
+Bienvenu sur la page du cours de**Géométrie M1 MF** de l'année **2024-2025** de l'université Paris-Saclay où vous trouverez tous les documents relatifs aux cours et aux TDs. N'hésitez pas à m'écrire (**kevin.destagnol (at) universite-paris-saclay.fr**) pour toute question relative au cours ou aux TDs.
 <br>
-<i>Welcome on the webpage of the **Algebra** course of the M1 of the Paris-Saclay university for the year **2024-2025**. You will find here all the relevant documents  : lecture notes, exercise sheets and solutions, previous midterms and exams. Do not hesitate to ask me any questions at **kevin.destagnol (at) universite-paris-saclay.fr**.</i>
+<i>Welcome on the webpage of the **Geometry** course of the M1 of the Paris-Saclay university for the year **2024-2025**. You will find here all the relevant documents  : lecture notes, exercise sheets and solutions. Do not hesitate to ask me any questions at **kevin.destagnol (at) universite-paris-saclay.fr**.</i>
 
 
 
@@ -12,72 +12,25 @@ En attendant qu'Ecampus refonctionne et que la situation soit stabilisée, bienv
 
 ## Polycopiés
 
-Les notes de cours de l'année dernière (dues à David Harari) :<br>
-
-*  Le <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg24/group24.pdf">chapitre</a> sur les groupes;
-*  Le <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg24/ring24.pdf">chapitre</a> sur les anneaux commutatifs;
-*  Le <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg24/modules24.pdf">chapitre</a> sur les modules;
-*  Le <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg24/galois24.pdf">chapitre</a> sur les corps et la théorie de Galois.
-
-Pour la partie produit tensoriel, il y a une section dans le polycopié sur les modules ci-dessus. En revanche, la partie représentations linéaires des groupes est nouvelle. Pour celles et ceux qui souhaiteraient des références, on peut mentionner le livre de Jean-Pierre Serre, <i>Représentations linéaires des groupes finis</i> ou celui de Gérard Rauch, <i>Les groupes finis et leurs représentations.</i> Une autre référence qui peut vous être utile consiste en les slides suivants (dus à <a href="https://www.idpoisson.fr/beck/enseignement/">Vincent Beck</a>) : <a href="https://www.idpoisson.fr/beck/wp-content/uploads/sites/16/2018/06/cours-Gmodule-poly.pdf">G-modules</a>, <a href="https://www.idpoisson.fr/beck/wp-content/uploads/sites/16/2018/06/cours-semisimple-poly.pdf">semi-simplicité</a>, <a href="https://www.idpoisson.fr/beck/wp-content/uploads/sites/16/2018/06/cours-caractere-lineaire-poly.pdf">caractères linéaires</a>, <a href="https://www.idpoisson.fr/beck/wp-content/uploads/sites/16/2018/06/cours-caractere-poly.pdf">caractères I</a> et <a href="https://www.idpoisson.fr/beck/wp-content/uploads/sites/16/2018/06/cours-caractere-2-poly.pdf">caractères II</a>. **Attention** que ces slides ne sont pas exempts de coquilles et par conséquent n'hésitez pas à me contacter en cas de questions!
+Les <a href="https://www.imo.universite-paris-saclay.fr/~frederic.paulin/notescours/cours_GeometrieM1Orsay.pdf">notes de cours</a> (dues à Frédéric Paulin). Noter que le polycopié contient aussi de nombreux exercices corrigés.
 
 ## Feuilles de TD
 
-1. La <a href="TD1_groupes_2024.pdf">première feuille de TD</a> sur les groupes ainsi que son <a href="TD1_correction_partielle.pdf">corrigé</a>. Toute la partie cours sur les groupes résolubles et nilpotents se trouve dans le polycopié de David Harari ci-dessus!
-2. La <a href="TD2_algebre_2024_2025.pdf">deuxième feuille de TD</a> sur le produit tensoriel d'espaces vectoriels et les représentations linéaires de groupes ainsi que son <a href="corrige_TD2_algebre_2024_2025.pdf">corrigé</a>. Pour le groupe des isométries directes du cube voici quelques animations pour vous aider à visualiser :
-     * <a href="cubbe1.html">Ici</a> le 4-cycle (bleu jaune rouge vert);
-     * <a href="cubbe2.html">Ici</a> la double transposition  (bleu rouge)(jaune vert);
-     * <a href="cubbe3.html">Ici</a> le 3-cycle (rouge jaune vert);
-     * <a href="t.html">Ici</a> la transposition (jaune bleu).<br>
-De même pour le groupe des isométries du tétraèdre :
-     * <a href="tetra1.html">Ici</a> la transposition (1 3);
-     * <a href="tetra2.html">Ici</a> le 3-cycle (1 3 4);
-     * <a href="tetra3.html">Ici</a> la double transposition (1 2)(3 4);
-     * <a href="tetra4.html">Ici</a> le 4-cycle (1 2 3 4) comme produit de (1 3) (1 2) (3 4) et <a href="tetra5.html">ici</a> une rotation de 90 degrés et d'axe une droite passant par le milieu de deux arêtes opposées. Si vous composez cela avec la symétrie centrrale, vous obtenez le 4-cycle (1 4 2 3) (ce qui est plus facile pour calculer la trace car les deux isométries que l'on compose commutent contrairement au cas précédent).
-4. La <a href="TD3_algebre_2024_2025.pdf">troisième feuille de TD</a> sur les anneaux ainsi que son <a href="correction_TD3_algebre_2024_2025.pdf">corrigé</a>. Des  <a href="Slides_anneaux_ 2020_2021.pdf">slides</a> qui remontent à une ancienne version du TD lors de la période Covid et qui peuvent compléter le corrigé.
-5. La <a href="TD4_algebre_2024_2025.pdf">quatrième feuille de TD</a> sur les anneaux ainsi que son <a href="TD4_algebre_correction.pdf">corrigé</a> ainsi que celle d'un ancien <a href="DM2_annale.pdf">DM</a>.
+1. La <a href="TD01_2025.pdf">première feuille de TD</a> sur la topologie générale ainsi que son <a href="https://kevindestagnol.github.io/algebre.github.io/erreur">corrigé</a>.
+2. La <a href="TD02_2025.pdf">deuxième feuille de TD</a> ainsi que son <a href="https://kevindestagnol.github.io/algebre.github.io/erreur">corrigé</a>.
+3. La <a href="TD03_2025.pdf">troisième feuille de TD</a> sur les revêtements ainsi que son <a href="https://kevindestagnol.github.io/algebre.github.io/erreur">corrigé</a>.
+
   
 # Devoirs à la maison
 
 ## Premier devoir
 
-Vous trouverez ici le <a href="DM1_algebre_2024_2025.pdf">premier devoir</a> à la maison. Il est à rendre idéalement le **vendredi 11 octobre** à Pierre Lorenzon pour le groupe 2 et le **lundi 14 octobre** pour le groupe 1 lors de vos séances de TD respectives. Si jamais le groupe 2 a besoin de plus de temps, il est possible de venir me rendre votre copie en salle 0A2 le lundi 14 octobre et je lui transmettrai. Enfin, <a href="dm1_24_25_correction.pdf">un corrigé.</a>
+Vous trouverez ici le <a href="2425_DM1.pdf">premier devoir</a> à la maison. Il est à rendre le **vendredi 7 février** lors de la séance de TD. 
 
 ## Second devoir
 
-Vous trouverez ici le <a href="DM2_algebre_2024_2025.pdf">second devoir</a> à la maison. Il est à rendre idéalement le **lundi 9 décembre**. Pour le groupe 2, il est possible de venir me rendre votre copie en salle 0A2 le lundi 9 décembre et je la transmettrai à Pierre Lorenzon. Enfin, <a href="DM2_2024_2025_correction.pdf">un corrigé.</a>
-
-## Annales des années précédentes
-
-Le <a href="DM1_algebre_2023_2024.pdf">premier DM</a> de l'année 2023/2024 et <a href="DM1_algebre_2022_2023.pdf">celui</a> de l'année 2022/2023.
-
-# Annales des partiels et examens
-
-**Attention** que le professeur en charge du cours a changé cette année et que l'esprit des partiels et examens est ainsi susceptible de changer aussi!<br>
-<i>**Be aware** that the professor in charge of the lecture changed this year and as a consequence, the midterm and exam this year might differ from the ones below. If you wish to have an english version of the midterm and of the exam, **inform** Jean-Benoît Bost as soon as possible. In any case, you are of course always free to write your solutions in english.</i>
-
-## 2020-2021
-
-* Le <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg24/oct23.pdf">partiel</a> et son <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg24/coroct23.pdf">corrigé</a> (in <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg24/engoct23.pdf"> english</a>);
-* L'<a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg24/dec23.pdf">examen</a> et son <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg24/cordec23.pdf">corrigé</a> (in <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg24/engdec23.pdf"> english</a>).
-
-## 2021-2022
 
 
-* Le <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg23/oct22.pdf">partiel</a> et son <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg23/coroct22.pdf">corrigé</a> (in <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg23/engoct22.pdf"> english</a>);
-* L'<a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg23/dec22.pdf">examen</a> et son <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg23/cordec22.pdf">corrigé</a> (in <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg23/engdec22.pdf"> english</a>).
-
-## 2022-2023
-
-
-* Le <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg22/oct21.pdf">partiel</a> et son <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg22/coroct21.pdf">corrigé</a> (in <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg22/engoct21.pdf"> english</a>);
-* L'<a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg22/dec21.pdf">examen</a> et son <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg22/cordec21.pdf">corrigé</a> (in <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg22/engdec21.pdf"> english</a>).
-
-## 2023-2024
-
-
-* Le <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg21/oct20.pdf">partiel</a> et son <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg21/coroct20.pdf">corrigé</a> (in <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg21/engoct20.pdf"> english</a>);
-* L'<a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg21/dec20.pdf">examen</a> et son <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg21/cordec20.pdf">corrigé</a> (in <a href="https://www.imo.universite-paris-saclay.fr/~david.harari/enseignement/m1alg21/engdec20.pdf"> english</a>).
 
 
 <!--Bienvenu sur la page du cours de **Maths 254** de l'année **2020-2021** de l'université Paris-Saclay où vous trouverez tous les documents relatifs aux cours et aux TDs ainsi que des annales de l'an dernier. Vous pouvez vous inscrire au cours <a href="https://kevindestagnol.github.io/maths254.github.io/upload">ici</a>. Les cours et les TDs ont lieu sur Collaborate (lien disponible dans la section correspondant au cours sur Ecampus) jusqu'à nouvel ordre. Vous pouvez me contacter à l'adresse mail **kevin.destagnol (at) universite-paris-saclay.fr** pour toute question ou toute suggestion par rapport à l'organisation du cours ou des TDs.
