@@ -2,7 +2,7 @@
 @import "{{ site.theme }}";
 ---
 
-Bienvenu sur la page du cours de**Géométrie M1 MF** de l'année **2024-2025** de l'université Paris-Saclay où vous trouverez tous les documents relatifs aux cours et aux TDs. N'hésitez pas à m'écrire (**kevin.destagnol (at) universite-paris-saclay.fr**) pour toute question relative au cours ou aux TDs.
+Bienvenu sur la page du cours de **Géométrie M1 MF** de l'année **2024-2025** de l'université Paris-Saclay où vous trouverez tous les documents relatifs aux cours et aux TDs. N'hésitez pas à m'écrire (**kevin.destagnol (at) universite-paris-saclay.fr**) pour toute question relative au cours ou aux TDs.
 <br>
 <i>Welcome on the webpage of the **Geometry** course of the M1 of the Paris-Saclay university for the year **2024-2025**. You will find here all the relevant documents  : lecture notes, exercise sheets and solutions. Do not hesitate to ask me any questions at **kevin.destagnol (at) universite-paris-saclay.fr**.</i>
 
