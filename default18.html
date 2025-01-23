@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    {% if site.google_analytics %}
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ site.google_analytics }}');
+      </script>
+    {% endif %}
+    <meta charset="UTF-8">
+{% seo %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+      {% if site.show_downloads %}
+        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
+        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
+      {% endif %}
+    </header>
+    <main id="content" class="main-content" role="main">
+      <center>
+      <hprime class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }} </hprime> 
+      <!--<hprime2 class="project-name">{{ page.description | default: site.description | default: site.github.project_tagline }}</hprime2>-->
+        <hprime2 class="project-name">
+        <div id="typedtext" style="font-family: Quantico,Helvetica, Arial, sans-serif;"></div>
+        </hprime2>
+      </center>
+
+
+  
+      
+      <script>
+      // var images = ['Fourier1.png','Fourier1.png','Fourier1.png','Fourier1.png','Fourier1.png','Fourier1.png','Fourier1.png','Fourier1.png','Fourier2.png','Fourier2.png','Fourier2.png','Fourier2.png','Fourier2.png','Fourier2.png','Fourier2.png','Fourier2.png'];
+       // var j = 0;
+       // var renew = setInterval(function(){
+        //    if(images.length == j){
+          //      j = 0;
+            //  document.getElementById("bannerImage").src = images[j];
+           // }
+           // else {
+            //document.getElementById("bannerImage").src = images[j];
+            //j++;
+
+      //  }
+        //},1000);
+        //</script>
+       <script>
+     //  var images2 = ['Geom6.png','Geom6.png','Geom6.png','Geom6.png','Geom6.png','Geom6.png','Geom6.png','Geomtr.png','Geomtr.png','Geomtr.png','Geom6.png','Geom6.png','Geom6.png','Geom6.png','Geom6.png','Geom6.png','Geom6.png'];
+       // var i = 0;
+      //  var renew = setInterval(function(){
+        //    if(images2.length == i){
+         //     document.getElementById("bannerImage2").src = images2[0];
+         //   }
+         //   else {
+         //    document.getElementById("bannerImage2").src = images2[i];
+         //   i++;
+
+       // }
+        //},1000);
+        </script>
+  <!--  <div class="container clearfix">
+     <figure class="imgcol">
+<img id="bannerImage" width="500"  src="Fourier1.png" alt="Fourier">
+       <figcaption font-size:12px>Des <b>séries de Fourier</b> aux <b>phénomènes périodiques</b> et vice-versa.</figcaption>
+    </figure>
+    <figure class="imgcol">
+    <img id="bannerImage2" width="500"  src="Geom6.png" alt="Symétries">
+      <figcaption font-size:12px>Des <b>symétries</b> et <b>rotations de l'espace</b> à l'étude des <b>molécules</b> (ici l'ammoniac et son doublet d'éléctrons et le fullerène) ou des <b>virus</b> (pas de SARS-Cov2 ici mais le virus de l'herpès).</figcaption>
+  </figure>
+</div>    -->
+         
+<p>
+  
+</p>
+       <div class="row">
+  <div class="column">
+<p class="flotte" style="text-align:center">
+<img src="galois.png" width="100" style="margin-top: 50px; position: relative; display: none;" id="image1"/>
+</p>
+  </div>
+  <div class="column">
+    <p class="flotte" style="text-align:center">
+<video id="video_background" width="500" controls class="video-container" autoplay muted>
+   <source src="heptag.mp4" type="video/mp4"> 
+</video> 
+<center><FONT id="t" size="2pt"> Vidéo tirée de la chaîne YouTube <a href="https://www.youtube.com/@AutomathsVulga"> Automaths - Jason Lapeyronnie</a></FONT></center>
+      </p> 
+  </div>
+  <div class="column">
+    <p class="flotte" style="text-align:center">
+<img src="galois2.png" width="100" style="margin-top: 50px; position: relative; display : none;" id="image2"/>
+</p>
+  </div>
+</div> 
+
+    <script type="text/javascript"> 
+var video = document.getElementById('video_background');
+var image2 = document.getElementById('image2');
+var image1 = document.getElementById('image1');
+      var t = document.getElementById('t');
+video.addEventListener('ended', function() {
+    video.style.display = 'none';
+    t.style.display = 'none';
+    image1.style.display = 'inline';
+    image2.style.display = 'inline';
+  setTimeout(function() {
+  image1.style.display='none';
+}, 300); 
+  setTimeout(function() {
+  image2.style.display='none';
+},300);
+  setTimeout(function() {
+  video.style.display='inline';
+},300);
+  setTimeout(function() {
+  t.style.display='inline';
+},300);
+}, false);
+</script>
+
+       {{ content }}
+
+      <footer class="site-footer">
+        <span class="site-footer-credits" font-family:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;>This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      </footer>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+ // set up text to print, each item in array is new line
+ /*$(typedtext)[0].innerHTML = "Test";*/
+ var aText = new Array(
+"Algèbre M1 2024-2025"
+);
+var iSpeed = 170; // time delay of print out
+var iArrLength = aText[0].length; // the length of the text array
+var iScrollAt = 20; // start scrolling up at this many lines
+var iIndex = 0; // start printing array at this posision
+var iTextPos = 0; // initialise text position
+var sContents = ''; // initialise contents variable
+var iRow; // initialise current row
+ 
+function typewriter()
+{
+ sContents =  ' ';
+ iRow = Math.max(0, iIndex-iScrollAt);
+ 
+ while ( iRow < iIndex ) {
+  sContents += aText[iRow++] + '<br />';
+ }
+ if (iTextPos++<aText[iIndex].length-1){
+ $(typedtext)[0].innerHTML = sContents + aText[iIndex].substring(0, iTextPos)+"_";
+ $(typedtext)[0].innerHTML = $(typedtext)[0].innerHTML.replace('_', '<span style="color: #5A5E6B;">_</span>');
+     iTextPos++
+ setTimeout("typewriter()", iSpeed);
+}
+else {
+  $(typedtext)[0].innerHTML = sContents + aText[iIndex].substring(0, iTextPos);
+ iTextPos++
+ setTimeout("typewriter()", iSpeed);
+}
+}
+
+
+typewriter();
+typedtext.txt = fullTxt.substring(0, typedtext.txt.length - 1); 
+    </script>
+  </body>
+</html>
