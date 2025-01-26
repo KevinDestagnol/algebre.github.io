@@ -25,7 +25,7 @@ Les <a href="https://www.imo.universite-paris-saclay.fr/~frederic.paulin/notesco
 
 ## Premier devoir
 
-Vous trouverez ici le <a href="2425_DM1.pdf">premier devoir</a> à la maison. Il est à rendre le **vendredi 7 février** lors de la séance de TD. 
+Vous trouverez ici le <a href="2425_DM1.pdf">premier devoir</a> à la maison. Il est à rendre le **lundi 10 février** au plus tard. Vous pouvez soit me le rendre directement lors de la séance de TD du vendredi 7 février soit par mail avant le lundi 10 février. 
 
 ## Second devoir
 
