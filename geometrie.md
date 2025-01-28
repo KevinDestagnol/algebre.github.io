@@ -16,8 +16,8 @@ Les <a href="https://www.imo.universite-paris-saclay.fr/~frederic.paulin/notesco
 
 ## Feuilles de TD
 
-1. La <a href="TD01_2025.pdf">première feuille de TD</a> sur la topologie générale ainsi que son <a href="https://kevindestagnol.github.io/algebre.github.io/erreur">corrigé</a>.
-2. La <a href="TD02_2025.pdf">deuxième feuille de TD</a> ainsi que son <a href="https://kevindestagnol.github.io/algebre.github.io/erreur">corrigé</a>.
+1. La <a href="TD01_2025.pdf">première feuille de TD</a> sur la topologie générale ainsi que son <a href="https://www.imo.universite-paris-saclay.fr/~kevin.destagnol/Correction_TD_01.pdf">corrigé</a> ainsi qu'un <a href="https://www.imo.universite-paris-saclay.fr/~kevin.destagnol/Compléments_bouteille_de_Klein.pdf"> complément </a> sur la bouteille de Klein..
+2. La <a href="TD02_2025.pdf">deuxième feuille de TD</a> ainsi que son <a href="https://www.imo.universite-paris-saclay.fr/~kevin.destagnol/Correction_TD_02.pdf">corrigé</a>.
 3. La <a href="TD03_2025.pdf">troisième feuille de TD</a> sur les revêtements ainsi que son <a href="https://kevindestagnol.github.io/algebre.github.io/erreur">corrigé</a>.
 
   
