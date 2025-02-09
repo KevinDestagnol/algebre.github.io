@@ -18,14 +18,15 @@ Les <a href="https://www.imo.universite-paris-saclay.fr/~frederic.paulin/notesco
 
 1. La <a href="TD01_2025.pdf">première feuille de TD</a> sur la topologie générale ainsi que son <a href="https://www.imo.universite-paris-saclay.fr/~kevin.destagnol/Correction_TD_01.pdf">corrigé</a> ainsi qu'un <a href="https://www.imo.universite-paris-saclay.fr/~kevin.destagnol/Complements_bouteille_de_Klein.pdf"> complément </a> sur la bouteille de Klein..
 2. La <a href="TD02_2025.pdf">deuxième feuille de TD</a> ainsi que son <a href="https://www.imo.universite-paris-saclay.fr/~kevin.destagnol/Correction_TD_02.pdf">corrigé</a>.
-3. La <a href="TD03_2025.pdf">troisième feuille de TD</a> sur les revêtements ainsi que son <a href="https://kevindestagnol.github.io/algebre.github.io/erreur">corrigé</a>.
+3. La <a href="TD03_2025.pdf">troisième feuille de TD</a> sur les revêtements ainsi que son <a href="https://www.imo.universite-paris-saclay.fr/~kevin.destagnol/Correction_TD_3.pdf">corrigé</a>. Pour l'absence de revêtement universel de l'anneau hawaïen, je vous renvoie au <a href="https://www.imo.universite-paris-saclay.fr/~frederic.paulin/notescours/cours_GeometrieM1Orsay.pdf">polycopié</a> de cours, solution de l'exercice E20, page 76. Pour des illustrations concernant les revêtements connexes du tore, voir <a href="https://kevindestagnol.github.io/algebre.github.io/coveringstorus">ici</a>.
+4.  La <a href="TD04_2025.pdf">troisième feuille de TD</a> sur les revêtements ainsi que son <a href="https://www.imo.universite-paris-saclay.fr/~kevin.destagnol/Correction_TD_4.pdf">corrigé</a>.
 
   
 # Devoirs à la maison
 
 ## Premier devoir
 
-Vous trouverez ici le <a href="2425_DM1.pdf">premier devoir</a> à la maison. Il est à rendre le **lundi 10 février** au plus tard. Vous pouvez soit me le rendre directement lors de la séance de TD du vendredi 7 février soit par mail avant le lundi 10 février. 
+Vous trouverez ici le <a href="2425_DM1.pdf">premier devoir</a> à la maison. Il est à rendre le **mercredi 12 février à midi** au plus tard. Vous pouvez soit me le rendre directement lors de la séance de TD du vendredi 7 février soit par mail. Un <a href="https://kevindestagnol.github.io/algebre.github.io/erreur">corrigé</a>.
 
 ## Second devoir
 
