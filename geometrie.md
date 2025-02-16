@@ -19,7 +19,8 @@ Les <a href="https://www.imo.universite-paris-saclay.fr/~frederic.paulin/notesco
 1. La <a href="TD01_2025.pdf">première feuille de TD</a> sur la topologie générale ainsi que son <a href="https://www.imo.universite-paris-saclay.fr/~kevin.destagnol/Correction_TD_01.pdf">corrigé</a> ainsi qu'un <a href="https://www.imo.universite-paris-saclay.fr/~kevin.destagnol/Complements_bouteille_de_Klein.pdf"> complément </a> sur la bouteille de Klein..
 2. La <a href="TD02_2025.pdf">deuxième feuille de TD</a> ainsi que son <a href="https://www.imo.universite-paris-saclay.fr/~kevin.destagnol/Correction_TD_02.pdf">corrigé</a>.
 3. La <a href="TD03_2025.pdf">troisième feuille de TD</a> sur les revêtements ainsi que son <a href="https://www.imo.universite-paris-saclay.fr/~kevin.destagnol/Correction_TD_3.pdf">corrigé</a>. Pour l'absence de revêtement universel de l'anneau hawaïen, je vous renvoie au <a href="https://www.imo.universite-paris-saclay.fr/~frederic.paulin/notescours/cours_GeometrieM1Orsay.pdf">polycopié</a> de cours, solution de l'exercice E20, page 76. Pour des illustrations concernant les revêtements connexes du tore, voir <a href="https://kevindestagnol.github.io/algebre.github.io/coveringstorus">ici</a>.
-4.  La <a href="TD04_2025.pdf">quatrième feuille de TD</a> sur les revêtements ainsi que son <a href="https://www.imo.universite-paris-saclay.fr/~kevin.destagnol/Correction_TD_4.pdf">corrigé</a>.
+4. La <a href="TD04_2025.pdf">quatrième feuille de TD</a> sur le théorème de van Kampen ainsi que son <a href="https://www.imo.universite-paris-saclay.fr/~kevin.destagnol/Correction_TD_4.pdf">corrigé</a>.
+5. La <a href="TD05_2025.pdf">cinquième feuille de TD</a> sur les sous-variétés ainsi que le <a href="Correction_TD_5_Partie_1.pdf">corrigé</a> de la première semaine.
 
   
 # Devoirs à la maison
