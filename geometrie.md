@@ -27,7 +27,7 @@ Les <a href="https://www.imo.universite-paris-saclay.fr/~frederic.paulin/notesco
 
 ## Premier devoir
 
-Vous trouverez ici le <a href="2425_DM1.pdf">premier devoir</a> à la maison. Il est à rendre le **mercredi 12 février à midi** au plus tard. Vous pouvez soit me le rendre directement lors de la séance de TD du vendredi 7 février soit par mail. Un <a href="DM_1_correction.pdf">corrigé</a>.
+Vous trouverez ici le <a href="2425_DM1.pdf">premier devoir</a> à la maison. Il est à rendre le **mercredi 12 février à midi** au plus tard. Vous pouvez soit me le rendre directement lors de la séance de TD du vendredi 7 février soit par mail. Un <a href="DM_1_correction.pdf">corrigé</a>. Quelques <a href="https://kevindestagnol.github.io/algebre.github.io/torusknots">illustrations</a>.
 
 ## Second devoir
 
