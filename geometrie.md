@@ -20,7 +20,9 @@ Les <a href="https://www.imo.universite-paris-saclay.fr/~frederic.paulin/notesco
 2. La <a href="TD02_2025.pdf">deuxième feuille de TD</a> ainsi que son <a href="https://www.imo.universite-paris-saclay.fr/~kevin.destagnol/Correction_TD_02.pdf">corrigé</a>.
 3. La <a href="TD03_2025.pdf">troisième feuille de TD</a> sur les revêtements ainsi que son <a href="https://www.imo.universite-paris-saclay.fr/~kevin.destagnol/Correction_TD_3.pdf">corrigé</a>. Pour l'absence de revêtement universel de l'anneau hawaïen, je vous renvoie au <a href="https://www.imo.universite-paris-saclay.fr/~frederic.paulin/notescours/cours_GeometrieM1Orsay.pdf">polycopié</a> de cours, solution de l'exercice E20, page 76. Pour des illustrations concernant les revêtements connexes du tore, voir <a href="https://kevindestagnol.github.io/algebre.github.io/coveringstorus">ici</a>.
 4. La <a href="TD04_2025.pdf">quatrième feuille de TD</a> sur le théorème de van Kampen ainsi que son <a href="https://www.imo.universite-paris-saclay.fr/~kevin.destagnol/Correction_TD_4.pdf">corrigé</a>.
-5. La <a href="TD05_2025.pdf">cinquième feuille de TD</a> sur les sous-variétés différentielles ainsi que le <a href="Correction_TD_5_Partie_1.pdf">corrigé</a> de la première semaine.
+5. La <a href="TD05_2025.pdf">cinquième feuille de TD</a> sur les sous-variétés différentielles ainsi que le <a href="Correction_TD_5_Partie_1.pdf">corrigé</a> de la première semaine et <a href="https://www.imo.universite-paris-saclay.fr/~kevin.destagnol/Correction_TD_5_Partie_2.pdf">celui</a> de la deuxième semaine.
+6. La <a href="TD06_2025.pdf">sixième feuille de TD</a> sur l'orientabilité, la théorie de Morse et les champs de vecteurs ainsi que son <a href="https://www.imo.universite-paris-saclay.fr/~kevin.destagnol/Correction_TD_6.pdf">corrigé</a> sauf l'exercice 5 de la première semaine qui est corrigé en fin de TD 5.
+7. La <a href="TD06_2025.pdf">septième feuille de TD</a> sur les champs de vecteurs et la topologie des surfaces ainsi que son <a href="https://kevindestagnol.github.io/algebre.github.io/erreur">corrigé</a>
 
   
 # Devoirs à la maison
@@ -31,7 +33,7 @@ Vous trouverez ici le <a href="2425_DM1.pdf">premier devoir</a> à la maison. Il
 
 ## Second devoir
 
-
+Vous trouverez ici le <a href="2425_DM2.pdf">second devoir</a> à la maison. Il est à rendre le **lundi 07 avril à minuit** au plus tard. Vous pouvez soit me le rendre directement lors de la séance de TD du vendredi 04 avril soit par mail en un unique fichier pdf comportant votre nom et prénom. Un <a href="https://kevindestagnol.github.io/algebre.github.io/erreur">corrigé</a>.
 
 
 
