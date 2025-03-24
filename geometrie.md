@@ -22,7 +22,7 @@ Les <a href="https://www.imo.universite-paris-saclay.fr/~frederic.paulin/notesco
 4. La <a href="TD04_2025.pdf">quatrième feuille de TD</a> sur le théorème de van Kampen ainsi que son <a href="https://www.imo.universite-paris-saclay.fr/~kevin.destagnol/Correction_TD_4.pdf">corrigé</a>.
 5. La <a href="TD05_2025.pdf">cinquième feuille de TD</a> sur les sous-variétés différentielles ainsi que le <a href="Correction_TD_5_Partie_1.pdf">corrigé</a> de la première semaine et <a href="https://www.imo.universite-paris-saclay.fr/~kevin.destagnol/Correction_TD_5_Partie_2.pdf">celui</a> de la deuxième semaine.
 6. La <a href="TD06_2025.pdf">sixième feuille de TD</a> sur l'orientabilité, la théorie de Morse et les champs de vecteurs ainsi que son <a href="https://www.imo.universite-paris-saclay.fr/~kevin.destagnol/Correction_TD_6.pdf">corrigé</a> sauf l'exercice 5 de la première semaine qui est corrigé en fin de TD 5.
-7. La <a href="TD06_2025.pdf">septième feuille de TD</a> sur les champs de vecteurs et la topologie des surfaces ainsi que son <a href="https://kevindestagnol.github.io/algebre.github.io/erreur">corrigé</a>
+7. La <a href="TD07_2025.pdf">septième feuille de TD</a> sur les champs de vecteurs et la topologie des surfaces ainsi que son <a href="https://kevindestagnol.github.io/algebre.github.io/erreur">corrigé</a>
 
   
 # Devoirs à la maison
