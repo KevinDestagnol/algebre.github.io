@@ -35,7 +35,7 @@ Vous trouverez ici le <a href="2425_DM1.pdf">premier devoir</a> à la maison. Il
 
 ## Second devoir
 
-Vous trouverez ici le <a href="2425_DM2.pdf">second devoir</a> à la maison. Il est à rendre le **lundi 07 avril à minuit** au plus tard. Vous pouvez soit me le rendre directement lors de la séance de TD du vendredi 04 avril soit par mail en un unique fichier pdf comportant votre nom et prénom. Un <a href="https://kevindestagnol.github.io/algebre.github.io/erreur">corrigé</a>.
+Vous trouverez ici le <a href="2425_DM2.pdf">second devoir</a> à la maison. Il est à rendre le **lundi 07 avril à minuit** au plus tard. Vous pouvez soit me le rendre directement lors de la séance de TD du vendredi 04 avril soit par mail en un unique fichier pdf comportant votre nom et prénom. Un <a href="Correction_DM2.pdf">corrigé</a>.
 
 
 
